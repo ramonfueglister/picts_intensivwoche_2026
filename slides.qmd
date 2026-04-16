@@ -573,6 +573,47 @@ Weitere Prompt-Muster: "Aktiv statt passiv." · "Konkret statt abstrakt." · "B2
 
 </div>
 
+## Prüfung &amp; Datenschutz — drei Montag-Entscheidungen
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 0.6em;">
+
+<div class="evidence" style="margin: 0; border-left-color: #e30059;">
+<div class="evidence-label">Prüfungsformat anpassen</div>
+<div class="evidence-text" style="font-size: 0.88em; line-height: 1.5;">
+Prompt-Protokoll als Leistungsbestandteil · mündliche Verteidigung nach Textabgabe · Gewichtung verschieben vom Produkt zum Prozess.
+</div>
+<div class="evidence-source" style="font-size: 0.7em;">
+<a href="https://dlh.zh.ch/home/aktuell/708-leitfaeden-ki-projektarbeiten" target="_blank">DLH Kanton Zürich</a> · Falck &amp; Haverkamp (2025), <em>Pädagogik 77</em>(5).
+</div>
+</div>
+
+<div class="evidence" style="margin: 0; border-left-color: #ff1744;">
+<div class="evidence-label" style="color: #ff1744;">Datenschutz · CH-DSG</div>
+<div class="evidence-text" style="font-size: 0.88em; line-height: 1.5;">
+Schüler:innentexte gehören <strong>nicht direkt in ChatGPT</strong>. Stattdessen: <a href="https://fobizz.com/de/ki-feedback/" target="_blank">fobizz</a>, <a href="https://www.zebis.ch/dossier/kuenstliche-intelligenz-und-chatgpt" target="_blank">SchulKI</a>, <a href="https://careum.ch/bereiche/verlag/news/ki-lerncoach-navira-ist-da" target="_blank">Careum Navira</a> — CH/EU-gehostete Oberflächen.
+</div>
+<div class="evidence-source" style="font-size: 0.7em;">
+Minderjährigenschutz: erhöhte Anforderungen an Einwilligung und Zweckbindung.
+</div>
+</div>
+
+<div class="evidence" style="margin: 0; border-left-color: #7a00df;">
+<div class="evidence-label" style="color: #7a00df;">Klassenregel explizit</div>
+<div class="evidence-text" style="font-size: 0.88em; line-height: 1.5;">
+KI-Einsatz <strong>pro Aufgabe</strong> spezifizieren (erlaubt / dokumentationspflichtig / untersagt). Lernende unterzeichnen die Klassenregel mit — Ownership entsteht durch Aushandlung.
+</div>
+<div class="evidence-source" style="font-size: 0.7em;">
+Vorbild: <a href="https://www.lusem.lu.se/internal/support-and-resources/digital-tools/what-about-ai/" target="_blank">Lund University (LUSEM)</a> · Department-Policy mit Template.
+</div>
+</div>
+
+</div>
+
+<div class="evidence fragment" data-fragment-index="1" style="margin-top: 1.2em; border-left-color: #e30059;">
+<div class="evidence-label">Schweizer Berufsbildung</div>
+<div class="evidence-text">Die <a href="https://www.ict-berufsbildung.ch/projekte/digitalisierung/generative-ki-integration-in-der-berufsbildung" target="_blank">ICT-Berufsbildung Schweiz</a> dokumentiert seit 2025 Best-Practice-Beispiele für genau diese drei Entscheidungen — inklusive Textbausteinen für Reglemente und Prüfungsordnungen.</div>
+</div>
+
 ## Anwendungsphase · Fallarbeit
 
 <div class="hands-on">
@@ -603,9 +644,18 @@ Bleibe konkret. <strong>Höchstens 120 Wörter.</strong> Korrigiere keine Fehler
 </div>
 </div>
 
-<p style="margin-top: 0.5em; font-size: 0.75em; color: #666;">
-Schülertext "Mira Imhof" und Prompt-Vorlage auf dem Handout + QR-Code.
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.6em; align-items: center;">
+
+<p style="font-size: 0.75em; color: #666; margin: 0;">
+Schülertext "Mira Imhof" und Prompt-Vorlage auf dem Handout + QR-Code.<br>
+<em>Der Text ist <strong>fiktiv</strong> — als realistisches Beispiel konstruiert, nicht von einer echten Lernenden.</em>
 </p>
+
+<div style="font-size: 0.72em; padding: 0.7rem 1rem; background: rgba(255, 23, 68, 0.08); border-left: 3px solid #ff1744; border-radius: 4px; color: #4a1010;">
+<strong style="color: #ff1744;">Wichtig für Montag:</strong> Echte Lernenden-Texte gehören nicht in ChatGPT. Nutzen Sie CH/EU-gehostete Oberflächen (fobizz, SchulKI, Careum Navira).
+</div>
+
+</div>
 
 ## Synthese — drei didaktische Leitsätze
 
