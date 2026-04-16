@@ -82,6 +82,91 @@ Zwischen <em>Eigenarbeit</em> und <em>Übernahme</em>
 
 </div>
 
+## Die Kunst, die Sie gerade gesehen haben —
+
+<div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 1.5rem; margin-top: 0.4em; align-items: center;">
+
+<div>
+
+<p style="font-size: 1.1em; line-height: 1.55; margin-bottom: 0.9em;">
+<em>Konzept · Wortauswahl · Timing · Farbcode · CSS-Code — alles von Claude entworfen. Keine Vorlage, keine Cliparts.</em>
+</p>
+
+<p style="font-size: 0.95em; line-height: 1.55;">
+Was bedeutet das für die Diskussion "KI ist (nicht) kreativ"?
+</p>
+
+<div class="evidence fragment" data-fragment-index="1" style="margin-top: 1em;">
+<div class="evidence-label">Experimentell · N = 293 Schreibende</div>
+<div class="evidence-text">KI-generierte Ideen lassen Kurzgeschichten signifikant <strong>kreativer, besser geschrieben und unterhaltsamer</strong> wirken — besonders bei weniger kreativen Schreibenden.</div>
+<div class="evidence-source"><a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank">Doshi &amp; Hauser (2024)</a>, <em>Science Advances, 10</em>(28), eadn5290.</div>
+</div>
+
+<div class="evidence fragment" data-fragment-index="2" style="margin-top: 0.7em; border-left-color: #ff1744;">
+<div class="evidence-label" style="color:#ff1744;">Aber — der Preis</div>
+<div class="evidence-text">Texte <strong>mit</strong> KI-Input werden <strong>untereinander ähnlicher</strong>. Individuelle Kreativität steigt — kollektive Neuheit sinkt.</div>
+<div class="evidence-source">Doshi &amp; Hauser (2024) — "an increase in individual creativity at the risk of losing collective novelty".</div>
+</div>
+
+</div>
+
+<div class="fragment" data-fragment-index="3" style="text-align: center; padding: 1.8rem 1.2rem; background: #f4f4f2; border-radius: 12px;">
+<div style="font-size: 1.45em; line-height: 1.35; color: #e30059; font-weight: 700; letter-spacing: -0.01em;">
+"Individuell kreativer.<br>Kollektiv einförmiger."
+</div>
+<div style="margin-top: 1em; font-size: 0.78em; color: #666; font-style: italic;">
+Der produktive und der problematische Effekt in einem Satz.
+</div>
+</div>
+
+</div>
+
+## Drei Systeme, drei Risiken
+
+<div style="font-size: 0.95em; margin-top: 0.3em; color: #666;">
+Die Kehrseite der Kreativitätssteigerung — geordnet nach der Tri-System-Theorie (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave, 2026</a>).
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.2em;">
+
+<div class="evidence" style="border-left-color: #7a00df; margin: 0;">
+<div class="evidence-label" style="color: #7a00df;">System 1 · intuitiv</div>
+<div class="evidence-text" style="font-size: 0.9em; line-height: 1.5;">
+<strong>Was ausfällt:</strong> Die Intuition "hier stimmt etwas nicht" wird betäubt, wenn KI-Text flüssig klingt.
+</div>
+<div class="evidence-source" style="font-size: 0.72em; margin-top: 0.6em;">
+Folge: Fehler in KI-Ausgaben bleiben unbemerkt.
+</div>
+</div>
+
+<div class="evidence" style="border-left-color: #7a00df; margin: 0;">
+<div class="evidence-label" style="color: #7a00df;">System 2 · deliberativ</div>
+<div class="evidence-text" style="font-size: 0.9em; line-height: 1.5;">
+<strong>Was umgangen wird:</strong> Das mühsame Durchdenken entfällt, wenn die Antwort sofort vorliegt.
+</div>
+<div class="evidence-source" style="font-size: 0.72em; margin-top: 0.6em;">
+Folge: Lernen durch Anstrengung findet nicht statt.
+</div>
+</div>
+
+<div class="evidence" style="border-left-color: #ff1744; margin: 0;">
+<div class="evidence-label" style="color: #ff1744;">System 3 · artifiziell</div>
+<div class="evidence-text" style="font-size: 0.9em; line-height: 1.5;">
+<strong>Was aussen bleibt:</strong> Die Kognition liegt ausserhalb des Gehirns — System 3 denkt für den Menschen mit.
+</div>
+<div class="evidence-source" style="font-size: 0.72em; margin-top: 0.6em;">
+Folge: Kein Gedächtnis, keine Transferleistung.
+</div>
+</div>
+
+</div>
+
+<div class="evidence fragment" data-fragment-index="1" style="border-left-color: #ff1744; margin-top: 1.2em;">
+<div class="evidence-label" style="color: #ff1744;">Empirische Konsequenz · Cognitive Surrender</div>
+<div class="evidence-text">Akkuratheit steigt um <strong>+25 pp</strong> bei korrekter KI, fällt um <strong>−15 pp</strong> bei fehlerhafter — besonders bei Personen mit tiefem <em>need for cognition</em>.</div>
+<div class="evidence-source"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave (2026)</a>, SSRN 6097646 · N = 1 372 · 9 593 Trials.</div>
+</div>
+
 ## Ausgangslage
 
 <div style="font-size: 1.15em; margin-top: 0.6em; line-height: 1.55;">
@@ -133,12 +218,6 @@ Generative KI ist seit November 2022 flächig verfügbar. Drei Fragen strukturie
 <div class="evidence-label" style="color:#7a00df;">Methodenkritik</div>
 <div class="evidence-text">Viele KI-Effektstudien bleiben unterspezifiziert — "an effect in search of a cause".</div>
 <div class="evidence-source"><a href="https://doi.org/10.1111/jcal.70105" target="_blank">Weidlich et al. (2025)</a>, JCAL, 41(5), e70105.</div>
-</div>
-
-<div class="evidence fragment" data-fragment-index="6" style="border-left-color: #ff1744;">
-<div class="evidence-label" style="color:#ff1744;">Tri-System-Theorie · Kognitive Kapitulation</div>
-<div class="evidence-text">N = 1 372 · 9 593 Trials: Akkuratheit steigt +25 pp bei korrekter KI, fällt −15 pp bei fehlerhafter — am stärksten bei tiefem <em>need for cognition</em>.</div>
-<div class="evidence-source"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave (2026)</a>, SSRN 6097646 · Wharton Research Paper.</div>
 </div>
 
 </div>
@@ -283,7 +362,7 @@ Eigenständige Konzeptarbeit → KI-Input → begründete Entscheidung
 
 <p class="credit" style="margin-top: 0.5em;">Ergänzende 30 Fälle in der Praxis-Datenbank des Repositoriums (Sydney · HKU · Tec de Monterrey · Lund · Manuel Flick · Holly Clark · NOLAI/NL · MEXT Japan · BMBWF Österreich · National Literacy Trust UK · Victoria Academy AUS · UNC Writing Center · TU Dresden · PH Freiburg · LSE · u. a.)</p>
 
-## Phase 1: Planen — wie echte Lehrpersonen es machen
+## Phase 1: Planen · Blume · Mollick · Kentz
 
 <div class="workflow">
 <div class="wf-step analog">
@@ -333,7 +412,7 @@ Didaktische Implikation für FaGe-/FaBe-Unterricht: Die Planungsphase ist der na
 
 </div>
 
-## Phase 2: Strukturieren — wie echte Lehrpersonen es machen
+## Phase 2: Strukturieren · UNC · Oxford · PHZH iArgue
 
 <div class="workflow">
 <div class="wf-step analog">
@@ -388,7 +467,7 @@ Entscheidung bleibt beim Menschen. KI gibt <strong>Optionen</strong>, nicht Antw
 
 </div>
 
-## Phase 3: Formulieren — wie echte Lehrpersonen es machen
+## Phase 3: Formulieren · Wampfler · LSE · Roberts
 
 <div class="workflow">
 <div class="wf-step analog">
@@ -440,7 +519,7 @@ Weitere Prompt-Muster: "Aktiv statt passiv." · "Konkret statt abstrakt." · "B2
 
 </div>
 
-## Phase 4: Überarbeiten — wie echte Lehrpersonen es machen
+## Phase 4: Überarbeiten · Haverkamp · Mollick · Kentz
 
 <div class="workflow">
 <div class="wf-step analog">
