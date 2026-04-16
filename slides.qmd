@@ -432,18 +432,9 @@ Bleibe konkret. <strong>Höchstens 120 Wörter.</strong> Korrigiere keine Fehler
 </div>
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.6em; align-items: center;">
-
-<p style="font-size: 0.75em; color: #666; margin: 0;">
-Schülertext "Mira Imhof" und Prompt-Vorlage auf dem Handout + QR-Code.<br>
-<em>Der Text ist <strong>fiktiv</strong> — als realistisches Beispiel konstruiert, nicht von einer echten Lernenden.</em>
+<p style="font-size: 0.75em; color: #666; margin-top: 0.6em;">
+Schülertext "Mira Imhof" und Prompt-Vorlage auf dem Handout + QR-Code. <em>Der Text ist fiktiv — als realistisches Beispiel konstruiert, nicht von einer echten Lernenden.</em>
 </p>
-
-<div style="font-size: 0.72em; padding: 0.7rem 1rem; background: rgba(255, 23, 68, 0.08); border-left: 3px solid #ff1744; border-radius: 4px; color: #4a1010;">
-<strong style="color: #ff1744;">Wichtig für Montag:</strong> Echte Lernenden-Texte gehören nicht in ChatGPT. Nutzen Sie CH/EU-gehostete Oberflächen (fobizz, SchulKI, Careum Navira).
-</div>
-
-</div>
 
 ## Drei Antworten auf drei Fragen
 
