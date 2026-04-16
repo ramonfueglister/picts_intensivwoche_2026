@@ -21,29 +21,26 @@ Ramon Füglister · ABU · 30 Minuten
 
 ---
 
-## 🏗 Aufbau der Präsentation (19 Slides · 30 Min.)
+## 🏗 Aufbau der Präsentation (14 Slides · 30 Min.)
 
-Dramaturgie: **Problem → Evidenz → Theorie → Praxis → Anwendung → Synthese**
+Dramaturgie: **Problem → Frage → Vier Phasen → Montag → Abschluss**
 
 | Min. | Slide | Inhalt |
 |---|---|---|
-| 00:00–01:30 | 1–2 | Titel + Ausgangslage (3 Leitfragen + Handzeichen-Erhebung) |
-| 01:30–04:00 | 3 | Empirische Befundlage 2025/26 (5 fragmentierte Evidenzen + Sanz-Tejeda PRISMA-Figur) |
-| 04:00–05:30 | 4 | Theoretischer Rahmen: Schreibprozess als rekursives Modell |
-| 05:30–07:00 | 5 | Didaktisches Prinzip: Analoge Vorarbeit zuerst |
-| 07:00–08:30 | 6 | Dokumentierte Unterrichtspraxis — 8 internationale Fälle (anklickbar) |
-| 08:30–22:00 | 7–14 | Phasen 1–4: Workflows + echte Literatur-Figuren (je 2 Slides) |
-| 22:00–27:00 | 15 | Anwendungsphase · Fallarbeit (FaGe-Bewerbungstext) |
-| 27:00–30:00 | 16–19 | Synthese · Materialien · Literatur · Diskussion |
-
-**Wissenschaftliche Abbildungen (alle echt, aus Open-Access-Papers extrahiert):**
-- Sanz-Tejeda et al. (2026) — PRISMA-Flussdiagramm + geografische Verteilung (136 Studien)
-- Schneegaß (2025) — Dokumentenportraits realer Schüler:innen-Schreibprozesse
-- Steinhoff & Lehnen (2025) — Ghost/Partner/Tutor-Modell
-- Freinhofer et al. (2025) — PCRR-Framework
-- Philipp et al. (2025) — iArgue-Designprinzipien
-- Rezat et al. (2025) — ArguaTutor
-- Alnemrat et al. (2025) — Gruppenvergleich AI vs. Lehrperson × Sprachniveau
+| 00:00–00:40 | 1 | Titel |
+| 00:40–01:20 | 2 | Kunstwerk-Animation (Tri-System, Cognitive Surrender) |
+| 01:20–04:20 | 3 | Was Sie eben gesehen haben — und warum das Sorgen macht (Doshi&Hauser + Shaw&Nave + Sanz-Tejeda PRISMA) |
+| 04:20–05:20 | 4 | Drei Fragen für die nächsten 25 Minuten (Handzeichen-Erhebung) |
+| 05:20–07:20 | 5 | Vier Phasen, ein Prinzip (Hayes&Flower + Analog-first) |
+| 07:20–11:20 | 6 | Phase 1 Planen (Blume/Mollick/Kentz + Schneegaß + Levine) |
+| 11:20–15:20 | 7 | Phase 2 Strukturieren (UNC/Oxford/iArgue + Philipp) |
+| 15:20–19:20 | 8 | Phase 3 Formulieren (Wampfler/LSE/Roberts + Freinhofer PCRR) |
+| 19:20–23:20 | 9 | Phase 4 Überarbeiten (Haverkamp/Mollick/Kentz + Rezat + Alnemrat) |
+| 23:20–25:20 | 10 | Drei Entscheidungen vor Montag (Prüfung · Datenschutz · Klassenregel) |
+| 25:20–28:20 | 11 | Anwendungsphase · Fallarbeit |
+| 28:20–29:20 | 12 | Drei Antworten auf drei Fragen (Rückkehr zu Slide 4) |
+| 29:20–29:50 | 13 | Materialien · Tools · Repo |
+| 29:50–30:00 | 14 | Literatur · Diskussion |
 
 ---
 

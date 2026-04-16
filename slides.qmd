@@ -82,493 +82,281 @@ Zwischen <em>Eigenarbeit</em> und <em>Übernahme</em>
 
 </div>
 
-## Die Kunst, die Sie gerade gesehen haben —
+## Was Sie eben gesehen haben — und warum das Sorgen macht
 
-<div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 1.5rem; margin-top: 0.4em; align-items: center;">
-
-<div>
-
-<p style="font-size: 1.1em; line-height: 1.55; margin-bottom: 0.9em;">
-<em>Konzept · Wortauswahl · Timing · Farbcode · CSS-Code — alles von Claude entworfen. Keine Vorlage, keine Cliparts.</em>
-</p>
-
-<p style="font-size: 0.95em; line-height: 1.55;">
-Was bedeutet das für die Diskussion "KI ist (nicht) kreativ"?
-</p>
-
-<div class="evidence fragment" data-fragment-index="1" style="margin-top: 1em;">
-<div class="evidence-label">Experimentell · N = 293 Schreibende</div>
-<div class="evidence-text">KI-generierte Ideen lassen Kurzgeschichten signifikant <strong>kreativer, besser geschrieben und unterhaltsamer</strong> wirken — besonders bei weniger kreativen Schreibenden.</div>
-<div class="evidence-source"><a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank">Doshi &amp; Hauser (2024)</a>, <em>Science Advances, 10</em>(28), eadn5290.</div>
-</div>
-
-<div class="evidence fragment" data-fragment-index="2" style="margin-top: 0.7em; border-left-color: #ff1744;">
-<div class="evidence-label" style="color:#ff1744;">Aber — der Preis</div>
-<div class="evidence-text">Texte <strong>mit</strong> KI-Input werden <strong>untereinander ähnlicher</strong>. Individuelle Kreativität steigt — kollektive Neuheit sinkt.</div>
-<div class="evidence-source">Doshi &amp; Hauser (2024) — "an increase in individual creativity at the risk of losing collective novelty".</div>
-</div>
-
-</div>
-
-<div class="fragment" data-fragment-index="3" style="text-align: center; padding: 1.8rem 1.2rem; background: #f4f4f2; border-radius: 12px;">
-<div style="font-size: 1.45em; line-height: 1.35; color: #e30059; font-weight: 700; letter-spacing: -0.01em;">
-"Individuell kreativer.<br>Kollektiv einförmiger."
-</div>
-<div style="margin-top: 1em; font-size: 0.78em; color: #666; font-style: italic;">
-Der produktive und der problematische Effekt in einem Satz.
-</div>
-</div>
-
-</div>
-
-## Drei Systeme, drei Risiken
-
-<div style="font-size: 0.95em; margin-top: 0.3em; color: #666;">
-Die Kehrseite der Kreativitätssteigerung — geordnet nach der Tri-System-Theorie (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave, 2026</a>).
-</div>
-
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.2em;">
-
-<div class="evidence" style="border-left-color: #7a00df; margin: 0;">
-<div class="evidence-label" style="color: #7a00df;">System 1 · intuitiv</div>
-<div class="evidence-text" style="font-size: 0.9em; line-height: 1.5;">
-<strong>Was ausfällt:</strong> Die Intuition "hier stimmt etwas nicht" wird betäubt, wenn KI-Text flüssig klingt.
-</div>
-<div class="evidence-source" style="font-size: 0.72em; margin-top: 0.6em;">
-Folge: Fehler in KI-Ausgaben bleiben unbemerkt.
-</div>
-</div>
-
-<div class="evidence" style="border-left-color: #7a00df; margin: 0;">
-<div class="evidence-label" style="color: #7a00df;">System 2 · deliberativ</div>
-<div class="evidence-text" style="font-size: 0.9em; line-height: 1.5;">
-<strong>Was umgangen wird:</strong> Das mühsame Durchdenken entfällt, wenn die Antwort sofort vorliegt.
-</div>
-<div class="evidence-source" style="font-size: 0.72em; margin-top: 0.6em;">
-Folge: Lernen durch Anstrengung findet nicht statt.
-</div>
-</div>
-
-<div class="evidence" style="border-left-color: #ff1744; margin: 0;">
-<div class="evidence-label" style="color: #ff1744;">System 3 · artifiziell</div>
-<div class="evidence-text" style="font-size: 0.9em; line-height: 1.5;">
-<strong>Was aussen bleibt:</strong> Die Kognition liegt ausserhalb des Gehirns — System 3 denkt für den Menschen mit.
-</div>
-<div class="evidence-source" style="font-size: 0.72em; margin-top: 0.6em;">
-Folge: Kein Gedächtnis, keine Transferleistung.
-</div>
-</div>
-
-</div>
-
-<div class="evidence fragment" data-fragment-index="1" style="border-left-color: #ff1744; margin-top: 1.2em;">
-<div class="evidence-label" style="color: #ff1744;">Empirische Konsequenz · Cognitive Surrender</div>
-<div class="evidence-text">Akkuratheit steigt um <strong>+25 pp</strong> bei korrekter KI, fällt um <strong>−15 pp</strong> bei fehlerhafter — besonders bei Personen mit tiefem <em>need for cognition</em>.</div>
-<div class="evidence-source"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave (2026)</a>, SSRN 6097646 · N = 1 372 · 9 593 Trials.</div>
-</div>
-
-## Ausgangslage
-
-<div style="font-size: 1.15em; margin-top: 0.6em; line-height: 1.55;">
-Generative KI ist seit November 2022 flächig verfügbar. Drei Fragen strukturieren den Input:
-</div>
-
-<ol style="margin-top: 1em; font-size: 1em; line-height: 1.7;">
-<li>Was sagt die empirische Forschung 2025/26 über den Einsatz generativer KI im Schreibprozess?</li>
-<li>Welche didaktischen Konsequenzen ergeben sich für den Allgemeinbildenden Unterricht in Gesundheitsberufen?</li>
-<li>Welche konkreten Arbeitsweisen lassen sich in die eigene Unterrichtspraxis übernehmen?</li>
-</ol>
-
-<div class="evidence" style="margin-top: 1.4em;">
-<div class="evidence-label">Erhebung im Plenum</div>
-<div class="evidence-text">Wer nutzt generative KI bereits in einer Schreibaufgabe mit Lernenden? Abstufung 0–3 per Handzeichen.</div>
-</div>
-
-## Empirische Befundlage 2025/26
-
-<div style="display: grid; grid-template-columns: 1fr 1.25fr; gap: 1.2rem; margin-top: 0.5em;">
+<div style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 1.3rem; margin-top: 0.4em;">
 
 <div>
+
+<p style="font-size: 1.05em; line-height: 1.55; margin-bottom: 0.9em;">
+<em>Konzept · Wortauswahl · Timing · Farbcode · CSS — die Animation stammt zu 100 % von Claude.</em>
+</p>
 
 <div class="evidence fragment" data-fragment-index="1">
-<div class="evidence-label">Systematisches Review · N = 136 Studien</div>
-<div class="evidence-text">Generative KI im Schreibprozess wirkt — jedoch ausschliesslich bei didaktischer Einbettung.</div>
-<div class="evidence-source"><a href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">Sanz-Tejeda et al. (2026)</a>, Frontiers in Education, 10, 1711718.</div>
+<div class="evidence-label">Empirisch · KI-Kreativität</div>
+<div class="evidence-text">KI-Ideen machen Kurzgeschichten <strong>signifikant kreativer, besser geschrieben, unterhaltsamer</strong> — besonders bei weniger geübten Schreibenden (N = 293).</div>
+<div class="evidence-source"><a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank">Doshi &amp; Hauser (2024)</a>, <em>Science Advances 10</em>(28).</div>
 </div>
 
-<div class="evidence fragment" data-fragment-index="2">
-<div class="evidence-label">Experimentell · Primarschule</div>
-<div class="evidence-text">ChatGPT-Feedback steigert Kreativschreiben und Schreib-Selbstwirksamkeit signifikant (d = 0.92).</div>
-<div class="evidence-source"><a href="https://doi.org/10.1177/07356331251365187" target="_blank">Kızıltaş (2025)</a>, Journal of Educational Computing Research.</div>
+<div class="evidence fragment" data-fragment-index="2" style="border-left-color: #ff1744; margin-top: 0.7em;">
+<div class="evidence-label" style="color:#ff1744;">Empirisch · Cognitive Surrender</div>
+<div class="evidence-text">Akkuratheit <strong>+25 pp</strong> bei korrekter KI · <strong>−15 pp</strong> bei fehlerhafter (N = 1 372). System 1 wird betäubt, System 2 umgangen, System 3 denkt ausserhalb.</div>
+<div class="evidence-source"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave (2026)</a>, SSRN · Wharton · Tri-System-Theorie.</div>
 </div>
 
-<div class="evidence fragment" data-fragment-index="3">
-<div class="evidence-label">RCT · EFL-Studierende</div>
-<div class="evidence-text">KI-Feedback ist Lehrerfeedback statistisch äquivalent; schwächere Lernende profitieren stärker.</div>
-<div class="evidence-source"><a href="https://doi.org/10.3389/feduc.2025.1614673" target="_blank">Alnemrat et al. (2025)</a>, Frontiers in Education, 10, 1614673.</div>
-</div>
-
-<div class="evidence fragment" data-fragment-index="4" style="border-left-color: #7a00df;">
-<div class="evidence-label" style="color:#7a00df;">Qualitatives Experiment</div>
-<div class="evidence-text">KI erhöht die Output-Qualität, senkt aber die intrinsische Motivation.</div>
-<div class="evidence-source"><a href="https://doi.org/10.1016/j.chbah.2025.100140" target="_blank">Mei et al. (2025)</a>, Computers in Human Behavior: Artificial Humans, 4, 100140.</div>
-</div>
-
-<div class="evidence fragment" data-fragment-index="5" style="border-left-color: #7a00df;">
-<div class="evidence-label" style="color:#7a00df;">Methodenkritik</div>
-<div class="evidence-text">Viele KI-Effektstudien bleiben unterspezifiziert — "an effect in search of a cause".</div>
-<div class="evidence-source"><a href="https://doi.org/10.1111/jcal.70105" target="_blank">Weidlich et al. (2025)</a>, JCAL, 41(5), e70105.</div>
+<div class="evidence fragment" data-fragment-index="3" style="border-left-color: #7a00df; margin-top: 0.7em;">
+<div class="evidence-label" style="color:#7a00df;">Systematisches Review</div>
+<div class="evidence-text">136 Studien zu KI im Schreibprozess — wirkt, aber ausschliesslich bei didaktischer Einbettung.</div>
+<div class="evidence-source"><a href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">Sanz-Tejeda et al. (2026)</a>, <em>Frontiers in Education 10</em>, 1711718.</div>
 </div>
 
 </div>
 
-<div class="fragment" data-fragment-index="7">
+<div class="fragment" data-fragment-index="4" style="display: flex; flex-direction: column; gap: 0.8rem; justify-content: center;">
+
+<div style="text-align: center; padding: 1.2rem 1rem; background: #1a1a1a; color: white; border-radius: 10px;">
+<div style="font-size: 1.15em; line-height: 1.4; font-weight: 700; letter-spacing: -0.01em;">
+Individuell kreativer.<br>
+<span style="color: #ff5994;">Kollektiv einförmiger.</span><br>
+<span style="color: #ff1744;">Kognitiv kapitulierend.</span>
+</div>
+</div>
+
 <a class="linked-img" href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">
-<img src="images/literature-figures/sanz-tejeda-prisma-geo.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" alt="PRISMA-Flussdiagramm und geografische Verteilung">
+<img src="images/literature-figures/sanz-tejeda-prisma-geo.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" alt="PRISMA 136 Studien">
 </a>
-<p class="credit"><a href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">Sanz-Tejeda et al. (2026)</a> — PRISMA-Flussdiagramm der Studienauswahl und geografische Verteilung der 136 Studien.</p>
-</div>
+<p class="credit" style="text-align: center;">Sanz-Tejeda et al. (2026) · PRISMA-Flussdiagramm &amp; geografische Verteilung</p>
 
 </div>
 
-## Theoretischer Rahmen: Schreibprozess als rekursives Modell
+</div>
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.6rem; margin-top: 1.2em;">
+## Drei Fragen für die nächsten 25 Minuten
+
+<div style="font-size: 1.05em; margin-top: 0.6em; line-height: 1.55; color: #4a4a4a;">
+Die Studienlage ist klar — aber was heisst das für den Montag-Unterricht am ZAG? Drei Fragen führen durch den Rest dieses Inputs:
+</div>
+
+<ol style="margin-top: 1.2em; font-size: 1.05em; line-height: 1.65;">
+<li><strong>Welche Forschungsevidenz 2025/26</strong> ist für den Schreibunterricht in Gesundheitsberufen handlungsleitend?</li>
+<li><strong>Wie kombinieren</strong> erfahrene Lehrpersonen und Hochschuldozierende analoge und KI-gestützte Arbeit <strong>konkret</strong>?</li>
+<li><strong>Welche drei Entscheidungen</strong> müssen Sie vor Montag treffen, damit der Einsatz didaktisch und rechtlich belastbar ist?</li>
+</ol>
+
+<div class="evidence" style="margin-top: 1.3em; border-left-color: #7a00df;">
+<div class="evidence-label" style="color:#7a00df;">Erhebung im Plenum</div>
+<div class="evidence-text">Wer nutzt generative KI bereits in einer Schreibaufgabe mit Lernenden? <strong>Abstufung 0–3 per Handzeichen</strong> — damit ich sehe, auf welchem Stand Sie sind.</div>
+</div>
+
+<div style="margin-top: 1em; font-size: 0.8em; color: #888; font-style: italic;">
+Auf diese drei Fragen kommen wir am Ende zurück.
+</div>
+
+## Vier Phasen, ein Prinzip
+
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.6rem; margin-top: 1em;">
 <div style="background: rgba(122,0,223,0.08); padding: 0.9rem; border-radius: 8px; border-left: 3px solid #7a00df;">
-<h3 style="color: #7a00df; margin-top: 0;">1 · Planen</h3>
+<h3 style="color: #7a00df; margin-top: 0; font-size: 1.15em;">1 · Planen</h3>
 <div style="font-size: 0.8em;">Ideen finden, Thema klären, Material sammeln</div>
 </div>
 <div style="background: rgba(122,0,223,0.08); padding: 0.9rem; border-radius: 8px; border-left: 3px solid #7a00df;">
-<h3 style="color: #7a00df; margin-top: 0;">2 · Strukturieren</h3>
+<h3 style="color: #7a00df; margin-top: 0; font-size: 1.15em;">2 · Strukturieren</h3>
 <div style="font-size: 0.8em;">Ordnen, Gliederung entwickeln</div>
 </div>
 <div style="background: rgba(227,0,89,0.08); padding: 0.9rem; border-radius: 8px; border-left: 3px solid #e30059;">
-<h3 style="color: #e30059; margin-top: 0;">3 · Formulieren</h3>
+<h3 style="color: #e30059; margin-top: 0; font-size: 1.15em;">3 · Formulieren</h3>
 <div style="font-size: 0.8em;">Entwerfen, Sätze bauen</div>
 </div>
 <div style="background: rgba(227,0,89,0.08); padding: 0.9rem; border-radius: 8px; border-left: 3px solid #e30059;">
-<h3 style="color: #e30059; margin-top: 0;">4 · Überarbeiten</h3>
+<h3 style="color: #e30059; margin-top: 0; font-size: 1.15em;">4 · Überarbeiten</h3>
 <div style="font-size: 0.8em;">Prüfen, überdenken, Feinschliff</div>
 </div>
 </div>
 
-<div style="margin-top: 1.5em; text-align: center; font-size: 0.9em; color: #666;">
-Rekursive Rücksprünge zwischen allen Phasen (Hayes & Flower, 1980; Kellogg, 1996 ff.)
+<div style="margin-top: 0.9em; font-size: 0.78em; color: #888; text-align: center;">
+Rekursive Rücksprünge zwischen allen Phasen · nach Hayes &amp; Flower (1980) · erweitert bei Kellogg (1996 ff.) · angewandt auf KI-Kontexte bei Schneegaß (2025)
 </div>
 
-## Didaktisches Prinzip: Analoge Vorarbeit zuerst
+<div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.5rem; margin-top: 1.5em; align-items: center;">
 
-<div style="text-align: center; font-size: 1.5em; margin-top: 0.3em; color: #e30059; font-weight: 600; line-height: 1.25;">
-Eigenständige Konzeptarbeit → KI-Input → begründete Entscheidung
+<div style="text-align: center; font-size: 1.4em; color: #e30059; font-weight: 700; line-height: 1.25; padding: 1.2rem; background: rgba(227,0,89,0.06); border-radius: 12px; border-left: 4px solid #e30059;">
+Eigenständige Konzeptarbeit<br>→ KI-Input<br>→ begründete Entscheidung
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.2em;">
+<div style="font-size: 0.85em; line-height: 1.55; color: #4a4a4a;">
+<strong>Analog-first</strong> als Faustregel — gestützt durch zwei Befunde:
 
-<div class="evidence" style="margin: 0;">
-<div class="evidence-label">Empirisch — Wann KI?</div>
-<div class="evidence-text">Empirisch konzentriert sich die KI-Nutzung auf frühe Prozess­phasen — insbesondere die Ideenfindung.</div>
-<div class="evidence-source"><a href="https://doi.org/10.1016/j.jslw.2025.101230" target="_blank">Hwang et al. (2025)</a>, Journal of Second Language Writing.</div>
+<ul style="margin-top: 0.5em;">
+<li>Lernende nutzen KI am intensivsten beim <strong>Planen</strong>, kaum beim Überarbeiten — <a href="https://doi.org/10.1016/j.jslw.2025.101230" target="_blank">Hwang et al. (2025)</a></li>
+<li>KI hebt Qualität, senkt aber Motivation und Autor:innenschaft — <a href="https://doi.org/10.1016/j.chbah.2025.100140" target="_blank">Mei et al. (2025)</a></li>
+</ul>
+
+<div style="margin-top: 0.6em; font-size: 0.8em; color: #888;">
+Ausnahmen: Recherche bei fehlendem Vorwissen · standardisierte Textsorten · produktive Blockaden.
 </div>
-
-<div class="evidence" style="margin: 0;">
-<div class="evidence-label">Empirisch — Warum vorsichtig?</div>
-<div class="evidence-text">KI-Einsatz erhöht die Output-Qualität, reduziert jedoch die intrinsische Motivation und das Erleben von Autor:innenschaft.</div>
-<div class="evidence-source"><a href="https://doi.org/10.1016/j.chbah.2025.100140" target="_blank">Mei et al. (2025)</a>, Computers in Human Behavior: Artificial Humans.</div>
 </div>
-
-</div>
-
-<div style="margin-top: 0.9em; font-size: 0.75em; color: #666; line-height: 1.5;">
-<strong>Ausnahmefälle:</strong> Recherche bei fehlendem Vorwissen · standardisierte Textsorten (Protokoll, Checkliste) · Überwindung produktiver Blockaden.
-</div>
-
-## Dokumentierte Unterrichtspraxis — Internationale Fallauswahl
-
-<div class="globe">
-
-<a class="globe-tile-link" href="https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2024/07/new-guidelines-for-the-use-of-generative-ai-in-education.html" target="_blank">
-<div class="globe-tile uni">
-<img src="images/praxis/eth-ai-guidelines.png" alt="ETH Zurich">
-<div class="gt-name"><span class="gt-flag">🇨🇭</span>ETH Zürich</div>
-<div class="gt-meta">Universität · 2024</div>
-<div class="gt-what">Obligatorische "Statement on Usage of AI" in BA/MA-Thesen — wer welches Tool wofür.</div>
-</div>
-</a>
-
-<a class="globe-tile-link" href="https://www.unisg.ch/en/newsdetail/news/scientific-writing-with-ai-support-at-hsg-the-focus-is-on-critical-reflection/" target="_blank">
-<div class="globe-tile uni">
-<img src="images/praxis/hsg-writing-ai.png" alt="HSG Writing Lab">
-<div class="gt-name"><span class="gt-flag">🇨🇭</span>HSG Writing Lab</div>
-<div class="gt-meta">St. Gallen · 2025</div>
-<div class="gt-what">Kurs "Scientific writing with AI support" · 700 Beratungen, 1/5 zu KI.</div>
-</div>
-</a>
-
-<a class="globe-tile-link" href="https://www.oneusefulthing.org/" target="_blank">
-<div class="globe-tile uni">
-<img src="images/praxis/mollick-oneusefulthing.png" alt="Mollick">
-<div class="gt-name"><span class="gt-flag">🇺🇸</span>Ethan Mollick</div>
-<div class="gt-meta">Wharton · Newsletter</div>
-<div class="gt-what">"Assigning AI" — 7 konkrete KI-Rollen im Schreibunterricht mit Prompts.</div>
-</div>
-</a>
-
-<a class="globe-tile-link" href="https://www.ctl.ox.ac.uk/ai-tools-in-teaching" target="_blank">
-<div class="globe-tile uni">
-<img src="images/praxis/oxford-ctl.png" alt="Oxford CTL">
-<div class="gt-name"><span class="gt-flag">🇬🇧</span>Oxford CTL</div>
-<div class="gt-meta">Universität</div>
-<div class="gt-what">"Compare: Thema als Essay vs. Abstract vs. Poster" — KI generiert, Studierende werten.</div>
-</div>
-</a>
-
-<a class="globe-tile-link" href="https://the-decoder.de/ein-lehrer-laesst-ki-bei-klassenarbeiten-zu-das-hat-er-dabei-gelernt/" target="_blank">
-<div class="globe-tile">
-<img src="images/praxis/decoder-haverkamp.png" alt="Haverkamp">
-<div class="gt-name"><span class="gt-flag">🇩🇪</span>Hendrik Haverkamp</div>
-<div class="gt-meta">Gymnasium Gütersloh</div>
-<div class="gt-what">Klausuren <strong>mit</strong> ChatGPT erlaubt; KI-Passagen markiert wie Zitate.</div>
-</div>
-</a>
-
-<a class="globe-tile-link" href="https://mikekentz.substack.com/p/a-new-assessment-design-framework" target="_blank">
-<div class="globe-tile">
-<img src="images/praxis/kentz-literacy.png" alt="Kentz">
-<div class="gt-name"><span class="gt-flag">🇺🇸</span>Mike Kentz</div>
-<div class="gt-meta">HS Savannah, GA · 2025</div>
-<div class="gt-what">"Stop grading essays. Start grading chat transcripts." — Chat als bewertbares Artefakt.</div>
-</div>
-</a>
-
-<a class="globe-tile-link" href="https://www.edutopia.org/article/ai-writing-feedback-students/" target="_blank">
-<div class="globe-tile">
-<img src="images/praxis/roberts-edutopia.png" alt="Jen Roberts">
-<div class="gt-name"><span class="gt-flag">🇺🇸</span>Jen Roberts</div>
-<div class="gt-meta">San Diego HS · 9. Klasse</div>
-<div class="gt-what">KI-Feedback in 3 Spalten: <em>Strengths · Growth · Wonderings</em> — Klasse kritisiert gemeinsam.</div>
-</div>
-</a>
-
-<a class="globe-tile-link" href="https://aicet.comp.nus.edu.sg/aicet-learning-journey-pedagogy-first-teaching-with-not-by-ai/" target="_blank">
-<div class="globe-tile">
-<img src="images/praxis/nus-aicet.png" alt="NUS">
-<div class="gt-name"><span class="gt-flag">🇸🇬</span>NUS AICET</div>
-<div class="gt-meta">Singapur · 2025/26</div>
-<div class="gt-what">"GuIDES"-Modell · KI als fehlbares Werkzeug in qualitativer Forschung einüben.</div>
-</div>
-</a>
 
 </div>
 
-<p class="credit" style="margin-top: 0.5em;">Ergänzende 30 Fälle in der Praxis-Datenbank des Repositoriums (Sydney · HKU · Tec de Monterrey · Lund · Manuel Flick · Holly Clark · NOLAI/NL · MEXT Japan · BMBWF Österreich · National Literacy Trust UK · Victoria Academy AUS · UNC Writing Center · TU Dresden · PH Freiburg · LSE · u. a.)</p>
+## Phase 1 · Planen — Blume · Mollick · Kentz
 
-## Phase 1: Planen · Blume · Mollick · Kentz
-
-<div class="workflow">
+<div class="workflow" style="margin-top: 0.3em;">
 <div class="wf-step analog">
-<div class="wf-label">1 · Analog · <a href="https://bobblume.de/2025/01/05/unterricht-vorbereitung-fuer-die-klausur-parabelinterpretation/" target="_blank">nach Bob Blume, Gym BW</a></div>
+<div class="wf-label">1 · Analog · <a href="https://bobblume.de/2025/01/05/unterricht-vorbereitung-fuer-die-klausur-parabelinterpretation/" target="_blank">nach Bob Blume</a></div>
 <div class="wf-title">Strukturiertes Vorwissen zuerst</div>
-<div class="wf-detail">Lernende durchlaufen drei Schritte <strong>bevor</strong> sie KI öffnen: Problem eigenständig identifizieren · Gliederung skizzieren · eine Frage an sich selbst formulieren.</div>
+<div class="wf-detail">Drei Schritte vor jeder KI: Problem identifizieren · Gliederung skizzieren · eigene Frage formulieren.</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
-<div class="wf-label">2 · KI · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995" target="_blank">nach Ethan Mollick, Wharton</a></div>
+<div class="wf-label">2 · KI · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995" target="_blank">nach Ethan Mollick</a></div>
 <div class="wf-title">KI als Tutor, nicht als Autor</div>
-<div class="wf-detail">"<em>Act as a tutor for [Thema]. Ask me 5 increasingly difficult questions that test my understanding. Do not give answers — only questions.</em>"<br><small>aus "Assigning AI: Seven Approaches for Students" (SSRN 4475995).</small></div>
+<div class="wf-detail">"<em>Act as a tutor. Ask me 5 increasingly difficult questions. Do not give answers — only questions.</em>"</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
-<div class="wf-label">3 · Analog · <a href="https://mikekentz.substack.com/p/what-happened-when-we-taught-ai-literacy" target="_blank">nach Mike Kentz, Savannah</a></div>
-<div class="wf-title">Chat-Transkript als Artefakt</div>
-<div class="wf-detail">Lernende annotieren den gesamten Prompt-Verlauf: <span style="color:#e30059;">rot</span> = übernommen · <span style="color:#7a00df;">lila</span> = verworfen · <span style="color:#2b6cb0;">blau</span> = eigener Gedanke nach KI.</div>
+<div class="wf-label">3 · Analog · <a href="https://mikekentz.substack.com/p/what-happened-when-we-taught-ai-literacy" target="_blank">nach Mike Kentz</a></div>
+<div class="wf-title">Chat-Transkript annotieren</div>
+<div class="wf-detail"><span style="color:#e30059;">rot</span> übernommen · <span style="color:#7a00df;">lila</span> verworfen · <span style="color:#2b6cb0;">blau</span> eigener Gedanke.</div>
 </div>
 </div>
 
-<div class="citation" style="margin-top: 1em;">
-Prinzip "Partner" nach <a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Steinhoff-Lehnen-2025-LR-JG12-H11.pdf" target="_blank">Steinhoff & Lehnen (2025)</a> — KI als Sparringspartner, nicht als Ghostwriter.
-</div>
-
-## Phase 1: Empirische Befunde zur realen KI-Nutzung
-
-<div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.2rem; margin-top: 0.6em;">
+<div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 1.2rem; margin-top: 1em; align-items: center;">
 
 <div>
 <a class="linked-img" href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Schneegass-2025-LR-JG12-H11.pdf" target="_blank">
-<img src="images/literature-figures/schneegass-dokumentenportraits.png" style="width: 95%;" alt="Dokumentenportraits">
+<img src="images/literature-figures/schneegass-dokumentenportraits.png" style="width: 100%;" alt="Dokumentenportraits">
 </a>
-<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Schneegass-2025-LR-JG12-H11.pdf" target="_blank">Schneegaß (2025)</a>, Leseräume 12(11) — Dokumentenportraits realer Schüler:innen-Schreibprozesse (grün = ChatGPT-Nutzung)</p>
+<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Schneegass-2025-LR-JG12-H11.pdf" target="_blank">Schneegaß (2025)</a> · reale Schüler:innen-Schreibprozesse (grün = ChatGPT)</p>
 </div>
 
-<div>
-<div class="evidence">
-<div class="evidence-label">Qualitative Studie · Sekundarstufe</div>
-<div class="evidence-text">"Sekundar-Lernende nutzen ChatGPT in der Planungs­phase <strong>am häufigsten</strong> — aber selten für die Überarbeitung."</div>
-<div class="evidence-source"><a href="https://doi.org/10.1002/jaal.1373" target="_blank">Levine et al. (2025)</a>, Journal of Adolescent & Adult Literacy.</div>
-</div>
-<div style="margin-top: 0.9em; font-size: 0.8em; line-height: 1.5;">
-Didaktische Implikation für FaGe-/FaBe-Unterricht: Die Planungsphase ist der natürliche Einstiegspunkt für einen strukturierten KI-Einsatz.
-</div>
+<div class="evidence" style="margin: 0;">
+<div class="evidence-label">Empirisch · Sekundarstufe</div>
+<div class="evidence-text">Sek-Lernende nutzen ChatGPT <strong>am häufigsten beim Planen</strong>, kaum beim Überarbeiten.</div>
+<div class="evidence-source"><a href="https://doi.org/10.1002/jaal.1373" target="_blank">Levine et al. (2025)</a>, JAAL 68(5).</div>
 </div>
 
 </div>
 
-## Phase 2: Strukturieren · UNC · Oxford · PHZH iArgue
+## Phase 2 · Strukturieren — UNC · Oxford · PHZH iArgue
 
-<div class="workflow">
+<div class="workflow" style="margin-top: 0.3em;">
 <div class="wf-step analog">
 <div class="wf-label">1 · Analog · <a href="https://writingcenter.unc.edu/tips-and-tools/generative-ai-in-academic-writing/" target="_blank">nach UNC Writing Center</a></div>
 <div class="wf-title">Argumente händisch gewichten</div>
-<div class="wf-detail">UNC-Richtlinie: Studierende legen alle Argumente auf Post-its und markieren <strong>vor jeder KI-Konsultation</strong>: stark · mittel · schwach. Nur so wird KI-Feedback adressierbar.</div>
+<div class="wf-detail">Post-its mit allen Argumenten — <strong>vor</strong> KI-Konsultation markieren: stark · mittel · schwach.</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
 <div class="wf-label">2 · KI · <a href="https://www.ctl.ox.ac.uk/ai-tools-in-teaching" target="_blank">nach Oxford CTL</a></div>
 <div class="wf-title">Struktur-Varianten generieren</div>
-<div class="wf-detail">"<em>Outline this topic as (1) argumentative, (2) descriptive, (3) expository, (4) narrative essay. Compare how content priority changes.</em>"<br><small>Oxford CTL: "Essays ändern Struktur je nach Zweck — KI macht das sichtbar."</small></div>
+<div class="wf-detail">"<em>Outline this topic as (1) argumentative, (2) descriptive, (3) expository, (4) narrative essay. Compare how priority changes.</em>"</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
 <div class="wf-label">3 · Analog · <a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Philipp-et-al-2025-LR-JG12-H11-1.pdf" target="_blank">nach Philipp et al., PHZH iArgue</a></div>
 <div class="wf-title">Divergent → konvergent</div>
-<div class="wf-detail">KI darf <strong>divergent</strong> sein (Varianten aufmachen). Die <strong>konvergente</strong> Entscheidung — welche Struktur, warum — verantwortet die Person schriftlich.</div>
+<div class="wf-detail">KI darf <strong>divergent</strong> sein — die <strong>konvergente</strong> Entscheidung verantwortet die Person schriftlich.</div>
 </div>
 </div>
 
-<div class="citation" style="margin-top: 1em;">
-Entscheidung bleibt beim Menschen. KI gibt <strong>Optionen</strong>, nicht Antworten.
-</div>
-
-## Phase 2: Forschungsprojekt iArgue (PHZH)
-
-<div style="display: grid; grid-template-columns: 1fr 1.1fr; gap: 1.2rem;">
+<div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 1.2rem; margin-top: 1em; align-items: center;">
 
 <div>
 <a class="linked-img" href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Philipp-et-al-2025-LR-JG12-H11-1.pdf" target="_blank">
 <img src="images/literature-figures/philipp-iargue.png" style="width: 100%;" alt="iArgue Designprinzipien">
 </a>
-<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Philipp-et-al-2025-LR-JG12-H11-1.pdf" target="_blank">Philipp et al. (2025)</a>, Leseräume 12(11) — iArgue-Designprinzipien</p>
+<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Philipp-et-al-2025-LR-JG12-H11-1.pdf" target="_blank">Philipp et al. (2025)</a> · iArgue-Designprinzipien (PHZH)</p>
 </div>
 
-<div style="font-size: 0.88em;">
-<strong>Schreibdidaktische Designprinzipien für argumentatives Schreiben mit ChatGPT</strong> (Sek II):
-
+<div style="font-size: 0.87em; line-height: 1.55;">
+<strong>iArgue-Kernbefunde</strong> für argumentatives Schreiben:
 <ul style="margin-top: 0.3em;">
-<li><strong>Divergentes Denken</strong> gezielt durch KI erweitern (offene Prompts)</li>
-<li><strong>Konvergentes Denken</strong> in der Textredaktion vom Menschen durchführen</li>
-<li><strong>Metareflexion</strong> über KI-Output explizit zum Lernziel machen</li>
+<li><strong>Divergentes Denken</strong> gezielt durch KI erweitern</li>
+<li><strong>Konvergentes Denken</strong> in der Textredaktion vom Menschen</li>
+<li><strong>Metareflexion</strong> über KI-Output als Lernziel</li>
 </ul>
-
-<p style="margin-top: 0.6em;">Transfer in den ABU-/BMS-Unterricht: übertragbar auf Leserbrief, Stellungnahme und argumentativ-begründende Fachberichte in Pflege und Betreuung.</p>
-
-<div class="citation" style="margin-top: 0.6em;">
-"Ghost / Partner / Tutor — KI-Rolle bewusst wählen." — <a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Steinhoff-Lehnen-2025-LR-JG12-H11.pdf" target="_blank">Steinhoff & Lehnen (2025)</a>
-</div>
+<p style="margin-top: 0.5em; font-size: 0.92em; color: #4a4a4a;">Übertragbar auf Leserbrief, Stellungnahme, Fachberichte Pflege/Betreuung.</p>
 </div>
 
 </div>
 
-## Phase 3: Formulieren · Wampfler · LSE · Roberts
+## Phase 3 · Formulieren — Wampfler · LSE · Roberts
 
-<div class="workflow">
+<div class="workflow" style="margin-top: 0.3em;">
 <div class="wf-step analog">
-<div class="wf-label">1 · Analog · <a href="https://schulesocialmedia.com/2024/03/25/ki-als-spiegel/" target="_blank">nach Philippe Wampfler, UZH / KS Enge</a></div>
+<div class="wf-label">1 · Analog · <a href="https://schulesocialmedia.com/2024/03/25/ki-als-spiegel/" target="_blank">nach Philippe Wampfler</a></div>
 <div class="wf-title">Freewriting zuerst</div>
-<div class="wf-detail">Wampfler in "KI als Spiegel": <em>"Erst wenn Sie wissen, was Sie sagen wollen, ist KI als Variationswerkzeug hilfreich."</em> 5 Minuten Hand &amp; Papier, ohne Korrektur.</div>
+<div class="wf-detail">"<em>Erst wenn Sie wissen, was Sie sagen wollen, ist KI als Variationswerkzeug hilfreich.</em>"</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
 <div class="wf-label">2 · KI · <a href="https://blogs.lse.ac.uk/highereducation/2022/09/07/transforming-the-classroom-with-ai/" target="_blank">nach LSE (dokumentiert)</a></div>
 <div class="wf-title">Stil-Varianten + Reflexion</div>
-<div class="wf-detail">"<em>Here is my paragraph: [text]. Suggest improvements to style while keeping my argument. Then write a reflective paragraph comparing both versions.</em>"<br><small>LSE: besonders wertvoll für L2-/DaZ-Schreibende.</small></div>
+<div class="wf-detail">"<em>Suggest style improvements while keeping my argument. Then write a reflective paragraph comparing both versions.</em>"</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
-<div class="wf-label">3 · Analog · <a href="https://www.edutopia.org/article/ai-writing-feedback-students/" target="_blank">nach Jen Roberts, Point Loma HS</a></div>
+<div class="wf-label">3 · Analog · <a href="https://www.edutopia.org/article/ai-writing-feedback-students/" target="_blank">nach Jen Roberts</a></div>
 <div class="wf-title">3-Spalten-Urteil</div>
-<div class="wf-detail">Roberts' Klasse bewertet jeden KI-Vorschlag in drei Spalten: <strong>Strengths</strong> · <strong>Areas of Growth</strong> · <strong>Wonderings</strong>. Übernommen nur, was mindestens zwei Strengths hat.</div>
+<div class="wf-detail"><strong>Strengths</strong> · <strong>Areas of Growth</strong> · <strong>Wonderings</strong> — übernommen nur bei ≥ 2 Strengths.</div>
 </div>
 </div>
 
-<div class="prompt-box" style="margin-top: 0.7em;">
-Weitere Prompt-Muster: "Aktiv statt passiv." · "Konkret statt abstrakt." · "B2-Niveau halten." · "Schweizer Hochdeutsch."
-</div>
-
-## Phase 3: PCRR-Framework (PH Tirol)
-
-<div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.2rem;">
+<div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 1.2rem; margin-top: 1em; align-items: center;">
 
 <div>
 <a class="linked-img" href="https://doi.org/10.21243/mi-01-25-26" target="_blank">
-<img src="images/literature-figures/freinhofer-pcrr-framework.png" style="width: 95%;" alt="PCRR Framework">
+<img src="images/literature-figures/freinhofer-pcrr-framework.png" style="width: 100%;" alt="PCRR Framework">
 </a>
-<p class="credit"><a href="https://doi.org/10.21243/mi-01-25-26" target="_blank">Freinhofer et al. (2025)</a>, Medienimpulse 63(1) — PCRR-Framework © Sandra Breitenberger</p>
+<p class="credit"><a href="https://doi.org/10.21243/mi-01-25-26" target="_blank">Freinhofer et al. (2025)</a> · PCRR-Framework (PH Tirol)</p>
 </div>
 
-<div style="font-size: 0.9em;">
-<strong>Plan — Create — Review — Reflect</strong>
-
-<p style="margin-top: 0.5em;">Ein <strong>pädagogischer Prompting-Rahmen</strong> aus der PH Tirol. Iterativ entwickelt im universitären Lehrbetrieb, in drei Praxisfällen getestet.</p>
-
-<p style="margin-top: 0.8em;">Für den ABU-Unterricht ermöglicht die Phasenstruktur eine reflektierte Prompt-Arbeit, die auch Lernenden vermittelt werden kann.</p>
-
-<div class="evidence" style="margin-top: 0.8em;">
-<div class="evidence-text" style="font-size: 0.85em;">"Prompt Literacy ist ein eigenes Lernziel, nicht bloss eine Technik."</div>
-<div class="evidence-source"><a href="https://doi.org/10.1002/jaal.70020" target="_blank">Tour & Zadorozhnyy (2025)</a>, JAAL.</div>
+<div style="font-size: 0.87em; line-height: 1.55;">
+<strong>PCRR</strong>: Plan — Create — Review — Reflect.
+<p style="margin-top: 0.5em;">Ein pädagogischer Prompting-Rahmen, iterativ in drei Praxisfällen erprobt. Statt "einfach prompten" eine bewusste Phasen-Struktur, die auch Lernenden vermittelbar ist.</p>
+<div class="evidence" style="margin-top: 0.6em;">
+<div class="evidence-text" style="font-size: 0.92em;">"Prompt Literacy ist ein eigenständiges Lernziel, nicht bloss eine Technik." — <a href="https://doi.org/10.1002/jaal.70020" target="_blank">Tour &amp; Zadorozhnyy (2025)</a></div>
 </div>
 </div>
 
 </div>
 
-## Phase 4: Überarbeiten · Haverkamp · Mollick · Kentz
+## Phase 4 · Überarbeiten — Haverkamp · Mollick · Kentz
 
-<div class="workflow">
+<div class="workflow" style="margin-top: 0.3em;">
 <div class="wf-step analog">
-<div class="wf-label">1 · Peer · <a href="https://the-decoder.de/ein-lehrer-laesst-ki-bei-klassenarbeiten-zu-das-hat-er-dabei-gelernt/" target="_blank">nach Haverkamp, Gütersloh</a></div>
+<div class="wf-label">1 · Peer · <a href="https://the-decoder.de/ein-lehrer-laesst-ki-bei-klassenarbeiten-zu-das-hat-er-dabei-gelernt/" target="_blank">nach Haverkamp</a></div>
 <div class="wf-title">Peer liest laut vor</div>
-<div class="wf-detail">Haverkamp lässt Paare <strong>vor jeder KI-Nutzung</strong> gegenseitig vorlesen. Stolperstellen werden händisch rot markiert. "Der Mund erkennt Brüche, die das Auge überliest."</div>
+<div class="wf-detail">"<em>Der Mund erkennt Brüche, die das Auge überliest.</em>" Stolperstellen rot markieren vor jeder KI-Nutzung.</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
 <div class="wf-label">2 · KI · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995" target="_blank">nach Mollick (Tutor-Rolle)</a></div>
-<div class="wf-title">Sokratische Fragen statt Korrektur</div>
-<div class="wf-detail">"<em>You are my tutor. Ask me 3 Socratic questions about my argument that I cannot easily answer. Do not correct, do not add — only question.</em>"<br><small>Mollick: bewusster Wechsel vom "Helper" zum "Challenger".</small></div>
+<div class="wf-title">Sokratische Fragen</div>
+<div class="wf-detail">"<em>Ask me 3 Socratic questions about my argument that I cannot easily answer. Do not correct — only question.</em>"</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
-<div class="wf-label">3 · Allein · <a href="https://mikekentz.substack.com/p/a-new-assessment-design-framework" target="_blank">nach Mike Kentz, Savannah</a></div>
+<div class="wf-label">3 · Allein · <a href="https://mikekentz.substack.com/p/a-new-assessment-design-framework" target="_blank">nach Kentz</a></div>
 <div class="wf-title">Transkript-Annotation</div>
-<div class="wf-detail">Kentz bewertet <strong>Chat-Transkripte statt Essays</strong>: Hat die KI echte Brüche markiert? Welche Antworten waren flach? <em>Wo habe ich kapituliert?</em></div>
+<div class="wf-detail">Chat-Transkript wird nach Rubric bewertet. <em>Wo habe ich kapituliert?</em></div>
 </div>
 </div>
 
-<div class="citation" style="margin-top: 1em;">
-"Hybrides Feedback (KI + Mensch) übertrifft beide einzeln." — <a href="https://doi.org/10.1080/17501229.2025.2503890" target="_blank">Zhang et al. (2025)</a>
-</div>
-
-## Phase 4: Adaptives KI-Feedback — ArguaTutor
-
-<div style="display: grid; grid-template-columns: 1fr 1fr 0.9fr; gap: 1rem;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1em;">
 
 <div>
 <a class="linked-img" href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Rezat-et-al-2025-LR-JG12-H11.pdf" target="_blank">
 <img src="images/literature-figures/rezat-arguatutor.png" style="width: 100%;" alt="ArguaTutor">
 </a>
-<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Rezat-et-al-2025-LR-JG12-H11.pdf" target="_blank">Rezat et al. (2025)</a> — ArguaTutor im DFG-Projekt Argue</p>
+<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Rezat-et-al-2025-LR-JG12-H11.pdf" target="_blank">Rezat et al. (2025)</a> · ArguaTutor (DFG-Projekt Argue)</p>
 </div>
 
 <div>
 <a class="linked-img" href="https://doi.org/10.3389/feduc.2025.1614673" target="_blank">
 <img src="images/literature-figures/alnemrat-deskriptive-gruppenvergleich.png" style="width: 100%;" alt="Alnemrat Gruppenvergleich">
 </a>
-<p class="credit"><a href="https://doi.org/10.3389/feduc.2025.1614673" target="_blank">Alnemrat et al. (2025)</a> — Pre/Post/Gain × AI vs. Lehrperson × Sprachniveau</p>
-</div>
-
-<div style="font-size: 0.82em; line-height: 1.55;">
-<p><strong>ArguaTutor:</strong> automatisierte Identifikation argumentativer Strukturen · Rating der Schreibqualität · adaptives Feedback auf Basis schreibdidaktischer Fördermassnahmen.</p>
-<p style="margin-top: 0.7em;">Der Tutor operiert nicht korrigierend, sondern fragend.</p>
-<div class="evidence" style="margin-top: 0.8em;">
-<div class="evidence-text" style="font-size: 0.95em;">Der Ansatz ist auf Pflegedokumentation, Praktikumsberichte und reflektierende Texte übertragbar.</div>
-</div>
+<p class="credit"><a href="https://doi.org/10.3389/feduc.2025.1614673" target="_blank">Alnemrat et al. (2025)</a> · Pre/Post/Gain × AI vs. Lehrperson × Sprachniveau</p>
 </div>
 
 </div>
@@ -657,64 +445,65 @@ Schülertext "Mira Imhof" und Prompt-Vorlage auf dem Handout + QR-Code.<br>
 
 </div>
 
-## Synthese — drei didaktische Leitsätze
+## Drei Antworten auf drei Fragen
 
-<ol class="takeaway-list">
-<li>Generative KI ersetzt keine Schreibphase. Sie verändert, wie Schreibphasen gestaltet werden.</li>
-<li>Analoge und digitale Verfahren bilden keine Addition, sondern eine Komposition — mit phasenspezifischen Entscheidungen.</li>
-<li>Prompt-Kompetenz ist ein eigenständiges Lernziel und muss als solches explizit vermittelt werden.</li>
-</ol>
+<div style="margin-top: 0.4em; font-size: 0.88em; color: #666; font-style: italic;">
+Die drei Leitfragen vom Anfang — und was ich Ihnen darauf antworten kann.
+</div>
 
-## Weiterführende Materialien
+<div style="display: grid; grid-template-columns: auto 1fr; gap: 0.8rem 1.2rem; margin-top: 1.2em; font-size: 0.95em; line-height: 1.55;">
 
-<div style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.5rem; margin-top: 0.8em; align-items: center;">
+<div style="font-weight: 700; color: #e30059; font-size: 1.4em; text-align: right;">1</div>
+<div>
+<div style="font-weight: 600; color: #7a00df;">Welche Forschungsevidenz ist handlungsleitend?</div>
+<div style="margin-top: 0.3em;">KI wirkt bei <strong>didaktischer Einbettung</strong> — aber mit messbarem Preis: "Individuell kreativer, kollektiv einförmiger, kognitiv kapitulierend."</div>
+</div>
 
-<div style="font-size: 0.9em;">
-<strong>Begleitmaterialien im Repositorium:</strong>
+<div style="font-weight: 700; color: #e30059; font-size: 1.4em; text-align: right;">2</div>
+<div>
+<div style="font-weight: 600; color: #7a00df;">Wie kombinieren Lehrpersonen konkret?</div>
+<div style="margin-top: 0.3em;">Immer im Muster <strong>analog → KI → analog</strong>. Die KI-Rolle wird bewusst gewählt: Tutor (Fragen) · Partner (Varianten) · niemals Ghostwriter.</div>
+</div>
+
+<div style="font-weight: 700; color: #e30059; font-size: 1.4em; text-align: right;">3</div>
+<div>
+<div style="font-weight: 600; color: #7a00df;">Drei Entscheidungen vor Montag?</div>
+<div style="margin-top: 0.3em;">Prüfungsformat adaptieren (Prompt-Protokoll + mündliche Verteidigung) · Datenschutz wahren (CH/EU-gehostete Oberflächen) · Klassenregel mit Lernenden aushandeln.</div>
+</div>
+
+</div>
+
+<div style="margin-top: 1.5em; text-align: center; font-size: 1.2em; font-style: italic; color: #e30059;">
+"Prompt-Kompetenz ist ein Lernziel — keine Abkürzung."
+</div>
+
+## Materialien · Tools · Repo
+
+<div style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.5rem; margin-top: 0.6em;">
+
+<div style="font-size: 0.9em; line-height: 1.55;">
+<strong>Im Repo</strong> (QR →):
 <ul style="margin-top: 0.4em; list-style: none; padding: 0;">
-<li>📋 <strong>Cheat-Sheet A4</strong> — 4 Phasen · 4 Workflows · Ghost/Partner/Tutor</li>
-<li>✍️ <strong>Prompt-Sammlung</strong> — 12 getestete Prompts für ABU</li>
-<li>📄 <strong>Schülertext "Mira Imhof"</strong> — PDF für Hands-on</li>
-<li>📚 <strong>60 Literatur-Quellen</strong> (2025/26, APA 7)</li>
-<li>🎨 <strong>Slides</strong> als HTML & PDF</li>
+<li>📋 Cheat-Sheet A4 · 4 Phasen · 4 Workflows</li>
+<li>✍️ Prompt-Sammlung · 12 getestete Prompts für ABU</li>
+<li>📄 Schülertext Mira Imhof · Hands-on-PDF</li>
+<li>📚 60 Literatur-Quellen 2025/26 · APA 7</li>
+<li>🎨 Slides als HTML &amp; PDF</li>
 </ul>
-<div style="margin-top: 0.9em; font-style: italic; color: #666; font-size: 0.85em;">
+
+<div style="margin-top: 1.2em; padding: 0.8rem 1rem; background: #f4f4f2; border-radius: 8px; border-left: 3px solid #e30059;">
+<strong style="color: #e30059;">Claude selbst ausprobieren</strong><br>
+<a href="https://claude.ai/download" target="_blank">claude.ai/download</a> · Desktop-App für Mac &amp; Windows · kostenfreier Tarif verfügbar.
+</div>
+
+<div style="margin-top: 0.9em; font-size: 0.8em; color: #888; font-style: italic;">
 github.com/ramonfueglister/picts_intensivwoche_2026
 </div>
 </div>
 
-<div style="text-align: center; padding: 1.5rem; background: #f4f4f2; border-radius: 12px;">
-<div style="font-size: 5em; color: #e30059; line-height: 1; font-family: monospace;">⬛⬜⬛<br>⬜⬛⬜<br>⬛⬜⬛</div>
+<div style="text-align: center; padding: 1rem; background: #f4f4f2; border-radius: 12px;">
+<div style="font-size: 4.5em; color: #e30059; line-height: 1; font-family: monospace;">⬛⬜⬛<br>⬜⬛⬜<br>⬛⬜⬛</div>
 <div style="font-size: 0.75em; color: #666; margin-top: 0.4em;">QR-Code zum Repo</div>
-</div>
-
-</div>
-
-## Wo Sie Claude selbst ausprobieren
-
-<div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 1.5rem; margin-top: 0.6em; align-items: center;">
-
-<div>
-<a class="linked-img" href="https://claude.ai/download" target="_blank">
-<img src="images/claude-app/claude-download.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12);" alt="Claude Desktop App">
-</a>
-<p class="credit"><a href="https://claude.ai/download" target="_blank">claude.ai/download</a> · Stand 2026-04-16</p>
-</div>
-
-<div style="font-size: 0.9em; line-height: 1.55;">
-<p><strong>Claude Desktop App</strong> · macOS und Windows · kostenfreier Tarif verfügbar.</p>
-
-<ul style="margin-top: 0.5em;">
-<li>Zugriff per Tastaturkurzbefehl aus jedem Programm (Alt+Space auf Mac)</li>
-<li>Datei-Upload direkt aus dem Finder</li>
-<li>Projekt-Kontext bleibt zwischen Sitzungen erhalten</li>
-<li>Integration mit E-Mail, Kalender, Drive für schulische Nutzung optional</li>
-</ul>
-
-<div class="evidence" style="margin-top: 0.9em;">
-<div class="evidence-label">Hinweis</div>
-<div class="evidence-text" style="font-size: 0.88em;">Dieser Input entstand in wenigen Stunden in Co-Produktion mit Claude. Die Einstiegs­animation hat Claude selbst gestaltet.</div>
-</div>
 </div>
 
 </div>
