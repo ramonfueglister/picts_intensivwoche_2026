@@ -1,0 +1,85 @@
+---
+title: "KI im Schreibprozess"
+subtitle: "4 Phasen · 4 Workflows · Faustregel Analog-first"
+format:
+  html:
+    embed-resources: true
+    css: cheatsheet.css
+    page-layout: custom
+    toc: false
+---
+
+```{=html}
+<div class="sheet">
+
+<div class="header">
+  <div class="title">
+    <div class="h1">KI im Schreibprozess</div>
+    <div class="h2">4 Phasen · 4 Workflows für dein ABU-Klassenzimmer</div>
+  </div>
+  <div class="rule">
+    <div class="rule-label">Faustregel</div>
+    <div class="rule-text">Eigenes Denken zuerst → KI-Input → dein Entscheid</div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="phase">
+    <div class="phase-num">1</div>
+    <div class="phase-title">Planen</div>
+    <div class="phase-step"><span class="s-num">①</span> Cluster händisch zum Thema</div>
+    <div class="phase-step"><span class="s-num">②</span> KI: "5 fehlende Blickwinkel — je mit provokativer Frage"</div>
+    <div class="phase-step"><span class="s-num">③</span> Cluster erweitern: was übernehme ich, warum?</div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">2</div>
+    <div class="phase-title">Strukturieren</div>
+    <div class="phase-step"><span class="s-num">①</span> Post-its mit allen Stichworten/Argumenten</div>
+    <div class="phase-step"><span class="s-num">②</span> KI: "3 Gliederungen: chronol. / arg. / überra."</div>
+    <div class="phase-step"><span class="s-num">③</span> Post-its gemäss gewählter Gliederung ordnen</div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">3</div>
+    <div class="phase-title">Formulieren</div>
+    <div class="phase-step"><span class="s-num">①</span> Freewriting 5 Min. (Hand, ohne Korrektur)</div>
+    <div class="phase-step"><span class="s-num">②</span> KI: "3 Varianten für die 3 holprigsten Stellen"</div>
+    <div class="phase-step"><span class="s-num">③</span> Annehmen / ablehnen / verändern</div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">4</div>
+    <div class="phase-title">Überarbeiten</div>
+    <div class="phase-step"><span class="s-num">①</span> Peer: laut vorlesen, Stolperstellen markieren</div>
+    <div class="phase-step"><span class="s-num">②</span> KI: "3 Argumentations-Brüche — nur Fragen stellen"</div>
+    <div class="phase-step"><span class="s-num">③</span> Eigene Fassung schreiben</div>
+  </div>
+</div>
+
+<div class="footer-box">
+  <div class="gpt-model">
+    <div class="gpt-label">KI-Rolle bewusst wählen</div>
+    <div class="gpt-grid">
+      <div class="gpt-item"><strong>Ghost</strong> · KI schreibt, Mensch verbirgt → problematisch</div>
+      <div class="gpt-item middle"><strong>Partner</strong> · KI schlägt vor, Mensch entscheidet → Standard</div>
+      <div class="gpt-item"><strong>Tutor</strong> · KI fragt, Mensch lernt → ideal zum Überarbeiten</div>
+    </div>
+    <div class="gpt-source">Steinhoff & Lehnen (2025), Leseräume 12(11)</div>
+  </div>
+  <div class="meta">
+    <div class="meta-qr">
+      ▮▮▮ ▮ ▮▮▮<br>
+      ▮ ▮ ▮ ▮ ▮<br>
+      ▮▮▮ ▮ ▮▮▮
+    </div>
+    <div class="meta-links">
+      <div><strong>Prompts · Literatur · Slides</strong></div>
+      <div>github.com/ramonfueglister/picts-schreiben-ki</div>
+      <div class="meta-author">Ramon Füglister · ABU · ZAG · 17.04.2026</div>
+    </div>
+  </div>
+</div>
+
+</div>
+```

@@ -1,0 +1,25 @@
+project:
+  type: default
+  output-dir: _output
+
+format:
+  revealjs:
+    theme: [default, _extensions/zag-theme/zag.scss]
+    slide-number: c/t
+    footer: "PICTS-Input · Ramon Füglister · ZAG · 17.04.2026"
+    progress: true
+    embed-resources: true
+    transition: fade
+    width: 1280
+    height: 720
+    preview-links: auto
+    chalkboard: false
+    menu:
+      side: right
+    hash-type: title
+
+execute:
+  echo: false
+  freeze: auto
+
+lang: de-CH

@@ -1,0 +1,17 @@
+# Quarto build artifacts
+/.quarto/
+*_files/
+
+# Temp / generated for verification
+/_check/
+.DS_Store
+
+# Brainstorm companion (local only)
+/.superpowers/
+
+# Claude Code session artifacts
+/.claude/
+
+# PDFs extracted for reference — keep originals, not extracted
+images/literature-pdfs/extracted_*/
+images/literature-pdfs/download.py

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+@page { size: A4 portrait; margin: 15mm; }
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0; padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #1a1a1a; background: #fafaf9;
+  font-size: 11pt; line-height: 1.5;
+}
+
+.quarto-title-block, header, .quarto-title-banner { display: none !important; }
+
+.sheet {
+  max-width: 180mm;
+  padding: 8mm 10mm;
+  margin: 0 auto;
+  background: white;
+}
+
+.header { padding-bottom: 4mm; border-bottom: 2px solid #e30059; margin-bottom: 6mm; }
+.title { font-size: 18pt; font-weight: 700; color: #e30059; letter-spacing: -0.02em; }
+.subtitle { font-size: 10pt; color: #666; margin-top: 2mm; font-style: italic; }
+
+.kontext {
+  background: rgba(122, 0, 223, 0.05);
+  border-left: 3px solid #7a00df;
+  padding: 3mm 4mm;
+  margin-bottom: 6mm;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+
+.text {
+  font-family: Georgia, serif;
+  font-size: 11pt;
+  line-height: 1.7;
+  background: #fdfdfc;
+  border: 1px solid #e8e8e6;
+  border-left: 3px solid #e30059;
+  padding: 5mm 6mm;
+  white-space: pre-line;
+  margin-bottom: 6mm;
+}
+
+.prompt-box {
+  background: #f4f4f2;
+  border-left: 3px solid #7a00df;
+  border-radius: 2mm;
+  padding: 4mm 5mm;
+  margin-bottom: 6mm;
+}
+
+.prompt-label {
+  font-size: 8pt;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7a00df;
+  font-weight: 700;
+  margin-bottom: 2mm;
+}
+
+.prompt {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5pt;
+  line-height: 1.55;
+  color: #2a2a2a;
+}
+
+.placeholder {
+  background: rgba(227, 0, 89, 0.15);
+  padding: 0 1mm;
+  border-radius: 1mm;
+  color: #e30059;
+  font-weight: 600;
+}
+
+.reflection {
+  background: white;
+  border: 1px solid #e8e8e6;
+  border-top: 3px solid #e30059;
+  border-radius: 2mm;
+  padding: 4mm 5mm;
+  margin-bottom: 6mm;
+}
+
+.reflection-label {
+  font-weight: 600;
+  color: #e30059;
+  margin-bottom: 2mm;
+  font-size: 10pt;
+}
+
+.reflection ol {
+  margin: 0;
+  padding-left: 5mm;
+  font-size: 10pt;
+  line-height: 1.55;
+}
+
+.reflection li { margin-bottom: 1.5mm; }
+
+.footer {
+  font-size: 8pt;
+  color: #888;
+  font-style: italic;
+  text-align: center;
+  padding-top: 4mm;
+  border-top: 1px solid #e8e8e6;
+}

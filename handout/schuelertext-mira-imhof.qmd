@@ -1,0 +1,71 @@
+---
+title: "Schülertext Mira Imhof — Hands-on-Material"
+subtitle: "FaGe-Bewerbung · erstentwurf ABU · anonymisiert"
+format:
+  html:
+    embed-resources: true
+    css: schuelertext.css
+    page-layout: custom
+    toc: false
+---
+
+```{=html}
+<div class="sheet">
+
+<div class="header">
+  <div class="title">Schülertext für den Hands-on</div>
+  <div class="subtitle">Mira Imhof · 15 · Erstentwurf Bewerbungsschreiben FaGe EFZ · anonymisiert</div>
+</div>
+
+<div class="kontext">
+  <strong>Kontext:</strong> Mira hat in deiner ABU-Stunde einen Erstentwurf für eine Lehrstellen-Bewerbung als Fachperson Gesundheit EFZ geschrieben. Du möchtest sie begleiten, diesen Text zu überarbeiten — mit Unterstützung einer KI, die <em>Fragen stellt</em> statt Antworten liefert.
+</div>
+
+<div class="text">
+Sehr geehrte Damen und Herren
+
+Ich bewerbe mich auf die Ausbildungsstelle die in den Winterthurer Zeitung ausgeschrieben ist. Ich interessiere mich sehr für diesen Beruf weil ich schon immer Menschen helfen wollte und mir die Arbeit im Spital auch gefallen würde. Ich bin sehr motiviert und lerne auch schnell was neues.
+
+Ich besuche aktuell die 3. Sek in Winterthur und habe gute Noten in Biologie und Deutsch. Ich habe auch schon eine Schnupperlehre in einem Altersheim gemacht wo es mir sehr gut gefallen hat. Die Pflegefachperson hat gesagt das ich sehr geeignet für den Beruf bin weil ich sehr freundlich und zuverlässig bin.
+
+In meiner Freizeit spiele ich gerne Fussball und gehe mit meinen Freunden ins Kino. Ich fahre auch sehr gerne Velo. Ich wohne mit meinen Eltern und meinem Bruder in Winterthur.
+
+Ich freue mich auf ein persönliches Gespräch mit ihnen wo ich mehr über mich erzählen kann und sie mich besser kennen lernen können. Sie können mich gerne anrufen unter der Nummer die oben steht.
+
+Freundliche Grüsse<br>
+Mira Imhof
+</div>
+
+<div class="prompt-box">
+<div class="prompt-label">Prompt-Vorlage (kopieren in ChatGPT / Claude / Gemini)</div>
+<div class="prompt">
+Du bist meine kritische Leserin.<br><br>
+
+Hier ist ein Text einer Lernenden für eine FaGe-Lehrstellen­bewerbung:<br><br>
+
+<span class="placeholder">[TEXT EINFÜGEN]</span><br><br>
+
+Gib mir:<br>
+1. Drei konkrete Stellen, an denen der Text für eine Bewerbung nicht überzeugt — mit Begründung.<br>
+2. Eine Formulierungsalternative für den schwächsten Satz.<br>
+3. Eine Frage, die ich der Lernenden stellen könnte, damit sie ihren Text selbst überarbeiten kann.<br><br>
+
+Bleibe konkret und bezogen auf den Text. Schreibe höchstens 120 Wörter. Korrigiere KEINE Fehler — konzentriere dich auf Inhalt und Argumentation.
+</div>
+</div>
+
+<div class="reflection">
+<div class="reflection-label">Nach dem KI-Durchlauf — im Paar besprechen:</div>
+<ol>
+<li>Welche der 3 Stellen habt ihr übernommen? Welche nicht? <strong>Warum?</strong></li>
+<li>Wo war die KI schneller als ihr — wo seid ihr schneller als die KI?</li>
+<li>Welche Frage würdet ihr Mira wirklich stellen?</li>
+</ol>
+</div>
+
+<div class="footer">
+PICTS-Input · Ramon Füglister · ZAG · 17.04.2026 · github.com/ramonfueglister/picts-schreiben-ki
+</div>
+
+</div>
+```
