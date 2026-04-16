@@ -62,7 +62,7 @@ format:
 
 <div class="stage stage-4">
 <div class="warning-frame"></div>
-<div class="warning-text">COGNITIVE<br>SURRENDER</div>
+<div class="warning-text">KOGNITIVE<br>KAPITULATION</div>
 </div>
 
 <div class="stage stage-5">
@@ -99,7 +99,7 @@ Zwischen <em>Eigenarbeit</em> und <em>Übernahme</em>
 </div>
 
 <div class="evidence fragment" data-fragment-index="2" style="border-left-color: #ff1744; margin-top: 0.7em;">
-<div class="evidence-label" style="color:#ff1744;">Empirisch · Cognitive Surrender</div>
+<div class="evidence-label" style="color:#ff1744;">Empirisch · Kognitive Kapitulation</div>
 <div class="evidence-text">Akkuratheit <strong>+25 pp</strong> bei korrekter KI · <strong>−15 pp</strong> bei fehlerhafter (N = 1 372). System 1 wird betäubt, System 2 umgangen, System 3 denkt ausserhalb.</div>
 <div class="evidence-source"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave (2026)</a>, SSRN · Wharton · Tri-System-Theorie.</div>
 </div>

@@ -28,7 +28,7 @@ Dramaturgie: **Problem → Frage → Vier Phasen → Montag → Abschluss**
 | Min. | Slide | Inhalt |
 |---|---|---|
 | 00:00–00:40 | 1 | Titel |
-| 00:40–01:20 | 2 | Kunstwerk-Animation (Tri-System, Cognitive Surrender) |
+| 00:40–01:20 | 2 | Kunstwerk-Animation (Tri-System, Kognitive Kapitulation) |
 | 01:20–04:20 | 3 | Was Sie eben gesehen haben — und warum das Sorgen macht (Doshi&Hauser + Shaw&Nave + Sanz-Tejeda PRISMA) |
 | 04:20–05:20 | 4 | Drei Fragen für die nächsten 25 Minuten (Handzeichen-Erhebung) |
 | 05:20–07:20 | 5 | Vier Phasen, ein Prinzip (Hayes&Flower + Analog-first) |

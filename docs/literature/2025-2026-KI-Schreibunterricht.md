@@ -28,8 +28,7 @@
   → Online-Experiment mit 293 Schreibenden + 600 Evaluierenden: KI-Ideen steigern individuelle Kreativitäts-Bewertungen signifikant, aber Texte werden untereinander homogener.
 
 ✅ Shaw, S. D., & Nave, G. (2026). Thinking—Fast, slow, and artificial: How AI is reshaping human reasoning and the rise of cognitive surrender [Working paper]. Wharton School. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646
-  → Tri-System-Theorie (System 1 intuitiv, System 2 deliberativ, System 3 artifiziell). N = 1 372 · 9 593 Trials; +25/−15 pp Akkuratheit bei korrekter/fehlerhafter KI. "Cognitive Surrender" als Phänomen
-  → Synthese von 30 K-12-Studien; identifiziert Forschungslücke bei jüngeren Klassen im Schreiben.
+  → Tri-System-Theorie (System 1 intuitiv, System 2 deliberativ, System 3 artifiziell). N = 1 372 · 9 593 Trials; +25/−15 pp Akkuratheit bei korrekter/fehlerhafter KI. "Kognitive Kapitulation" als Phänomen (im Originaltitel als *cognitive surrender*).
 
 ✅ Jin, Y. D., & Sercu, L. (2025). ChatGPT interventions in higher education: A systematic review of experimental studies. *Journal of Computer Assisted Learning, 41*(4), Article e70072. https://doi.org/10.1111/jcal.70072
   → Experimentelle Synthese: mittlere Interventionen übertreffen Kurzinterventionen.
