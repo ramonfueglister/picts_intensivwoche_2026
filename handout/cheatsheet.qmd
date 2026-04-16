@@ -75,7 +75,7 @@ format:
     </div>
     <div class="meta-links">
       <div><strong>Prompts · Literatur · Slides</strong></div>
-      <div>github.com/ramonfueglister/picts-schreiben-ki</div>
+      <div>github.com/ramonfueglister/picts_intensivwoche_2026</div>
       <div class="meta-author">Ramon Füglister · ABU · ZAG · 17.04.2026</div>
     </div>
   </div>

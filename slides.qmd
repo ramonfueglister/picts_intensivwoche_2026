@@ -10,6 +10,78 @@ format:
     incremental: false
 ---
 
+## {.artwork-slide background-color="#0a0a0f" visibility="uncounted"}
+
+<div class="tri-system">
+
+<div class="stage stage-1">
+<div class="pulse-dot"></div>
+<div class="s1-label">SYSTEM 1 · intuitiv, schnell</div>
+<div class="s1-words">
+<span style="--x:18%;--y:28%;--d:2.7s">GEFAHR</span>
+<span style="--x:72%;--y:22%;--d:2.9s">WÄRME</span>
+<span style="--x:14%;--y:58%;--d:3.1s">HUNGER</span>
+<span style="--x:68%;--y:68%;--d:3.3s">HALT</span>
+<span style="--x:42%;--y:18%;--d:3.5s">JA</span>
+<span style="--x:82%;--y:48%;--d:3.7s">NEIN</span>
+<span style="--x:28%;--y:78%;--d:3.9s">ANGST</span>
+<span style="--x:56%;--y:38%;--d:4.1s">SCHÖN</span>
+<span style="--x:86%;--y:75%;--d:4.3s">FALSCH</span>
+<span style="--x:10%;--y:42%;--d:4.5s">SCHNELL</span>
+<span style="--x:50%;--y:56%;--d:4.7s">WAHR</span>
+<span style="--x:76%;--y:12%;--d:4.9s">LICHT</span>
+<span style="--x:24%;--y:12%;--d:5.1s">DURST</span>
+<span style="--x:62%;--y:82%;--d:5.3s">GRAU</span>
+<span style="--x:36%;--y:68%;--d:5.5s">WEH</span>
+<span style="--x:78%;--y:32%;--d:5.7s">HELL</span>
+<span style="--x:20%;--y:82%;--d:5.9s">KLIRR</span>
+<span style="--x:90%;--y:62%;--d:6.1s">WEG</span>
+</div>
+</div>
+
+<div class="stage stage-2">
+<div class="s2-label">SYSTEM 2 · deliberativ, langsam</div>
+<div class="s2-text">
+<span>Ich</span>
+<span>überlege</span>
+<span>mit</span>
+<span>Absicht</span>
+<span class="cursor">▊</span>
+</div>
+</div>
+
+<div class="stage stage-3">
+<div class="s3-grid"></div>
+<div class="s3-label">SYSTEM 3 · ausserhalb des Gehirns</div>
+<div class="s3-text">
+<div>ARTIFICIAL</div>
+<div>COGNITION</div>
+<code>&lt;thinking/&gt;</code>
+</div>
+</div>
+
+<div class="stage stage-4">
+<div class="warning-frame"></div>
+<div class="warning-text">COGNITIVE<br>SURRENDER</div>
+</div>
+
+<div class="stage stage-5">
+<div class="citation-art">
+<div class="title">Wenn System 3 übernimmt.</div>
+<div class="sub">Shaw &amp; Nave · Wharton · Januar 2026</div>
+<div class="nums">N = 1 372 · 9 593 Trials · +25 / −15 %</div>
+</div>
+</div>
+
+<div class="stage stage-6">
+<div class="final-text">
+Zwischen <em>Eigenarbeit</em> und <em>Übernahme</em>
+<span class="signature">— Schreibprozesse im Zeitalter generativer KI —</span>
+</div>
+</div>
+
+</div>
+
 ## Ausgangslage
 
 <div style="font-size: 1.15em; margin-top: 0.6em; line-height: 1.55;">
@@ -63,9 +135,15 @@ Generative KI ist seit November 2022 flächig verfügbar. Drei Fragen strukturie
 <div class="evidence-source"><a href="https://doi.org/10.1111/jcal.70105" target="_blank">Weidlich et al. (2025)</a>, JCAL, 41(5), e70105.</div>
 </div>
 
+<div class="evidence fragment" data-fragment-index="6" style="border-left-color: #ff1744;">
+<div class="evidence-label" style="color:#ff1744;">Tri-System-Theorie · Kognitive Kapitulation</div>
+<div class="evidence-text">N = 1 372 · 9 593 Trials: Akkuratheit steigt +25 pp bei korrekter KI, fällt −15 pp bei fehlerhafter — am stärksten bei tiefem <em>need for cognition</em>.</div>
+<div class="evidence-source"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave (2026)</a>, SSRN 6097646 · Wharton Research Paper.</div>
 </div>
 
-<div class="fragment" data-fragment-index="6">
+</div>
+
+<div class="fragment" data-fragment-index="7">
 <a class="linked-img" href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">
 <img src="images/literature-figures/sanz-tejeda-prisma-geo.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" alt="PRISMA-Flussdiagramm und geografische Verteilung">
 </a>
@@ -205,25 +283,25 @@ Eigenständige Konzeptarbeit → KI-Input → begründete Entscheidung
 
 <p class="credit" style="margin-top: 0.5em;">Ergänzende 30 Fälle in der Praxis-Datenbank des Repositoriums (Sydney · HKU · Tec de Monterrey · Lund · Manuel Flick · Holly Clark · NOLAI/NL · MEXT Japan · BMBWF Österreich · National Literacy Trust UK · Victoria Academy AUS · UNC Writing Center · TU Dresden · PH Freiburg · LSE · u. a.)</p>
 
-## Phase 1: Planen — didaktischer Workflow
+## Phase 1: Planen — wie echte Lehrpersonen es machen
 
 <div class="workflow">
 <div class="wf-step analog">
-<div class="wf-label">1 · Analog · 2–5 Min.</div>
-<div class="wf-title">Cluster händisch</div>
-<div class="wf-detail">Eigene Assoziationen zum Thema auf Papier — <strong>Ausgangspunkt setzen</strong>.</div>
+<div class="wf-label">1 · Analog · <a href="https://bobblume.de/2025/01/05/unterricht-vorbereitung-fuer-die-klausur-parabelinterpretation/" target="_blank">nach Bob Blume, Gym BW</a></div>
+<div class="wf-title">Strukturiertes Vorwissen zuerst</div>
+<div class="wf-detail">Lernende durchlaufen drei Schritte <strong>bevor</strong> sie KI öffnen: Problem eigenständig identifizieren · Gliederung skizzieren · eine Frage an sich selbst formulieren.</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
-<div class="wf-label">2 · KI · 1 Min.</div>
-<div class="wf-title">ChatGPT: 5 fehlende Blickwinkel</div>
-<div class="wf-detail">"Hier mein Cluster zum Thema <strong>Bewerbung als FaGe EFZ</strong>. Gib mir 5 Blickwinkel, die mir fehlen — je mit einer provokativen Frage."</div>
+<div class="wf-label">2 · KI · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995" target="_blank">nach Ethan Mollick, Wharton</a></div>
+<div class="wf-title">KI als Tutor, nicht als Autor</div>
+<div class="wf-detail">"<em>Act as a tutor for [Thema]. Ask me 5 increasingly difficult questions that test my understanding. Do not give answers — only questions.</em>"<br><small>aus "Assigning AI: Seven Approaches for Students" (SSRN 4475995).</small></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
-<div class="wf-label">3 · Analog · 2 Min.</div>
-<div class="wf-title">Cluster erweitern</div>
-<div class="wf-detail">Was übernehme ich? Was verwerfe ich? <strong>Warum?</strong></div>
+<div class="wf-label">3 · Analog · <a href="https://mikekentz.substack.com/p/what-happened-when-we-taught-ai-literacy" target="_blank">nach Mike Kentz, Savannah</a></div>
+<div class="wf-title">Chat-Transkript als Artefakt</div>
+<div class="wf-detail">Lernende annotieren den gesamten Prompt-Verlauf: <span style="color:#e30059;">rot</span> = übernommen · <span style="color:#7a00df;">lila</span> = verworfen · <span style="color:#2b6cb0;">blau</span> = eigener Gedanke nach KI.</div>
 </div>
 </div>
 
@@ -255,25 +333,25 @@ Didaktische Implikation für FaGe-/FaBe-Unterricht: Die Planungsphase ist der na
 
 </div>
 
-## Phase 2: Strukturieren — didaktischer Workflow
+## Phase 2: Strukturieren — wie echte Lehrpersonen es machen
 
 <div class="workflow">
 <div class="wf-step analog">
-<div class="wf-label">1 · Analog · 3 Min.</div>
-<div class="wf-title">Post-its mit Stichworten</div>
-<div class="wf-detail">Argumente, Fakten, Fragen auf Karten — systematische Material-Sichtung.</div>
+<div class="wf-label">1 · Analog · <a href="https://writingcenter.unc.edu/tips-and-tools/generative-ai-in-academic-writing/" target="_blank">nach UNC Writing Center</a></div>
+<div class="wf-title">Argumente händisch gewichten</div>
+<div class="wf-detail">UNC-Richtlinie: Studierende legen alle Argumente auf Post-its und markieren <strong>vor jeder KI-Konsultation</strong>: stark · mittel · schwach. Nur so wird KI-Feedback adressierbar.</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
-<div class="wf-label">2 · KI · 1 Min.</div>
-<div class="wf-title">ChatGPT: 3 Gliederungen</div>
-<div class="wf-detail">"Meine Punkte: [...]. Schlage <strong>3 Gliederungen</strong> vor: (a) chronologisch, (b) nach Argumentstärke, (c) überraschend. Begründe je in 2 Sätzen."</div>
+<div class="wf-label">2 · KI · <a href="https://www.ctl.ox.ac.uk/ai-tools-in-teaching" target="_blank">nach Oxford CTL</a></div>
+<div class="wf-title">Struktur-Varianten generieren</div>
+<div class="wf-detail">"<em>Outline this topic as (1) argumentative, (2) descriptive, (3) expository, (4) narrative essay. Compare how content priority changes.</em>"<br><small>Oxford CTL: "Essays ändern Struktur je nach Zweck — KI macht das sichtbar."</small></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
-<div class="wf-label">3 · Analog · 2 Min.</div>
-<div class="wf-title">Post-its anordnen</div>
-<div class="wf-detail">Variante wählen — <strong>mit Ausnahmen</strong>: "Argument Nr. 3 aus Variante B, nicht A".</div>
+<div class="wf-label">3 · Analog · <a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Philipp-et-al-2025-LR-JG12-H11-1.pdf" target="_blank">nach Philipp et al., PHZH iArgue</a></div>
+<div class="wf-title">Divergent → konvergent</div>
+<div class="wf-detail">KI darf <strong>divergent</strong> sein (Varianten aufmachen). Die <strong>konvergente</strong> Entscheidung — welche Struktur, warum — verantwortet die Person schriftlich.</div>
 </div>
 </div>
 
@@ -310,25 +388,25 @@ Entscheidung bleibt beim Menschen. KI gibt <strong>Optionen</strong>, nicht Antw
 
 </div>
 
-## Phase 3: Formulieren — didaktischer Workflow
+## Phase 3: Formulieren — wie echte Lehrpersonen es machen
 
 <div class="workflow">
 <div class="wf-step analog">
-<div class="wf-label">1 · Analog · 5 Min.</div>
-<div class="wf-title">Freewriting (handschriftlich, ohne Korrektur)</div>
-<div class="wf-detail">Timer, keine Korrektur, nicht absetzen — <strong>eigene Stimme</strong> entwickeln lassen.</div>
+<div class="wf-label">1 · Analog · <a href="https://schulesocialmedia.com/2024/03/25/ki-als-spiegel/" target="_blank">nach Philippe Wampfler, UZH / KS Enge</a></div>
+<div class="wf-title">Freewriting zuerst</div>
+<div class="wf-detail">Wampfler in "KI als Spiegel": <em>"Erst wenn Sie wissen, was Sie sagen wollen, ist KI als Variationswerkzeug hilfreich."</em> 5 Minuten Hand &amp; Papier, ohne Korrektur.</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
-<div class="wf-label">2 · KI · 2 Min.</div>
-<div class="wf-title">KI: 3 Satz-Varianten</div>
-<div class="wf-detail">"Hier mein Entwurf. Gib mir <strong>3 Satz-Varianten</strong> (neutral / freundlich / kritisch) für die 3 holprigsten Stellen. Lass meinen Ton intakt."</div>
+<div class="wf-label">2 · KI · <a href="https://blogs.lse.ac.uk/highereducation/2022/09/07/transforming-the-classroom-with-ai/" target="_blank">nach LSE (dokumentiert)</a></div>
+<div class="wf-title">Stil-Varianten + Reflexion</div>
+<div class="wf-detail">"<em>Here is my paragraph: [text]. Suggest improvements to style while keeping my argument. Then write a reflective paragraph comparing both versions.</em>"<br><small>LSE: besonders wertvoll für L2-/DaZ-Schreibende.</small></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
-<div class="wf-label">3 · Analog · 2 Min.</div>
-<div class="wf-title">Annehmen / verändern</div>
-<div class="wf-detail">Jede Variante einzeln prüfen: <strong>passt zu mir?</strong> — dann nur übernehmen.</div>
+<div class="wf-label">3 · Analog · <a href="https://www.edutopia.org/article/ai-writing-feedback-students/" target="_blank">nach Jen Roberts, Point Loma HS</a></div>
+<div class="wf-title">3-Spalten-Urteil</div>
+<div class="wf-detail">Roberts' Klasse bewertet jeden KI-Vorschlag in drei Spalten: <strong>Strengths</strong> · <strong>Areas of Growth</strong> · <strong>Wonderings</strong>. Übernommen nur, was mindestens zwei Strengths hat.</div>
 </div>
 </div>
 
@@ -362,25 +440,25 @@ Weitere Prompt-Muster: "Aktiv statt passiv." · "Konkret statt abstrakt." · "B2
 
 </div>
 
-## Phase 4: Überarbeiten — didaktischer Workflow
+## Phase 4: Überarbeiten — wie echte Lehrpersonen es machen
 
 <div class="workflow">
 <div class="wf-step analog">
-<div class="wf-label">1 · Peer · 5 Min.</div>
-<div class="wf-title">Peer-Review durch Vorlesen</div>
-<div class="wf-detail">Peer markiert Stolperstellen — menschliche Textresonanz als erster Zugang.</div>
+<div class="wf-label">1 · Peer · <a href="https://the-decoder.de/ein-lehrer-laesst-ki-bei-klassenarbeiten-zu-das-hat-er-dabei-gelernt/" target="_blank">nach Haverkamp, Gütersloh</a></div>
+<div class="wf-title">Peer liest laut vor</div>
+<div class="wf-detail">Haverkamp lässt Paare <strong>vor jeder KI-Nutzung</strong> gegenseitig vorlesen. Stolperstellen werden händisch rot markiert. "Der Mund erkennt Brüche, die das Auge überliest."</div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
-<div class="wf-label">2 · KI · 2 Min.</div>
-<div class="wf-title">KI in der Rolle der kritischen Leserin</div>
-<div class="wf-detail">"Finde 3 Stellen, an denen meine Argumentation brüchig wird. Stelle pro Stelle <strong>eine Frage</strong> — korrigiere nichts."</div>
+<div class="wf-label">2 · KI · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995" target="_blank">nach Mollick (Tutor-Rolle)</a></div>
+<div class="wf-title">Sokratische Fragen statt Korrektur</div>
+<div class="wf-detail">"<em>You are my tutor. Ask me 3 Socratic questions about my argument that I cannot easily answer. Do not correct, do not add — only question.</em>"<br><small>Mollick: bewusster Wechsel vom "Helper" zum "Challenger".</small></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
-<div class="wf-label">3 · Allein · 3 Min.</div>
-<div class="wf-title">Autor:innen-Fassung erstellen</div>
-<div class="wf-detail">Kombinierte Markierungen (Peer und KI) werden autor:innen­seitig integriert.</div>
+<div class="wf-label">3 · Allein · <a href="https://mikekentz.substack.com/p/a-new-assessment-design-framework" target="_blank">nach Mike Kentz, Savannah</a></div>
+<div class="wf-title">Transkript-Annotation</div>
+<div class="wf-detail">Kentz bewertet <strong>Chat-Transkripte statt Essays</strong>: Hat die KI echte Brüche markiert? Welche Antworten waren flach? <em>Wo habe ich kapituliert?</em></div>
 </div>
 </div>
 
@@ -472,13 +550,42 @@ Schülertext "Mira Imhof" und Prompt-Vorlage auf dem Handout + QR-Code.
 <li>🎨 <strong>Slides</strong> als HTML & PDF</li>
 </ul>
 <div style="margin-top: 0.9em; font-style: italic; color: #666; font-size: 0.85em;">
-github.com/ramonfueglister/picts-schreiben-ki
+github.com/ramonfueglister/picts_intensivwoche_2026
 </div>
 </div>
 
 <div style="text-align: center; padding: 1.5rem; background: #f4f4f2; border-radius: 12px;">
 <div style="font-size: 5em; color: #e30059; line-height: 1; font-family: monospace;">⬛⬜⬛<br>⬜⬛⬜<br>⬛⬜⬛</div>
 <div style="font-size: 0.75em; color: #666; margin-top: 0.4em;">QR-Code zum Repo</div>
+</div>
+
+</div>
+
+## Wo Sie Claude selbst ausprobieren
+
+<div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 1.5rem; margin-top: 0.6em; align-items: center;">
+
+<div>
+<a class="linked-img" href="https://claude.ai/download" target="_blank">
+<img src="images/claude-app/claude-download.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12);" alt="Claude Desktop App">
+</a>
+<p class="credit"><a href="https://claude.ai/download" target="_blank">claude.ai/download</a> · Stand 2026-04-16</p>
+</div>
+
+<div style="font-size: 0.9em; line-height: 1.55;">
+<p><strong>Claude Desktop App</strong> · macOS und Windows · kostenfreier Tarif verfügbar.</p>
+
+<ul style="margin-top: 0.5em;">
+<li>Zugriff per Tastaturkurzbefehl aus jedem Programm (Alt+Space auf Mac)</li>
+<li>Datei-Upload direkt aus dem Finder</li>
+<li>Projekt-Kontext bleibt zwischen Sitzungen erhalten</li>
+<li>Integration mit E-Mail, Kalender, Drive für schulische Nutzung optional</li>
+</ul>
+
+<div class="evidence" style="margin-top: 0.9em;">
+<div class="evidence-label">Hinweis</div>
+<div class="evidence-text" style="font-size: 0.88em;">Dieser Input entstand in wenigen Stunden in Co-Produktion mit Claude. Die Einstiegs­animation hat Claude selbst gestaltet.</div>
+</div>
 </div>
 
 </div>
@@ -532,6 +639,6 @@ Vielen Dank für Ihre Aufmerksamkeit.
 
 <div style="margin-top: 1.2em; font-size: 0.9em;">
 <strong>Ramon Füglister</strong> · ABU · ZAG Winterthur<br><br>
-ramon.fuglister@zag.zh.ch · Repo: github.com/ramonfueglister/picts-schreiben-ki
+ramon.fuglister@zag.zh.ch · Repo: github.com/ramonfueglister/picts_intensivwoche_2026
 </div>
 </div>

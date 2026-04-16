@@ -168,4 +168,4 @@ Die drei Rollen der KI (**Ghost · Partner · Tutor**, Steinhoff & Lehnen, 2025)
 ---
 
 *Ramon Füglister · ABU · ZAG Winterthur · 2026-04-17*
-*Repo: github.com/ramonfueglister/picts-schreiben-ki*
+*Repo: github.com/ramonfueglister/picts_intensivwoche_2026*

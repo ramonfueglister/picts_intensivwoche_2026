@@ -298,6 +298,242 @@ $code-color: $secondary;
     padding: 1rem 1.4rem;
   }
 
+  /* ===================================================
+     ARTWORK SLIDE — Tri-System animated prologue
+     Referenz: Shaw & Nave (2026), SSRN 6097646, Wharton
+     =================================================== */
+  section.artwork-slide {
+    background: #0a0a0f !important;
+    color: #ededed;
+
+    h1, h2, h3, h4, p, div { color: inherit; }
+  }
+
+  .tri-system {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    font-family: "IBM Plex Sans", sans-serif;
+    overflow: hidden;
+  }
+
+  .tri-system .stage {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+
+  /* Stage 1 — System 1 chaos (0s–8s) */
+  .tri-system .stage-1 { animation: stage-fade 8s 0s forwards; }
+  .tri-system .pulse-dot {
+    width: 18px; height: 18px; border-radius: 50%;
+    background: #ededed;
+    box-shadow: 0 0 40px rgba(255,255,255,0.6);
+    animation: pulse 1.4s 0s 3 ease-in-out;
+    position: absolute; top: 46%; left: 50%; margin-left: -9px;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+  }
+  .tri-system .s1-label {
+    position: absolute; top: 8%; left: 50%; transform: translateX(-50%);
+    font-size: 0.9em; letter-spacing: 0.4em; color: #6a6a75;
+    opacity: 0; animation: label-in 0.8s 2.5s forwards;
+  }
+  .tri-system .s1-words span {
+    position: absolute;
+    left: var(--x); top: var(--y);
+    font-weight: 700; font-size: 1.8em; letter-spacing: -0.02em;
+    color: #ededed;
+    opacity: 0; transform: translate(-50%, -50%) scale(0.3);
+    animation: s1-burst 0.9s var(--d) forwards;
+  }
+  .tri-system .s1-words span:nth-child(even) { color: #ffb8d3; }
+  .tri-system .s1-words span:nth-child(3n) { font-size: 1.4em; color: #ff5994; }
+  .tri-system .s1-words span:nth-child(5n) { font-size: 2.3em; }
+
+  /* Stage 2 — System 2 deliberation (8s–15s) */
+  .tri-system .stage-2 { animation: stage-in 1s 8s forwards, stage-out 1s 14s forwards; }
+  .tri-system .s2-label {
+    position: absolute; top: 8%;
+    font-size: 0.9em; letter-spacing: 0.4em; color: #6a6a75;
+  }
+  .tri-system .s2-text {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 3.6em; font-weight: 400;
+    color: #ededed;
+    display: flex; gap: 0.4em;
+  }
+  .tri-system .s2-text span {
+    opacity: 0;
+    animation: word-in 0.7s forwards;
+  }
+  .tri-system .s2-text span:nth-child(1) { animation-delay: 8.6s; }
+  .tri-system .s2-text span:nth-child(2) { animation-delay: 9.8s; }
+  .tri-system .s2-text span:nth-child(3) { animation-delay: 11.0s; }
+  .tri-system .s2-text span:nth-child(4) { animation-delay: 12.2s; }
+  .tri-system .s2-text span.cursor {
+    color: #e30059; animation: cursor-blink 0.7s infinite alternate, word-in 0.3s 8.4s forwards;
+  }
+
+  /* Stage 3 — System 3 emerges (15s–22s) */
+  .tri-system .stage-3 { animation: stage-in 0.7s 15s forwards, stage-out 0.7s 21.5s forwards; }
+  .tri-system .s3-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(122, 200, 255, 0.12) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(122, 200, 255, 0.12) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0; animation: grid-in 1.2s 15.2s forwards;
+  }
+  .tri-system .s3-label {
+    position: absolute; top: 8%;
+    font-size: 0.9em; letter-spacing: 0.4em; color: #7ac8ff;
+  }
+  .tri-system .s3-text {
+    text-align: center; z-index: 2;
+  }
+  .tri-system .s3-text div {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-size: 4em;
+    letter-spacing: -0.03em;
+    color: #7ac8ff;
+    text-shadow: 0 0 30px rgba(122, 200, 255, 0.4);
+    opacity: 0; animation: glitch-in 0.6s forwards;
+  }
+  .tri-system .s3-text div:nth-child(1) { animation-delay: 15.8s; }
+  .tri-system .s3-text div:nth-child(2) { animation-delay: 17.0s; }
+  .tri-system .s3-text code {
+    display: inline-block; margin-top: 1em;
+    font-size: 1.4em; color: #e30059;
+    background: rgba(227, 0, 89, 0.08);
+    padding: 0.4em 0.8em; border-radius: 4px;
+    opacity: 0; animation: word-in 0.5s 18.8s forwards;
+  }
+
+  /* Stage 4 — Warning Kognitive Kapitulation (22s–28s) */
+  .tri-system .stage-4 { animation: stage-in 0.6s 22s forwards, stage-out 0.8s 27.5s forwards; }
+  .tri-system .warning-frame {
+    position: absolute; inset: 8%;
+    border: 3px solid #ff1744;
+    box-shadow: 0 0 60px rgba(255, 23, 68, 0.4), inset 0 0 60px rgba(255, 23, 68, 0.15);
+    opacity: 0; animation: flash-in 0.3s 22.2s forwards;
+  }
+  .tri-system .warning-text {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 800;
+    font-size: 4.4em;
+    letter-spacing: 0.02em;
+    color: #ff1744;
+    text-align: center;
+    text-shadow: 0 0 40px rgba(255, 23, 68, 0.5);
+    opacity: 0; animation: word-in 0.4s 22.8s forwards;
+  }
+
+  /* Stage 5 — Citation (28s–33s) */
+  .tri-system .stage-5 { animation: stage-in 0.8s 28s forwards, stage-out 0.8s 32.5s forwards; }
+  .tri-system .citation-art {
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  .tri-system .citation-art .title {
+    font-size: 2.2em; font-weight: 700; color: #ededed; letter-spacing: -0.01em;
+  }
+  .tri-system .citation-art .sub {
+    font-size: 1em; color: #aaaab0; margin-top: 0.6em; letter-spacing: 0.08em;
+  }
+  .tri-system .citation-art .nums {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.85em; color: #7ac8ff; margin-top: 1.4em;
+  }
+
+  /* Stage 6 — Final framing (33s–40s) */
+  .tri-system .stage-6 { animation: stage-in 1s 33s forwards; }
+  .tri-system .final-text {
+    text-align: center;
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 2.6em;
+    font-weight: 300;
+    color: #ededed;
+    line-height: 1.35;
+    max-width: 80%;
+  }
+  .tri-system .final-text em {
+    font-style: normal;
+    color: #e30059;
+    font-weight: 500;
+    border-bottom: 2px solid #e30059;
+    padding-bottom: 2px;
+  }
+  .tri-system .final-text .signature {
+    display: block;
+    margin-top: 1.2em;
+    font-size: 0.45em;
+    color: #6a6a75;
+    font-style: italic;
+    letter-spacing: 0.1em;
+  }
+
+  /* Keyframes */
+  @keyframes stage-fade {
+    0% { opacity: 0; }
+    4% { opacity: 1; }
+    85% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @keyframes stage-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes stage-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.6); opacity: 0.6; }
+  }
+  @keyframes label-in {
+    from { opacity: 0; letter-spacing: 0.2em; }
+    to { opacity: 1; letter-spacing: 0.4em; }
+  }
+  @keyframes s1-burst {
+    0% { opacity: 0; transform: translate(-50%, -50%) scale(0.3); }
+    60% { opacity: 1; transform: translate(-50%, -50%) scale(1.05); }
+    100% { opacity: 0; transform: translate(-50%, -50%) scale(1); }
+  }
+  @keyframes word-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes cursor-blink {
+    from { opacity: 0.2; }
+    to { opacity: 1; }
+  }
+  @keyframes grid-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes glitch-in {
+    0% { opacity: 0; transform: translateX(-10px); filter: blur(6px); }
+    50% { opacity: 1; transform: translateX(2px); filter: blur(0); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes flash-in {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    30% { opacity: 0.6; }
+    40% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
   /* Quellen-credit unter Screenshots */
   .credit {
     font-size: 0.55em;
