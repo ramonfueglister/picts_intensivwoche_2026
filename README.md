@@ -36,7 +36,7 @@ Dramaturgie: **Problem → Frage → Vier Phasen → Montag → Abschluss**
 | 11:20–15:20 | 7 | Phase 2 Strukturieren (UNC/Oxford/iArgue + Philipp) |
 | 15:20–19:20 | 8 | Phase 3 Formulieren (Wampfler/LSE/Roberts + Freinhofer PCRR) |
 | 19:20–23:20 | 9 | Phase 4 Überarbeiten (Haverkamp/Mollick/Kentz + Rezat + Alnemrat) |
-| 23:20–25:20 | 10 | Drei Entscheidungen vor Montag (Prüfung · Datenschutz · Klassenregel) |
+| 23:20–25:20 | 10 | Vor der Umsetzung — Prüfung & Klassenregel |
 | 25:20–28:20 | 11 | Anwendungsphase · Fallarbeit |
 | 28:20–29:20 | 12 | Drei Antworten auf drei Fragen (Rückkehr zu Slide 4) |
 | 29:20–29:50 | 13 | Materialien · Tools · Repo |
