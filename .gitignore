@@ -17,3 +17,7 @@ images/literature-pdfs/extracted_*/
 images/literature-pdfs/download.py
 .env
 _output/agent/
+
+# ZAG-Lehrmaterialien: lokal benötigt aber NICHT ins öffentliche Repo
+templates/vorlagen/
+Archive.zip
