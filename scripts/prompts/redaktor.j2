@@ -1,0 +1,16 @@
+{# redaktor.j2 #}
+Redigiere den VA-Text, ohne Inhalt zu ändern.
+
+Ziele:
+- Stil vereinheitlichen: Stimme von Luca Brunner (FaGe 24b, 19 Jahre, persönlich, nicht akademisch)
+- Schreibstil-Marker sichtbar machen: {{ u.schuelerin.schreibstil_marker | join("; ") }}
+- Doppelpunkt-Gendern strikt: "Lernende:r", "Klient:innen", "Pflegefachleute" (neutral)
+- 1-2 kleinere stilistische Unsicherheiten bewusst lassen (z.B. ein zu langer Satz, ein "eigentlich")
+- Keine neuen Fakten erfinden
+- Interview-Fussnoten "(Interview Dr. Weber, 20.02.2026)" beibehalten
+- Umfrage-Zahlen nicht ändern
+
+Input:
+{{ md }}
+
+Gib den revidierten Markdown-Text komplett zurück. Keine Meta-Kommentare.
