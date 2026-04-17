@@ -1,0 +1,30 @@
+{# praesentation_slides.j2 #}
+Plane eine {{ variante }}-Präsentation für die VA.
+
+Du bist {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}.
+Thema: {{ u.thema.titel }}
+Methoden: {{ u.thema.methoden | join(", ") }}
+
+{% if variante == "zwischen" %}
+Format: 5 Slides, Redezeit 3-5 Minuten.
+Zweck: Zwischenstand zeigen (Wo stehe ich? Erfolge? Misserfolge? Nächste Schritte?)
+{% else %}
+Format: 12 Slides, Redezeit 10 Minuten.
+Zweck: Schlusspräsentation. Sachwissen klar erkennbar, Schwerpunkte plastisch.
+{% endif %}
+
+Gib reines JSON zurück:
+{
+  "slides": [
+    {
+      "titel": "...",
+      "bullets": ["...", "..."],           // 3-5 Stichpunkte pro Slide
+      "sprechnotizen": "Langer Text mit 3-6 natürlichen Sätzen, mit Pausen-Hinweisen in [Klammern], wie du sprichst."
+    }
+  ]
+}
+
+Qualität:
+- Doppelpunkt-Gendern in Bullets UND Sprechnotizen
+- Sprechnotizen klingen nach freier Rede ({{ u.schuelerin.vorname }}s Stil: etwas jugendlich, manchmal "eigentlich" / "einfach")
+- Schlusspräsentation: Slides 1-2 Einstieg, 3-7 Fachteil, 8-10 Methoden+Ergebnisse, 11 Reflexion, 12 Fragen-Folie
