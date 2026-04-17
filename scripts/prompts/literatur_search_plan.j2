@@ -1,0 +1,19 @@
+{# scripts/prompts/literatur_search_plan.j2 #}
+Du planst die Literaturrecherche für eine Vertiefungsarbeit.
+
+Thema: {{ u.thema.titel }}
+Rahmen: {{ u.thema.rahmen }}
+Aspekte: {{ u.thema.aspekte | join(", ") }}
+
+Gib EXAKT folgendes JSON zurück (keine Markdown-Fences, nur JSON):
+{
+  "google_books_queries": ["...", "...", "..."],     // 3 Suchbegriffe (Deutsch, CH-Fokus)
+  "openalex_queries": ["...", "..."],                 // 2 Suchbegriffe (Englisch, akademisch)
+  "pubmed_queries": ["..."],                          // 1 Suchbegriff (wenn Gesundheitsthema, sonst leer)
+  "srf_urls": ["https://www.srf.ch/..."]              // 1-2 reale SRF-URLs, die zum Thema passen, aus deinem Wissen
+}
+
+Qualitätsregeln:
+- Mindestens eine Query mit "Schweiz" oder "Zürich"
+- Queries sind konkret genug um Volltreffer zu geben
+- SRF-URLs sind reale Pfade, die du aus dem Training kennst (kein Halluzinieren!)
