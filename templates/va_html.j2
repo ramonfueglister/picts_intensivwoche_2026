@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><meta charset="utf-8"><title>{{ u.thema.titel }}</title>
+<style>{{ css }}
+.toc { margin: 1em 0; }
+.toc ul { list-style: none; padding-left: 0; }
+.toc li { padding-left: 1em; }
+.figure { margin: 1em 0; text-align: center; page-break-inside: avoid; }
+</style></head>
+<body>
+
+{# Titelblatt #}
+<div style="page-break-after: always; text-align: center; padding-top: 6cm;">
+<div style="font-size: 10pt;">Vertiefungsarbeit · Allgemeinbildender Unterricht · {{ u.schuelerin.schule }}</div>
+<div style="font-size: 10pt; margin-top: 0.3cm;">Rahmenthema: <strong>{{ u.thema.rahmen }}</strong></div>
+<h1 style="font-size: 24pt; margin-top: 4cm;">{{ u.thema.titel }}</h1>
+<div style="font-size: 14pt; margin-top: 3cm;">{{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}</div>
+<div style="font-size: 11pt;">{{ u.schuelerin.klasse }}</div>
+<div style="font-size: 11pt; margin-top: 2cm;">Lehrperson: {{ u.schuelerin.lehrperson }}</div>
+<div style="font-size: 11pt; margin-top: 0.2cm;">Abgabedatum: 15. April 2026</div>
+</div>
+
+{{ body_html | safe }}
+
+</body></html>
