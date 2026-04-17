@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8"><title>Einverständniserklärung</title>
+<style>{{ css }}</style></head><body>
+<h1>Einverständniserklärung für die Nutzung von Daten, Bildern etc. für die VA</h1>
+
+<p><em>Für die Verwendung von Audio- und Videoaufnahmen, Bildern, Aussagen und Namen ist das Einverständnis der betroffenen Person/en notwendig und darf nur im Rahmen dieser VA verwendet werden. Eine weitere Verwendung ist nicht vorgesehen und bedarf einer weiteren Einverständniserklärung für andere Zwecke.</em></p>
+
+<table style="width: 100%;">
+<tr><td><strong>Thema der Vertiefungsarbeit:</strong></td><td>{{ u.thema.titel }}</td></tr>
+<tr><td><strong>Verfasser:in der Arbeit:</strong></td><td>{{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}</td></tr>
+<tr><td><strong>Interviewte Person:</strong></td><td>{{ u.interviewperson.name_anzeige }}</td></tr>
+<tr><td><strong>Betreuende Lehrperson:</strong></td><td>{{ u.schuelerin.lehrperson }}</td></tr>
+<tr><td><strong>Datum des Interviews:</strong></td><td>{{ u.interviewperson.interview_termin }}</td></tr>
+</table>
+
+<p style="margin-top: 1.5em;"><strong>Hiermit erkläre ich mich damit einverstanden, dass</strong></p>
+<ul style="list-style: none; padding-left: 0;">
+<li>☒ meine Tonaufnahmen verwendet werden dürfen</li>
+<li>☐ mein Bild / Bildaufnahmen (Video) verwendet werden kann</li>
+<li>☒ meine Aussagen verwendet werden können</li>
+<li>☒ mein Name verwendet werden kann.</li>
+</ul>
+
+<table style="margin-top: 2cm; width: 100%; border: none;">
+<tr style="border: none;">
+  <td style="border: none; width: 33%;"><div style="border-bottom: 1px solid #000; height: 40px;"></div><div>Ort</div><div>Winterthur</div></td>
+  <td style="border: none; width: 33%;"><div style="border-bottom: 1px solid #000; height: 40px;"></div><div>Datum</div><div>{{ u.interviewperson.interview_termin }}</div></td>
+  <td style="border: none; width: 33%;"><div style="border-bottom: 1px solid #000; height: 40px; display: flex; align-items: flex-end;">{{ signature_weber | safe }}</div><div>Unterschrift</div></td>
+</tr>
+</table>
+</body></html>
