@@ -68,8 +68,8 @@ format:
 <div class="stage stage-5">
 <div class="citation-art">
 <div class="title">Wenn wir die KI blind übernehmen.</div>
-<div class="sub">Mit korrekter KI: Trefferquote <strong>+25 %-Punkte</strong>.<br>Mit fehlerhafter KI: <strong>−15 %-Punkte</strong>.</div>
-<div class="nums">Shaw &amp; Nave (2026) · Wharton · N = 1 372 Teilnehmende</div>
+<div class="sub">1 372 Personen lösen Urteilsaufgaben — einmal allein, einmal mit KI-Vorschlag.<br>Ist der KI-Vorschlag richtig, werden sie um <strong>+25 %-Punkte</strong> korrekter.<br>Ist er falsch, sind sie um <strong>−15 %-Punkte</strong> schlechter.<br>Die meisten übernehmen, ohne zu prüfen.</div>
+<div class="nums">Shaw &amp; Nave (2026) · Wharton · 9 593 Trials</div>
 </div>
 </div>
 
