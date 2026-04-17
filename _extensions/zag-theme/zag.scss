@@ -309,6 +309,15 @@ $code-color: $secondary;
     h1, h2, h3, h4, p, div { color: inherit; }
   }
 
+  /* Animationen pausieren, solange die Slide nicht aktiv ist.
+     Sobald Reveal.js die Klasse .present auf die Slide setzt,
+     starten die Animationen von 0. Verhindert, dass die Animation
+     im Hintergrund weiterläuft, während man auf der Titel-Slide ist. */
+  section.artwork-slide:not(.present) .tri-system,
+  section.artwork-slide:not(.present) .tri-system * {
+    animation-play-state: paused !important;
+  }
+
   .tri-system {
     position: relative;
     width: 100%;

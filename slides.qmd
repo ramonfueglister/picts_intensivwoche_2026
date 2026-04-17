@@ -1,6 +1,6 @@
 ---
-title: "Schreibprozesse im Zeitalter generativer KI"
-subtitle: "Empirische Befunde und didaktische Konsequenzen für den ABU-Unterricht"
+title: "Kognitive Kapitulation?"
+subtitle: "Schreibprozesse im Zeitalter generativer KI"
 author: "Ramon Füglister · ABU · ZAG Winterthur"
 date: "2026-04-17"
 date-format: "D. MMMM YYYY"
@@ -78,55 +78,6 @@ format:
 Zwischen <em>Eigenarbeit</em> und <em>Übernahme</em>
 <span class="signature">— Schreibprozesse im Zeitalter generativer KI —</span>
 </div>
-</div>
-
-</div>
-
-## Was Sie eben gesehen haben — und warum das Sorgen macht
-
-<div style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 1.3rem; margin-top: 0.4em;">
-
-<div>
-
-<p style="font-size: 1.05em; line-height: 1.55; margin-bottom: 0.9em;">
-<em>Konzept · Wortauswahl · Timing · Farbcode · CSS — die Animation stammt zu 100 % von Claude.</em>
-</p>
-
-<div class="evidence fragment" data-fragment-index="1">
-<div class="evidence-label">Empirisch · KI-Kreativität</div>
-<div class="evidence-text">KI-Ideen machen Kurzgeschichten <strong>signifikant kreativer, besser geschrieben, unterhaltsamer</strong> — besonders bei weniger geübten Schreibenden (N = 293).</div>
-<div class="evidence-source"><a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank">Doshi &amp; Hauser (2024)</a>, <em>Science Advances 10</em>(28).</div>
-</div>
-
-<div class="evidence fragment" data-fragment-index="2" style="border-left-color: #ff1744; margin-top: 0.7em;">
-<div class="evidence-label" style="color:#ff1744;">Empirisch · Kognitive Kapitulation</div>
-<div class="evidence-text">Akkuratheit <strong>+25 pp</strong> bei korrekter KI · <strong>−15 pp</strong> bei fehlerhafter (N = 1 372). System 1 wird betäubt, System 2 umgangen, System 3 denkt ausserhalb.</div>
-<div class="evidence-source"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw &amp; Nave (2026)</a>, SSRN · Wharton · Tri-System-Theorie.</div>
-</div>
-
-<div class="evidence fragment" data-fragment-index="3" style="border-left-color: #7a00df; margin-top: 0.7em;">
-<div class="evidence-label" style="color:#7a00df;">Systematisches Review</div>
-<div class="evidence-text">136 Studien zu KI im Schreibprozess — wirkt, aber ausschliesslich bei didaktischer Einbettung.</div>
-<div class="evidence-source"><a href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">Sanz-Tejeda et al. (2026)</a>, <em>Frontiers in Education 10</em>, 1711718.</div>
-</div>
-
-</div>
-
-<div class="fragment" data-fragment-index="4" style="display: flex; flex-direction: column; gap: 0.8rem; justify-content: center;">
-
-<div style="text-align: center; padding: 1.2rem 1rem; background: #1a1a1a; color: white; border-radius: 10px;">
-<div style="font-size: 1.15em; line-height: 1.4; font-weight: 700; letter-spacing: -0.01em;">
-Individuell kreativer.<br>
-<span style="color: #ff5994;">Kollektiv einförmiger.</span><br>
-<span style="color: #ff1744;">Kognitiv kapitulierend.</span>
-</div>
-</div>
-
-<a class="linked-img" href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">
-<img src="images/literature-figures/sanz-tejeda-prisma-geo.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" alt="PRISMA 136 Studien">
-</a>
-<p class="credit" style="text-align: center;">Sanz-Tejeda et al. (2026) · PRISMA-Flussdiagramm &amp; geografische Verteilung</p>
-
 </div>
 
 </div>

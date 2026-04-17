@@ -21,26 +21,26 @@ Ramon Füglister · ABU · 30 Minuten
 
 ---
 
-## 🏗 Aufbau der Präsentation (14 Slides · 30 Min.)
+## 🏗 Aufbau der Präsentation (13 Slides · 30 Min.)
 
 Dramaturgie: **Problem → Frage → Vier Phasen → Montag → Abschluss**
 
 | Min. | Slide | Inhalt |
 |---|---|---|
-| 00:00–00:40 | 1 | Titel |
-| 00:40–01:20 | 2 | Kunstwerk-Animation (Tri-System, Kognitive Kapitulation) |
-| 01:20–04:20 | 3 | Was Sie eben gesehen haben — und warum das Sorgen macht (Doshi&Hauser + Shaw&Nave + Sanz-Tejeda PRISMA) |
-| 04:20–05:20 | 4 | Drei Fragen für die nächsten 25 Minuten (Handzeichen-Erhebung) |
-| 05:20–07:20 | 5 | Vier Phasen, ein Prinzip (Hayes&Flower + Analog-first) |
-| 07:20–11:20 | 6 | Phase 1 Planen (Blume/Mollick/Kentz + Schneegaß + Levine) |
-| 11:20–15:20 | 7 | Phase 2 Strukturieren (UNC/Oxford/iArgue + Philipp) |
-| 15:20–19:20 | 8 | Phase 3 Formulieren (Wampfler/LSE/Roberts + Freinhofer PCRR) |
-| 19:20–23:20 | 9 | Phase 4 Überarbeiten (Haverkamp/Mollick/Kentz + Rezat + Alnemrat) |
-| 23:20–25:20 | 10 | Vor der Umsetzung — Prüfung & Klassenregel |
-| 25:20–28:20 | 11 | Anwendungsphase · Fallarbeit |
-| 28:20–29:20 | 12 | Drei Antworten auf drei Fragen (Rückkehr zu Slide 4) |
-| 29:20–29:50 | 13 | Materialien · Tools · Repo |
-| 29:50–30:00 | 14 | Literatur · Diskussion |
+| 00:00–00:40 | 1 | Titel (Kognitive Kapitulation?) |
+| 00:40–01:20 | — | Kunstwerk-Animation (Tri-System, 40 s, uncounted) |
+| 01:20–02:50 | 2 | Drei Fragen für die nächsten 25 Minuten (Handzeichen-Erhebung) |
+| 02:50–04:50 | 3 | Vier Phasen, ein Prinzip (Hayes&Flower + Analog-first) |
+| 04:50–08:50 | 4 | Phase 1 Planen (Blume/Mollick/Kentz + Schneegaß + Levine) |
+| 08:50–12:50 | 5 | Phase 2 Strukturieren (UNC/Oxford/iArgue + Philipp) |
+| 12:50–16:50 | 6 | Phase 3 Formulieren (Wampfler/LSE/Roberts + Freinhofer PCRR) |
+| 16:50–20:50 | 7 | Phase 4 Überarbeiten (Haverkamp/Mollick/Kentz + Rezat + Alnemrat) |
+| 20:50–22:50 | 8 | Vor der Umsetzung — Prüfung & Klassenregel |
+| 22:50–25:50 | 9 | Anwendungsphase · Fallarbeit |
+| 25:50–27:50 | 10 | Drei Antworten auf drei Fragen (Rückkehr zu Slide 2) |
+| 27:50–28:50 | 11 | Materialien · Tools · Repo |
+| 28:50–29:50 | 12 | Literatur (Auswahl 2025/26, APA 7) |
+| 29:50–30:00 | 13 | Diskussion |
 
 ---
 
