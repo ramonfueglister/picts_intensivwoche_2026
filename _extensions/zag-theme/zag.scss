@@ -656,7 +656,21 @@ $code-color: $secondary;
   /* Images */
   img {
     border-radius: 4px;
-    max-height: 70vh;
+    max-height: 58vh;
+    object-fit: contain;
+  }
+
+  /* Footer-safe padding · verhindert, dass Credit-Zeilen unter dem Footer verschwinden */
+  .slides > section,
+  .slides > section > section {
+    padding-bottom: 55px !important;
+  }
+
+  /* Credit-Zeilen unter Figuren — kompakt, immer sichtbar */
+  .credit {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0 !important;
+    line-height: 1.35;
   }
 
   /* Hide default slide number styling that overlaps */
