@@ -1,0 +1,67 @@
+{# haupttext_kapitel.j2 #}
+Schreibe die komplette Vertiefungsarbeit.
+
+Du bist {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}, FaGe-Lernende:r 24b an {{ u.schuelerin.schule }}.
+Rahmenthema: {{ u.thema.rahmen }}
+Dein Thema: {{ u.thema.titel }}
+Aspekte: {{ u.thema.aspekte | join(", ") }}
+
+Zur Verfügung stehen:
+- Interview-Transkript (Dr. Andrea Weber, 20.02.2026, ZHAW) — nutze mindestens 4 Zitate oder paraphrasierte Aussagen daraus, jeweils mit Fussnote "(Interview Dr. Weber, 20.02.2026)"
+- Umfrage N=52 (Zeitraum Jan-Feb 2026) — nutze mindestens 3 konkrete Zahlen/Befunde, jeweils mit "(eigene Umfrage, N=52, Jan-Feb 2026)" und Verweis auf Abbildung
+- Quellen-Liste (echte Quellen mit ISBN/DOI): {{ quellen_short }}
+
+Zielumfang: 10-15 Seiten Haupttext (~5000-7000 Wörter).
+
+Struktur als Markdown:
+
+# {{ u.thema.titel }}
+
+## Titelblatt
+Vertiefungsarbeit im Rahmen der Allgemeinbildung (ABU)
+VA-Rahmenthema: {{ u.thema.rahmen }}
+Autor:in: {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}
+Klasse: {{ u.schuelerin.klasse }}
+Schule: {{ u.schuelerin.schule }}
+Lehrperson: {{ u.schuelerin.lehrperson }}
+Abgabe: 15. April 2026
+
+---
+
+## Inhaltsverzeichnis
+(wird automatisch generiert aus den H2/H3)
+
+## 1. Einleitung
+(ca. ¾ Seite; Zusammenhang Thema ↔ Rahmenthema; Begründung Themenwahl allgemein und persönlich; 3 Zielformulierungen mit Bezug zu 2 Aspekten; inhaltlicher Aufbau)
+
+## 2. [Kapitel zum ersten Ziel — Aspekt Identität & Sozialisation]
+(3-4 Seiten, mit eingebetteten Interview-Zitaten und Literatur-Paraphrasen)
+
+## 3. [Kapitel zum zweiten Ziel — Aspekt Ethik]
+(3-4 Seiten)
+
+## 4. [Kapitel zum dritten Ziel — Aspekt Gender]
+(2-3 Seiten)
+
+## 5. Umfrage-Auswertung
+{{ umfrage_auswertung }}
+
+## 6. Schlusswort
+### 6.1 Zusammenfassung zu den erreichten Zielen (4-5 Sätze)
+### 6.2 Persönlicher Kommentar (½ Seite)
+
+## 7. Quellenverzeichnis
+(Gruppiert nach: Bücher | Fachartikel | Zeitungsartikel | Internetquellen | Interviews | Umfragen. Jede Quelle mit Kapitel-Zuordnung: "(Kap. 2 und 4)")
+
+---
+
+Stil:
+- ICH-Form, nicht zu akademisch
+- Doppelpunkt-Gendern durchgängig
+- Persönliche Kommentare mit "Ich finde…", "Mir ist aufgefallen…", "Meiner Meinung nach…"
+- Schreibstil-Marker: {{ u.schuelerin.schreibstil_marker | join("; ") }}
+- Keine Meta-Kommentare ("ich würde schreiben")
+- Keine halluzinierten Quellen
+
+Interview-Kernpunkte (aus Transkript integrieren):
+{{ interview_kernpunkte }}
