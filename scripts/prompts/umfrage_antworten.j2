@@ -1,0 +1,24 @@
+{# umfrage_antworten.j2 #}
+Erstelle {{ u.umfrage.n_ruecklauf }} realistische Antwort-Datensätze als CSV.
+
+Fragebogen (JSON):
+{{ fragebogen_json }}
+
+Spalten:
+- id (1..{{ u.umfrage.n_ruecklauf }})
+- alter_gruppe ("18-30", "31-50", "51-70", "71+")
+- rolle ("Spitex-FaGe", "Klient:in", "Angehörige:r")
+- geschlecht ("weiblich", "männlich", "divers")
+- f1 bis f14 (Antwortwerte)
+
+Demografie-Verteilung:
+- Alter: 18-30=8, 31-50=14, 51-70=18, 71+=12
+- Rolle: Spitex-FaGe=18, Klient:in=28, Angehörige:r=6
+- Geschlecht: w=38, m=13, d=1
+
+Konsistenz-Regeln:
+- Likert-Antworten plausibel (wer "fühle mich oft einsam" = 5 ankreuzt, gibt bei "soziale Kontakte pro Woche" eher niedrige Zahlen an)
+- ~5 % Missing Values (einzelne Zellen leer lassen)
+- Bei offenen Fragen: 12 der 52 geben eine kurze Text-Antwort (2-8 Wörter), Rest leer. Antworten auf Schweizer Hochdeutsch, natürliche Sätze, teils mit kleinen Fehlern.
+
+Gib NUR CSV zurück, mit Header-Zeile. Komma-separiert. UTF-8.

@@ -1,0 +1,23 @@
+{# umfrage_fragebogen.j2 #}
+Erstelle einen Umfrage-Fragebogen zum Thema "{{ u.thema.titel }}".
+
+Zielgruppe: {{ u.umfrage.plattform }}, gemischt: Spitex-FaGe, Klient:innen (ab 65), Angehörige.
+Rücklauf-Zielgrösse: {{ u.umfrage.n_ruecklauf }} Personen.
+
+Gib reines JSON zurück (keine Fences):
+{
+  "titel": "...",
+  "einleitung": "Dank-Text mit Zweck-Erklärung, ca. 4 Sätze",
+  "fragen": [
+    {"nr": 1, "typ": "single_choice", "frage": "...", "optionen": ["...", "..."]},
+    {"nr": 2, "typ": "multi_choice", "frage": "...", "optionen": [...]},
+    {"nr": 3, "typ": "likert_5", "frage": "...", "optionen": ["Trifft gar nicht zu", "Trifft eher nicht zu", "Teils-teils", "Trifft eher zu", "Trifft voll zu"]},
+    {"nr": 4, "typ": "open_short", "frage": "..."}
+  ]
+}
+
+Regeln:
+- Exakt 14 Fragen
+- Davon 2 Demografie (Alter, Rolle: FaGe/Klient:in/Angehörige), 10 Inhalt, 2 offen
+- Mindestens 3 Likert-5-Fragen
+- Konsistent mit Aspekten {{ u.thema.aspekte | join(", ") }}
