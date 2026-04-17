@@ -1,0 +1,26 @@
+{# zwischenreflexion.j2 #}
+Schreibe eine Zwischenreflexion zur VA (Nummer {{ nummer }}).
+
+Format-Vorgabe: ½ A4-Seite, ca. 250 Wörter, Arial 10, Zeilenabstand 1.5.
+
+Du bist {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}.
+Datum: {{ datum }}
+
+{% if nummer == 1 %}
+Themen dieser Reflexion (nach Wegleitung S. 17):
+- Neues gelernt im Umgang mit Laptop / Aufgaben in TEAMS
+- VA-Thema finden + Konzept erstellen — wie ging es?
+- Was stresste, was erleichterte?
+- Wie einfach/schwer war es, ABU-Aspekte und Methoden für die Ziele auszuwählen?
+- Zeitplan erstellen, Vergleich mit jetzigem Stand
+{% else %}
+Themen dieser Reflexion (nach Wegleitung S. 18):
+- Konzept einhalten & VA schreiben: wie klappt das?
+- Grundinformationen sammeln — was war einfach, was schwer?
+- Interview, Umfrage: Aussenkontakte, Terminfindung, Durchführung
+- Zwischenpräsentation — was gelernt?
+- Vergleich Zeitplan vs. aktueller Stand
+{% endif %}
+
+Ausgabe: reines Markdown (keine H1, Titel selbst formulieren).
+Stil: Doppelpunkt-Gendern, ICH-Form, ehrlich-reflektiert.
