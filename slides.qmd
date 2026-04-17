@@ -92,7 +92,7 @@ Zwischen <em>Eigenarbeit</em> und <em>Übernahme</em>
 
 <div class="evidence" style="margin-top: 1.3em; border-left-color: #7a00df;">
 <div class="evidence-label" style="color:#7a00df;">Erhebung im Plenum</div>
-<div class="evidence-text">Wer nutzt generative KI bereits in einer Schreibaufgabe mit Lernenden? <strong>Abstufung 0–3 per Handzeichen</strong> — damit ich sehe, auf welchem Stand Sie sind.</div>
+<div class="evidence-text">Wer nutzt generative KI bereits in einer Schreibaufgabe mit Lernenden? <strong>Abstufung 0–3 per Handzeichen</strong>.</div>
 </div>
 
 <div style="margin-top: 1em; font-size: 0.8em; color: #888; font-style: italic;">
