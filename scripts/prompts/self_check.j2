@@ -1,0 +1,53 @@
+{# self_check.j2 #}
+Bewerte die VA gegen das 120-Punkte-Raster der Wegleitung.
+
+Rubrik (JSON):
+{{ rubric_json }}
+
+Verfügbare Artefakte:
+{% for a in artifacts %}- {{ a }}
+{% endfor %}
+
+Haupttext (Auszug, erste 6000 Zeichen):
+{{ haupttext_excerpt }}
+
+Konzept (erste 3000 Zeichen):
+{{ konzept_excerpt }}
+
+Projektjournal (erste 3000 Zeichen):
+{{ journal_excerpt }}
+
+Gesamtreflexion (erste 3000 Zeichen):
+{{ reflexion_excerpt }}
+
+Bewerte jedes Kriterium individuell. Sei fair — der Agent versucht die VA gut zu machen, aber sei kritisch.
+
+Teil A (Prozess, 30 P):
+- Konzeptbeschrieb (9): nur wenn Artefakt 02_konzept.pdf alle 6 Unterkriterien erfüllt
+- Projektjournal (6): nur wenn 06_projektjournal.pdf alle Wochen + Reflexion hat
+- Reflexion Arbeitsprozess (6): nur wenn 09_gesamtreflexion.pdf mind. ¾ Seite
+- Zwischenpräsentation (6): nur wenn 18_zwischenpraesentation.pptx — aber da kein Live-Vortrag, max 3/6
+- Lehrperson Beurteilung (3): immer 0/3 (nicht automatisierbar)
+
+Teil B (Produkt, 50 P): Bewerte Haupttext + Einleitung + Schluss + Quellen + Sprache
+
+Teil C (Präsentation, 40 P):
+- Struktur/Inhalt (20): nur Slides verfügbar, max 10/20
+- Nonverbal (5): 0/5
+- Verbal (5): 0/5
+- Visualisierung (10): wenn Slides OK, bis 8/10
+
+Gib reines JSON zurück:
+{
+  "teile": {
+    "A_prozess": {"score": 24, "kriterien": [{"name": "Konzeptbeschrieb", "score": 9, "max": 9, "kommentar": "..."}, ...]},
+    "B_produkt": {"score": 47, "kriterien": [...]},
+    "C_praesentation": {"score": 18, "kriterien": [...]}
+  },
+  "total": 89,
+  "note": 5.0,
+  "schwachstellen": ["...", "..."],
+  "empfehlungen_regenerierung": []
+}
+
+Notenskala: 114+=6.0, 102+=5.5, 90+=5.0, 78+=4.5, 66+=4.0, ...
