@@ -33,6 +33,15 @@ async def root():
 async def api_status():
     return get_state()
 
+@app.get("/api/score")
+async def api_score():
+    import json
+    from pathlib import Path
+    p = config.OUTPUT_DIR / "score_report.json"
+    if not p.exists():
+        return {"ready": False}
+    return {"ready": True, **json.loads(p.read_text(encoding="utf-8"))}
+
 @app.get("/api/stream")
 async def api_stream():
     bus = get_bus()
