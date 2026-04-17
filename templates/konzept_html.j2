@@ -1,0 +1,15 @@
+{# templates/konzept_html.j2 — wird von pdf_render aufgerufen #}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>VA-Konzept — {{ u.thema.titel }}</title>
+<style>{{ css }}</style>
+</head>
+<body>
+{{ body_html | safe }}
+<div class="footnote">
+Autor:in: {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }} · Klasse {{ u.schuelerin.klasse }} · {{ u.schuelerin.schule }} · Lehrperson: {{ u.schuelerin.lehrperson }}
+</div>
+</body>
+</html>
