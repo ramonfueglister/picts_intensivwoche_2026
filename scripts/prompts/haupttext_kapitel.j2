@@ -1,4 +1,4 @@
-{# haupttext_kapitel.j2 #}
+{# haupttext_kapitel.j2 — FESTE Struktur passend zur ZAG-Vorlage 05_VA_FaGe_Inhaltsverzeichnis #}
 Schreibe die komplette Vertiefungsarbeit.
 
 Du bist {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}, FaGe-Lernende:r 24b an {{ u.schuelerin.schule }}.
@@ -9,59 +9,94 @@ Aspekte: {{ u.thema.aspekte | join(", ") }}
 Zur Verfügung stehen:
 - Interview-Transkript (Dr. Andrea Weber, 20.02.2026, ZHAW) — nutze mindestens 4 Zitate oder paraphrasierte Aussagen daraus, jeweils mit Fussnote "(Interview Dr. Weber, 20.02.2026)"
 - Umfrage N=52 (Zeitraum Jan-Feb 2026) — nutze mindestens 3 konkrete Zahlen/Befunde, jeweils mit "(eigene Umfrage, N=52, Jan-Feb 2026)" und Verweis auf Abbildung
-- Quellen-Liste (echte Quellen mit ISBN/DOI): {{ quellen_short }}
+- Quellen-Liste (echte Quellen mit ISBN/DOI):
+{{ quellen_short }}
 
-Zielumfang: 10-15 Seiten Haupttext (~5000-7000 Wörter).
+Zielumfang: 10-15 A4-Seiten Haupttext (~5000-7500 Wörter). Arial 11, Zeilenabstand 1.5.
 
-Struktur als Markdown:
+**PFLICHT-Struktur** (exakt diese Headings verwenden, damit die Vorlage passt):
 
 # {{ u.thema.titel }}
 
-## Titelblatt
-Vertiefungsarbeit im Rahmen der Allgemeinbildung (ABU)
-VA-Rahmenthema: {{ u.thema.rahmen }}
-Autor:in: {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}
-Klasse: {{ u.schuelerin.klasse }}
-Schule: {{ u.schuelerin.schule }}
-Lehrperson: {{ u.schuelerin.lehrperson }}
-Abgabe: 15. April 2026
-
----
-
-## Inhaltsverzeichnis
-(wird automatisch generiert aus den H2/H3)
-
 ## 1. Einleitung
-(ca. ¾ Seite; Zusammenhang Thema ↔ Rahmenthema; Begründung Themenwahl allgemein und persönlich; 3 Zielformulierungen mit Bezug zu 2 Aspekten; inhaltlicher Aufbau)
+Schreibe hier 600-800 Wörter Einleitung, die:
+- mit einem Zitat oder kurzen Spruch zum Thema beginnt
+- die Themenwahl allgemein UND persönlich begründet (Luca arbeitet Spitex Zürich Limmat)
+- den Bezug zum Rahmenthema "{{ u.thema.rahmen }}" erklärt
+- DREI konkrete Zielformulierungen enthält (mit Verben wie "aufzeigen", "untersuchen", "analysieren", "darstellen", "vergleichen", "erörtern")
+- den Bezug zu mindestens 2 ABU-Aspekten aus {{ u.thema.aspekte | join(", ") }} herstellt
+- das Vorgehen und den Aufbau der Arbeit in groben Zügen beschreibt (inkl. Hinweis auf Interview mit Dr. Weber + Umfrage N=52)
 
-## 2. [Kapitel zum ersten Ziel — Aspekt Identität & Sozialisation]
-(3-4 Seiten, mit eingebetteten Interview-Zitaten und Literatur-Paraphrasen)
+## 2. Theoretischer Teil
 
-## 3. [Kapitel zum zweiten Ziel — Aspekt Ethik]
-(3-4 Seiten)
+### 2.1 Zahlen und Fakten
+Schreibe 500-700 Wörter. Nutze hier die Literaturquellen (Bücher, Fachartikel, SRF-Beiträge, Obsan, Pro Senectute). Integriere paraphrasierte Fakten mit Quellenangaben in Klammern, z.B. "(Müller 2024, S. 23)". Fokus: Wie verbreitet ist Einsamkeit im Alter in der Schweiz? Welche Risikofaktoren sind dokumentiert?
 
-## 4. [Kapitel zum dritten Ziel — Aspekt Gender]
-(2-3 Seiten)
+### 2.2 Hintergründe und Geschichtliches
+Schreibe 500-700 Wörter. Gesellschaftlicher Wandel, demografische Entwicklung, Familienstrukturen, Spitex-Entwicklung. Wieder mit Quellenangaben.
 
-## 5. Umfrage-Auswertung
-{{ umfrage_auswertung }}
+## 3. Erfahrungsbericht
+
+### 3.1 Erfahrungsbericht
+Schreibe 600-800 Wörter eigenen Erfahrungsbericht aus Lucas Spitex-Praktikum. Konkrete anonymisierte Begegnungen mit Klient:innen, Beobachtungen zur Einsamkeit im Alltag. ICH-Form, persönlich.
+
+### 3.2 Eigene Fotos und Kommentar
+Schreibe 300-400 Wörter rund um die Fotos, die Luca im Praktikum gemacht hat (Kontextbilder, nicht Personenbilder). Beschreibe, was die Fotos zeigen und wie sie das Thema illustrieren.
+
+## 4. Interview
+
+### 4.1 Kurze Einführung zum Interview
+Schreibe 200-300 Wörter: Wer ist Dr. Andrea Weber (ZHAW, Pflegewissenschaft, 52)? Warum passt sie zum Thema? Wie kam der Kontakt zustande (Absage Dr. Meier 14.02., Neu-Anfrage an Dr. Weber 15.02., Zusage 16.02., Interview am 20.02.2026)? Wo fand es statt?
+
+### 4.2 Zusammenfassung des Interviews
+Schreibe 500-700 Wörter Zusammenfassung mit mindestens 3 direkten Zitaten von Dr. Weber in Anführungszeichen, jedes mit "(Interview Dr. Weber, 20.02.2026)".
+
+### 4.3 Auswertung
+Schreibe 400-500 Wörter Auswertung: Welche Kernaussagen passen zu welchen Literaturbefunden? Wo widerspricht Dr. Webers Praxiserfahrung der Literatur? Persönliche Einordnung von Luca.
+
+## 5. Umfrage
+
+### 5.1 Methode
+Schreibe 200-300 Wörter: Wie ist die Umfrage entstanden? Plattform {{ u.umfrage.plattform }}, Zeitraum {{ u.umfrage.zeitraum }}, N={{ u.umfrage.n_ruecklauf }}/{{ u.umfrage.n_versendet }}, drei Zielgruppen (Spitex-FaGe, Klient:innen, Angehörige). Welche Fragen? Wie verteilt?
+
+### 5.2 Ergebnisse
+Schreibe 500-700 Wörter mit mindestens 3 konkreten Zahlen aus der Umfrage (z.B. "{{ u.umfrage.n_ruecklauf }} Personen haben geantwortet", "78 % der Klient:innen ab 71..."). Verweise auf Abbildungen "(siehe Abbildung X)".
+
+### 5.3 Interpretation
+Schreibe 300-500 Wörter Interpretation: Was überrascht? Was bestätigt die Literatur? Welche Limitationen hat die Umfrage?
 
 ## 6. Schlusswort
-### 6.1 Zusammenfassung zu den erreichten Zielen (4-5 Sätze)
-### 6.2 Persönlicher Kommentar (½ Seite)
+
+### 6.1 Zusammenfassung
+Schreibe 4-6 sachliche Sätze (ca. 150 Wörter): Welche der drei Ziele wurden erreicht? Kurze Quintessenz.
+
+### 6.2 Stellungnahme
+Schreibe ½ Seite (300-400 Wörter) persönlichen, gut fundierten Kommentar. Beginne mit einer der Formulierungshilfen: "Am meisten beeindruckt hat mich…", "Erstaunt hat mich…", "Meiner Meinung nach…", "Alles in allem lässt sich feststellen…". Selbstkritisch-reflektiert, mit Bezug zum Spitex-Alltag.
 
 ## 7. Quellenverzeichnis
-(Gruppiert nach: Bücher | Fachartikel | Zeitungsartikel | Internetquellen | Interviews | Umfragen. Jede Quelle mit Kapitel-Zuordnung: "(Kap. 2 und 4)")
+Formatiere die übergebenen Quellen in der Reihenfolge:
+**Bücher** — dann **Fachartikel** — dann **Zeitungsartikel** — dann **Internetquellen** — dann **Interviews** — dann **Umfragen**
+
+Jede Quelle bekommt eine Kapitel-Zuordnung in Klammern, z.B. "(Kap. 2.1, 4.3)".
+
+Interviews:
+- Interview mit Dr. phil. Andrea Weber, Dozentin Pflegewissenschaft ZHAW, 20.02.2026 (Kap. 4)
+
+Umfragen:
+- Eigene Umfrage auf {{ u.umfrage.plattform }}, Zeitraum {{ u.umfrage.zeitraum }}, N={{ u.umfrage.n_ruecklauf }} (Kap. 5)
 
 ---
 
-Stil:
-- ICH-Form, nicht zu akademisch
-- Doppelpunkt-Gendern durchgängig
+**Stil:**
+- ICH-Form, nicht zu akademisch — Luca ist 19, engagiert, aber kein Wissenschaftler
+- Doppelpunkt-Gendern durchgängig (Lernende:r, Klient:innen, Fachpersonen)
 - Persönliche Kommentare mit "Ich finde…", "Mir ist aufgefallen…", "Meiner Meinung nach…"
 - Schreibstil-Marker: {{ u.schuelerin.schreibstil_marker | join("; ") }}
-- Keine Meta-Kommentare ("ich würde schreiben")
-- Keine halluzinierten Quellen
+- KEINE Meta-Kommentare ("ich würde schreiben", "hier könnte stehen")
+- KEINE halluzinierten Quellen — nur die explizit aufgeführten verwenden
 
-Interview-Kernpunkte (aus Transkript integrieren):
+**Interview-Kernpunkte (aus dem Transkript integrieren):**
 {{ interview_kernpunkte }}
+
+**Umfrage-Rohauswertung (integriere Zahlen/Grafikverweise):**
+{{ umfrage_auswertung }}

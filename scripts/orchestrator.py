@@ -124,6 +124,14 @@ async def start_orchestrator(topic: str, rahmen: str) -> None:
             log.warning(f"Video unfertig: {e}")
 
         await pdf_bundle.run(u, redigiert_md)
+
+        # VA-Haupt-Dokument in ZAG-Vorlage (docx) füllen — eigentliches Showcase-Artefakt
+        try:
+            from scripts.subagents import va_docx
+            await va_docx.run(u, redigiert_md)
+        except Exception as e:
+            log.warning(f"VA-docx-Generierung fehlgeschlagen: {e}")
+            await get_bus().emit(Event(type="error", data={"severity": "warn", "task": "va_docx", "message": str(e)}))
         await emit_phase(8, "PDF-Render & Bundle", "done")
 
         total_duration = time.monotonic() - t_start

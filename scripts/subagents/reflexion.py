@@ -38,6 +38,9 @@ async def run(u: Universe) -> SubagentResult:
     render_markdown_to_pdf(f"# Erste Zwischenreflexion\n\n*Luca Brunner · 15.01.2026*\n\n" + z1_md, z1_pdf, template_name="konzept_html.j2", extra_ctx={"u": u})
     render_markdown_to_pdf(f"# Zweite Zwischenreflexion\n\n*Luca Brunner · 28.02.2026*\n\n" + z2_md, z2_pdf, template_name="konzept_html.j2", extra_ctx={"u": u})
     render_markdown_to_pdf(gesamt_md, gesamt_pdf, template_name="konzept_html.j2", extra_ctx={"u": u})
+    # .md-Versionen für docx-Integration speichern
+    (config.ARTIFACTS_DIR / "07_zwischenreflexion_1.md").write_text(z1_md, encoding="utf-8")
+    (config.ARTIFACTS_DIR / "08_zwischenreflexion_2.md").write_text(z2_md, encoding="utf-8")
     (config.ARTIFACTS_DIR / "09_gesamtreflexion.md").write_text(gesamt_md, encoding="utf-8")
 
     duration = time.monotonic() - t0

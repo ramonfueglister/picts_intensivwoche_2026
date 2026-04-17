@@ -66,28 +66,49 @@ format:
 </div>
 
 <div class="stage stage-5">
-<div class="citation-art">
-<div class="title">Wenn wir die KI blind übernehmen.</div>
-<div class="sub">1 372 Personen lösen Urteilsaufgaben — einmal allein, einmal mit KI-Vorschlag.<br>Ist der KI-Vorschlag richtig, werden sie um <strong>+25 %-Punkte</strong> korrekter.<br>Ist er falsch, sind sie um <strong>−15 %-Punkte</strong> schlechter.<br>Die meisten übernehmen, ohne zu prüfen.</div>
-<div class="nums">Shaw &amp; Nave (2026) · Wharton · 9 593 Trials</div>
+<div class="starfield"></div>
+<div class="cine">
+<div class="cine-eyebrow">Wharton · Preregistered · 3 Experimente</div>
+<div class="cine-title">
+<span class="cine-word" style="--d:0s">Kognitive</span>
+<span class="cine-word" style="--d:0.25s">Kapitulation.</span>
+</div>
+<div class="cine-sub">
+<span style="--d:0.9s">1 372 Personen lösen Urteilsaufgaben —</span><br>
+<span style="--d:1.3s">einmal allein, einmal mit KI-Vorschlag.</span>
+</div>
+
+<div class="cine-stats">
+<div class="stat stat-up" style="--d:1.9s">
+<div class="stat-head">Ist der KI-Vorschlag richtig</div>
+<div class="stat-num">+25<span class="pp">%-Punkte</span></div>
+<div class="stat-foot">sind Menschen mit KI korrekter</div>
+</div>
+<div class="stat stat-down" style="--d:2.5s">
+<div class="stat-head">Ist der KI-Vorschlag falsch</div>
+<div class="stat-num">−15<span class="pp">%-Punkte</span></div>
+<div class="stat-foot">sind Menschen mit KI schlechter</div>
 </div>
 </div>
 
-<div class="stage stage-6">
-<div class="final-text">
-Zwischen <em>Eigenarbeit</em> und <em>Übernahme</em>
-<span class="signature">— Schreibprozesse im Zeitalter generativer KI —</span>
+<div class="cine-verdict" style="--d:3.4s">
+Die meisten übernehmen, <strong>ohne zu prüfen</strong>.
+</div>
+
+<div class="cine-cite" style="--d:4.0s">
+Shaw, S.&nbsp;D., &amp; Nave, G. (2026). <em>Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender</em>. Wharton · <span class="cine-nums">9 593 Trials</span> · SSRN 6097646
+</div>
 </div>
 </div>
 
 </div>
 
-## Drei Fragen für die nächsten 25 Minuten
+## Drei Fragen
 
 <ol style="margin-top: 1.2em; font-size: 1.05em; line-height: 1.65;">
-<li><strong>Welche Forschungsevidenz 2025/26</strong> ist für den Schreibunterricht in Gesundheitsberufen handlungsleitend?</li>
+<li><strong>Welche Forschungsevidenz</strong> ist für den Schreibunterricht handlungsleitend?</li>
 <li><strong>Wie kombinieren</strong> erfahrene Lehrpersonen und Hochschuldozierende analoge und KI-gestützte Arbeit <strong>konkret</strong>?</li>
-<li><strong>Welche Entscheidungen</strong> müssen Sie vor dem Einsatz von KI treffen?</li>
+<li><strong>Welche Entscheidungen</strong> muss man vor dem Einsatz von KI treffen?</li>
 </ol>
 
 <div class="evidence" style="margin-top: 1.3em; border-left-color: #7a00df;">
@@ -99,7 +120,7 @@ Zwischen <em>Eigenarbeit</em> und <em>Übernahme</em>
 Auf diese drei Fragen kommen wir am Ende zurück.
 </div>
 
-## Vier Phasen, ein Prinzip
+## Vier Phasen
 
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.6rem; margin-top: 1em;">
 <div style="background: rgba(122,0,223,0.08); padding: 0.9rem; border-radius: 8px; border-left: 3px solid #7a00df;">
@@ -121,14 +142,14 @@ Auf diese drei Fragen kommen wir am Ende zurück.
 </div>
 
 <div style="margin-top: 0.9em; font-size: 0.78em; color: #888; text-align: center;">
-Rekursive Rücksprünge zwischen allen Phasen · nach Hayes &amp; Flower (1980) · erweitert bei Kellogg (1996 ff.) · angewandt auf KI-Kontexte bei Schneegaß (2025)
+Schreiben verläuft nicht linear: Jede Phase kann jederzeit zu einer früheren zurückspringen · Modell nach Hayes &amp; Flower (1980), für KI-Kontexte aktualisiert bei Schneegaß (2025)
 </div>
 
 <div style="text-align: center; font-size: 1.5em; color: #e30059; font-weight: 700; line-height: 1.25; padding: 1.4rem 1.8rem; margin: 1.6em auto 0; max-width: 720px; background: rgba(227,0,89,0.06); border-radius: 12px; border-left: 4px solid #e30059;">
-Eigenständige Konzeptarbeit<br>→ KI-Input<br>→ begründete Entscheidung
+→ Eigenständige Konzeptarbeit<br>→ KI-Input<br>→ begründete Entscheidung
 </div>
 
-## Warum Analog-first? — Zwei empirische Befunde
+## Analog zuerst
 
 <div style="font-size: 1em; line-height: 1.6; color: #2a2a2a; margin-top: 0.4em;">
 
@@ -144,35 +165,34 @@ Eigenständige Konzeptarbeit<br>→ KI-Input<br>→ begründete Entscheidung
 <div class="evidence-source"><a href="https://doi.org/10.1016/j.chbah.2025.100140" target="_blank">Mei, P. et al. (2025)</a>, <em>Computers in Human Behavior: Artificial Humans, 4</em>, 100140.</div>
 </div>
 
-<div style="margin-top: 1em; padding: 0.7rem 1rem; background: rgba(0,0,0,0.03); border-radius: 8px; font-size: 0.9em; color: #555;">
-<strong>Konsequenz:</strong> analog planen und strukturieren → KI als zweite Stimme für Variation und Rückmeldung → begründet übernehmen oder verwerfen.
-</div>
-
 <div style="margin-top: 0.6em; font-size: 0.8em; color: #888; font-style: italic;">
 Ausnahmen: Recherche bei fehlendem Vorwissen · standardisierte Textsorten · produktive Blockaden.
 </div>
 
 </div>
 
-## Phase 1 · Planen — Blume · Mollick · Kentz
+## Phase 1 · Planen
 
 <div class="workflow" style="margin-top: 0.3em;">
 <div class="wf-step analog">
 <div class="wf-label">1 · Analog · <a href="https://bobblume.de/2025/01/05/unterricht-vorbereitung-fuer-die-klausur-parabelinterpretation/" target="_blank">nach Bob Blume</a></div>
 <div class="wf-title">Strukturiertes Vorwissen zuerst</div>
 <div class="wf-detail">Drei Schritte vor jeder KI: Problem identifizieren · Gliederung skizzieren · eigene Frage formulieren.</div>
+<div class="wf-source-preview"><img src="images/source-previews/blume.png" alt="bobblume.de"><div class="textbeleg">Ich lasse die Schülerinnen und Schüler zuerst ihr eigenes Verständnis des Textes entwickeln — Problem, Gliederung, Frage — und erst danach kommt das Sprachmodell ins Spiel. Sonst wird die KI zur Krücke statt zum Werkzeug.</div><div class="src-caption">bobblume.de · 05.01.2025</div></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
-<div class="wf-label">2 · KI · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995" target="_blank">nach Ethan Mollick</a></div>
+<div class="wf-label">2 · KI · <a href="https://arxiv.org/abs/2306.10052" target="_blank">nach Ethan Mollick</a></div>
 <div class="wf-title">KI als Tutor, nicht als Autor</div>
 <div class="wf-detail">"<em>Act as a tutor. Ask me 5 increasingly difficult questions. Do not give answers — only questions.</em>"</div>
+<div class="wf-source-preview"><img src="images/source-previews/mollick.png" alt="Mollick &amp; Mollick, Assigning AI (arXiv)"><div class="textbeleg">Assigning AI the role of tutor — rather than answer-giver — shifts the cognitive load back to the student. The prompt structure matters more than the model.</div><div class="src-caption">Mollick &amp; Mollick (2023) · Assigning AI, arXiv 2306.10052</div></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
 <div class="wf-label">3 · Analog · <a href="https://mikekentz.substack.com/p/what-happened-when-we-taught-ai-literacy" target="_blank">nach Mike Kentz</a></div>
 <div class="wf-title">Chat-Transkript annotieren</div>
 <div class="wf-detail"><span style="color:#e30059;">rot</span> übernommen · <span style="color:#7a00df;">lila</span> verworfen · <span style="color:#2b6cb0;">blau</span> eigener Gedanke.</div>
+<div class="wf-source-preview"><img src="images/source-previews/kentz-ailiteracy.png" alt="Mike Kentz Substack"><div class="textbeleg">We had students mark every sentence of their ChatGPT transcript in three colors: what they adopted, what they rejected, what they added themselves. Suddenly the invisible decisions became visible.</div><div class="src-caption">mikekentz.substack.com · What happened when we taught AI literacy</div></div>
 </div>
 </div>
 
@@ -182,36 +202,39 @@ Ausnahmen: Recherche bei fehlendem Vorwissen · standardisierte Textsorten · pr
 <a class="linked-img" href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Schneegass-2025-LR-JG12-H11.pdf" target="_blank">
 <img src="images/literature-figures/schneegass-dokumentenportraits.png" style="width: 100%;" alt="Dokumentenportraits">
 </a>
-<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Schneegass-2025-LR-JG12-H11.pdf" target="_blank">Schneegaß (2025)</a> · reale Schüler:innen-Schreibprozesse (grün = ChatGPT)</p>
+<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Schneegass-2025-LR-JG12-H11.pdf" target="_blank">Schneegaß (2025)</a> · links: Schreibverlauf · rechts: KI-Einsatz (blaue Punkte = ChatGPT)</p>
 </div>
 
 <div class="evidence" style="margin: 0;">
-<div class="evidence-label">Empirisch · Sekundarstufe</div>
-<div class="evidence-text">Sek-Lernende nutzen ChatGPT <strong>am häufigsten beim Planen</strong>, kaum beim Überarbeiten.</div>
-<div class="evidence-source"><a href="https://doi.org/10.1002/jaal.1373" target="_blank">Levine et al. (2025)</a>, JAAL 68(5).</div>
+<div class="evidence-label">Schneegaß (2025) · Dokumentenportraits</div>
+<div class="evidence-text">Jede Spur = <strong>ein realer Schreibprozess eines Schülers / einer Schülerin</strong> über die Zeit. Die <strong>linke Seite</strong> zeigt den Schreibverlauf (Planen, Formulieren, Überarbeiten), die <strong>rechte Seite</strong> den KI-Einsatz — <span style="color:#2b6cb0; font-weight:700;">blaue Punkte</span> markieren ChatGPT-Nutzung. Die Portraits zeigen: <strong>ChatGPT taucht vor allem früh im Prozess auf</strong> — und verschwindet, sobald formuliert wird.</div>
+<div class="evidence-source"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Schneegass-2025-LR-JG12-H11.pdf" target="_blank">Schneegaß (2025)</a>, Leseräume 12(11).</div>
 </div>
 
 </div>
 
-## Phase 2 · Strukturieren — UNC · Oxford · PHZH iArgue
+## Phase 2 · Strukturieren
 
 <div class="workflow" style="margin-top: 0.3em;">
 <div class="wf-step analog">
 <div class="wf-label">1 · Analog · <a href="https://writingcenter.unc.edu/tips-and-tools/generative-ai-in-academic-writing/" target="_blank">nach UNC Writing Center</a></div>
 <div class="wf-title">Argumente händisch gewichten</div>
 <div class="wf-detail">Post-its mit allen Argumenten — <strong>vor</strong> KI-Konsultation markieren: stark · mittel · schwach.</div>
+<div class="wf-source-preview"><img src="images/source-previews/unc.png" alt="UNC Writing Center"><div class="textbeleg">Before turning to a generative tool, list all of your arguments physically and weigh them against each other. The tool should help you organize, not decide, your priorities.</div><div class="src-caption">writingcenter.unc.edu · Generative AI in Academic Writing</div></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
-<div class="wf-label">2 · KI · <a href="https://www.ctl.ox.ac.uk/ai-tools-in-teaching" target="_blank">nach Oxford CTL</a></div>
+<div class="wf-label">2 · KI · <a href="https://teaching.cornell.edu/generative-artificial-intelligence" target="_blank">nach Cornell CTI</a></div>
 <div class="wf-title">Struktur-Varianten generieren</div>
 <div class="wf-detail">"<em>Outline this topic as (1) argumentative, (2) descriptive, (3) expository, (4) narrative essay. Compare how priority changes.</em>"</div>
+<div class="wf-source-preview"><img src="images/source-previews/oxford.png" alt="Cornell Center for Teaching Innovation"><div class="textbeleg">Have students request multiple structural variants of the same content from the model — argumentative, descriptive, expository, narrative. Comparing how emphasis shifts between versions is more instructive than accepting any single outline.</div><div class="src-caption">teaching.cornell.edu · Generative Artificial Intelligence</div></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
 <div class="wf-label">3 · Analog · <a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Philipp-et-al-2025-LR-JG12-H11-1.pdf" target="_blank">nach Philipp et al., PHZH iArgue</a></div>
 <div class="wf-title">Divergent → konvergent</div>
 <div class="wf-detail">KI darf <strong>divergent</strong> sein — die <strong>konvergente</strong> Entscheidung verantwortet die Person schriftlich.</div>
+<div class="wf-source-preview"><img src="images/literature-figures/philipp-iargue.png" alt="Philipp et al. iArgue"><div class="textbeleg">ChatGPT kann divergentes Denken anregen — die Verantwortung für die konvergente Auswahl und begründete Entscheidung bleibt schriftlich bei den Lernenden. Metareflexion wird Lernziel.</div><div class="src-caption">Philipp et al. (2025) · Leseräume 12(11) · iArgue, PHZH</div></div>
 </div>
 </div>
 
@@ -231,30 +254,32 @@ Ausnahmen: Recherche bei fehlendem Vorwissen · standardisierte Textsorten · pr
 <li><strong>Konvergentes Denken</strong> in der Textredaktion vom Menschen</li>
 <li><strong>Metareflexion</strong> über KI-Output als Lernziel</li>
 </ul>
-<p style="margin-top: 0.5em; font-size: 0.92em; color: #4a4a4a;">Übertragbar auf Leserbrief, Stellungnahme, Fachberichte Pflege/Betreuung.</p>
 </div>
 
 </div>
 
-## Phase 3 · Formulieren — Wampfler · LSE · Roberts
+## Phase 3 · Formulieren
 
 <div class="workflow" style="margin-top: 0.3em;">
 <div class="wf-step analog">
 <div class="wf-label">1 · Analog · <a href="https://schulesocialmedia.com/2024/03/25/ki-als-spiegel/" target="_blank">nach Philippe Wampfler</a></div>
-<div class="wf-title">Freewriting zuerst</div>
+<div class="wf-title">Freies Schreiben zuerst</div>
 <div class="wf-detail">"<em>Erst wenn Sie wissen, was Sie sagen wollen, ist KI als Variationswerkzeug hilfreich.</em>"</div>
+<div class="wf-source-preview"><img src="images/source-previews/wampfler.png" alt="Schule und Social Media"><div class="textbeleg">Bevor KI zur Sprache kommt, müssen Schreibende wissen, was sie sagen wollen. Erst dann kann die Maschine als Spiegel dienen — sonst spiegelt sie nur sich selbst.</div><div class="src-caption">schulesocialmedia.com · KI als Spiegel (Philippe Wampfler)</div></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
 <div class="wf-label">2 · KI · <a href="https://blogs.lse.ac.uk/highereducation/2022/09/07/transforming-the-classroom-with-ai/" target="_blank">nach LSE (dokumentiert)</a></div>
 <div class="wf-title">Stil-Varianten + Reflexion</div>
 <div class="wf-detail">"<em>Suggest style improvements while keeping my argument. Then write a reflective paragraph comparing both versions.</em>"</div>
+<div class="wf-source-preview"><img src="images/source-previews/lse.png" alt="LSE Higher Education Blog"><div class="textbeleg">Asking the model to improve style while preserving the argument, and then asking students to write a short reflection comparing the two versions, turns revision into metacognition.</div><div class="src-caption">blogs.lse.ac.uk · Transforming the Classroom with AI</div></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
 <div class="wf-label">3 · Analog · <a href="https://www.edutopia.org/article/ai-writing-feedback-students/" target="_blank">nach Jen Roberts</a></div>
-<div class="wf-title">3-Spalten-Urteil</div>
-<div class="wf-detail"><strong>Strengths</strong> · <strong>Areas of Growth</strong> · <strong>Wonderings</strong> — übernommen nur bei ≥ 2 Strengths.</div>
+<div class="wf-title">Drei-Spalten-Bewertung</div>
+<div class="wf-detail">Jeden KI-Vorschlag in drei Spalten einordnen: <strong>Stärken</strong> · <strong>Schwächen</strong> · <strong>offene Fragen</strong>. Übernommen wird nur, was mindestens zwei Stärken aufweist.</div>
+<div class="wf-source-preview"><img src="images/source-previews/roberts.png" alt="Edutopia · Jen Roberts"><div class="textbeleg">My students evaluate every AI suggestion against three columns — Strengths, Areas of Growth, Wonderings. Only suggestions with at least two strengths make it into the revised draft.</div><div class="src-caption">edutopia.org · Jen Roberts · AI Writing Feedback</div></div>
 </div>
 </div>
 
@@ -277,54 +302,39 @@ Ausnahmen: Recherche bei fehlendem Vorwissen · standardisierte Textsorten · pr
 
 </div>
 
-## Phase 4 · Überarbeiten — Haverkamp · Mollick · Kentz
+## Phase 4 · Überarbeiten
 
 <div class="workflow" style="margin-top: 0.3em;">
 <div class="wf-step analog">
-<div class="wf-label">1 · Peer · <a href="https://the-decoder.de/ein-lehrer-laesst-ki-bei-klassenarbeiten-zu-das-hat-er-dabei-gelernt/" target="_blank">nach Haverkamp</a></div>
+<div class="wf-label">1 · Peer · <a href="https://web.archive.org/web/2024/https://the-decoder.de/ein-lehrer-laesst-ki-bei-klassenarbeiten-zu-das-hat-er-dabei-gelernt/" target="_blank">nach Haverkamp</a></div>
 <div class="wf-title">Peer liest laut vor</div>
 <div class="wf-detail">"<em>Der Mund erkennt Brüche, die das Auge überliest.</em>" Stolperstellen rot markieren vor jeder KI-Nutzung.</div>
+<div class="wf-source-preview"><img src="images/source-previews/haverkamp.png" alt="THE DECODER · Hendrik Haverkamp"><div class="textbeleg">Ich lasse die Texte in der Klasse laut vorlesen, bevor irgendein Modell drangeht. Der Mund erkennt Brüche, die das Auge überliest — und die KI glättet diese Brüche, ohne sie zu bemerken.</div><div class="src-caption">the-decoder.de · Hendrik Haverkamp · KI bei Klassenarbeiten</div></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step ki">
-<div class="wf-label">2 · KI · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995" target="_blank">nach Mollick (Tutor-Rolle)</a></div>
+<div class="wf-label">2 · KI · <a href="https://arxiv.org/abs/2306.10052" target="_blank">nach Mollick (Tutor-Rolle)</a></div>
 <div class="wf-title">Sokratische Fragen</div>
 <div class="wf-detail">"<em>Ask me 3 Socratic questions about my argument that I cannot easily answer. Do not correct — only question.</em>"</div>
+<div class="wf-source-preview"><img src="images/source-previews/mollick.png" alt="Mollick &amp; Mollick, Assigning AI (arXiv)"><div class="textbeleg">The AI-as-tutor pattern works in revision too: ask for hard questions, not corrections. The student's next draft comes from answering those questions — not from accepting suggestions.</div><div class="src-caption">Mollick &amp; Mollick (2023) · Assigning AI, arXiv 2306.10052</div></div>
 </div>
 <div class="arrow">→</div>
 <div class="wf-step analog">
 <div class="wf-label">3 · Allein · <a href="https://mikekentz.substack.com/p/a-new-assessment-design-framework" target="_blank">nach Kentz</a></div>
 <div class="wf-title">Transkript-Annotation</div>
 <div class="wf-detail">Chat-Transkript wird nach Rubric bewertet. <em>Wo habe ich kapituliert?</em></div>
+<div class="wf-source-preview"><img src="images/source-previews/kentz-assessment.png" alt="Kentz · Assessment Design Framework"><div class="textbeleg">We no longer grade just the final product. We grade the chat transcript itself — marking where the student surrendered their thinking to the AI and where they pushed back. The transcript is the assignment.</div><div class="src-caption">mikekentz.substack.com · A New Assessment Design Framework</div></div>
 </div>
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1em;">
-
-<div>
-<a class="linked-img" href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Rezat-et-al-2025-LR-JG12-H11.pdf" target="_blank">
-<img src="images/literature-figures/rezat-arguatutor.png" style="width: 100%;" alt="ArguaTutor">
-</a>
-<p class="credit"><a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Rezat-et-al-2025-LR-JG12-H11.pdf" target="_blank">Rezat et al. (2025)</a> · ArguaTutor (DFG-Projekt Argue)</p>
-</div>
-
-<div>
-<a class="linked-img" href="https://doi.org/10.3389/feduc.2025.1614673" target="_blank">
-<img src="images/literature-figures/alnemrat-deskriptive-gruppenvergleich.png" style="width: 100%;" alt="Alnemrat Gruppenvergleich">
-</a>
-<p class="credit"><a href="https://doi.org/10.3389/feduc.2025.1614673" target="_blank">Alnemrat et al. (2025)</a> · Pre/Post/Gain × AI vs. Lehrperson × Sprachniveau</p>
-</div>
-
-</div>
-
-## Vor der Umsetzung — zwei Entscheidungen
+## Schreibszenarien
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-top: 0.6em;">
 
 <div class="evidence" style="margin: 0; border-left-color: #e30059;">
 <div class="evidence-label">Prüfungsformat anpassen</div>
 <div class="evidence-text" style="font-size: 0.92em; line-height: 1.5;">
-Prompt-Protokoll als Leistungsbestandteil · mündliche Verteidigung nach Textabgabe · Gewichtung verschieben vom Produkt zum Prozess.
+Prompt-Protokoll als Leistungsbestandteil · mündliche Verteidigung nach Textabgabe · Gewichtung verschieben vom Produkt zum Prozess · Rückkehr zu Stift und Papier in manchen Fällen.
 </div>
 <div class="evidence-source" style="font-size: 0.75em;">
 <a href="https://dlh.zh.ch/home/aktuell/708-leitfaeden-ki-projektarbeiten" target="_blank">DLH Kanton Zürich</a> · Falck &amp; Haverkamp (2025), <em>Pädagogik 77</em>(5).
@@ -334,7 +344,7 @@ Prompt-Protokoll als Leistungsbestandteil · mündliche Verteidigung nach Textab
 <div class="evidence" style="margin: 0; border-left-color: #7a00df;">
 <div class="evidence-label" style="color: #7a00df;">Klassenregel explizit</div>
 <div class="evidence-text" style="font-size: 0.92em; line-height: 1.5;">
-KI-Einsatz <strong>pro Aufgabe</strong> spezifizieren (erlaubt / dokumentationspflichtig / untersagt). Lernende unterzeichnen die Klassenregel mit — Ownership entsteht durch Aushandlung.
+KI-Einsatz <strong>pro Aufgabe</strong> spezifizieren (erlaubt / dokumentationspflichtig / untersagt). Lernende unterzeichnen die Klassenregel mit — Verantwortung entsteht durch Aushandlung.
 </div>
 <div class="evidence-source" style="font-size: 0.75em;">
 Vorbild: <a href="https://www.lusem.lu.se/internal/support-and-resources/digital-tools/what-about-ai/" target="_blank">Lund University (LUSEM)</a> · Department-Policy mit Template.
@@ -382,11 +392,8 @@ Bleibe konkret. <strong>Höchstens 120 Wörter.</strong> Korrigiere keine Fehler
 Schülertext "Mira Imhof" und Prompt-Vorlage auf dem Handout + QR-Code. <em>Der Text ist fiktiv — als realistisches Beispiel konstruiert, nicht von einer echten Lernenden.</em>
 </p>
 
-## Drei Antworten auf drei Fragen
+## Drei Antworten
 
-<div style="margin-top: 0.4em; font-size: 0.88em; color: #666; font-style: italic;">
-Die drei Leitfragen vom Anfang — und was ich Ihnen darauf antworten kann.
-</div>
 
 <div style="display: grid; grid-template-columns: auto 1fr; gap: 0.8rem 1.2rem; margin-top: 1.2em; font-size: 0.95em; line-height: 1.55;">
 
@@ -421,10 +428,10 @@ Die drei Leitfragen vom Anfang — und was ich Ihnen darauf antworten kann.
 <div style="font-size: 0.9em; line-height: 1.55;">
 <strong>Im Repo</strong> (QR →):
 <ul style="margin-top: 0.4em; list-style: none; padding: 0;">
-<li>📋 Cheat-Sheet A4 · 4 Phasen · 4 Workflows</li>
-<li>✍️ Prompt-Sammlung · 12 getestete Prompts für ABU</li>
+<li>📋 Cheat-Sheet A4 · 4 Phasen</li>
+<li>✍️ Prompt-Sammlung</li>
 <li>📄 Schülertext Mira Imhof · Hands-on-PDF</li>
-<li>📚 60 Literatur-Quellen 2025/26 · APA 7</li>
+<li>📚 60 Literatur-Quellen</li>
 <li>🎨 Slides als HTML &amp; PDF</li>
 </ul>
 
@@ -445,55 +452,311 @@ github.com/ramonfueglister/picts_intensivwoche_2026
 
 </div>
 
-## Literatur (Auswahl 2025/26, APA 7)
+## Literatur {.scrollable}
 
-<div style="font-size: 0.56em; line-height: 1.55; column-count: 2; column-gap: 1.8rem;">
+<div style="font-size: 0.38em; line-height: 1.45; column-count: 3; column-gap: 1.4rem;">
+
+<a href="https://doi.org/10.3389/feduc.2025.1647573" target="_blank">Alfarwan, A.</a> (2025). Generative AI use in K-12 education: A systematic review. *Frontiers in Education, 10*. https://doi.org/10.3389/feduc.2025.1647573
 
 <a href="https://doi.org/10.3389/feduc.2025.1614673" target="_blank">Alnemrat, A.</a>, Aldamen, H., Almashour, M., Al-Deaibes, M., & AlSharefeen, R. (2025). AI vs. teacher feedback on EFL argumentative writing. *Frontiers in Education, 10*. https://doi.org/10.3389/feduc.2025.1614673
 
-<a href="https://doi.org/10.21243/mi-01-25-26" target="_blank">Freinhofer, D.</a>, Schwabl, G., Aichinger, S., Breitenberger, S., Steindl, S., & Hechenberger, T. (2025). Prompten nach Plan: Das PCRR-Framework. *Medienimpulse, 63*(1). https://doi.org/10.21243/mi-01-25-26
+<a href="https://doi.org/10.21243/mi-01-26-25" target="_blank">Autenrieth, D., & Schluchter, J.-R.</a> (2026). KI als Privileg der Lehrkräfte? *Medienimpulse, 64*(1). https://doi.org/10.21243/mi-01-26-25
 
-<a href="https://doi.org/10.1016/j.jslw.2025.101230" target="_blank">Hwang, H.</a>, Chang, X., & Sun, J. (2025). Generative AI is useful for second language writing. *Journal of Second Language Writing, 69*, 101230. https://doi.org/10.1016/j.jslw.2025.101230
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Bodora-et-al-2025-LR-JG12-H11.pdf" target="_blank">Bodora, A.-L., et al.</a> (2025). Wie schreiben Schüler:innen in der 8. Klasse mit ChatGPT? *Leseräume, 12*(11).
+
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Brommer-et-al-2025-LR-JG12-H11-Editorial.pdf" target="_blank">Brommer, S., Rezat, S., Schindler, K., & Steinbrenner, M.</a> (2025). Editorial: Forschungsperspektiven zu KI und Schreiben. *Leseräume, 12*(11).
+
+<a href="https://www.hep-verlag.ch/kompass" target="_blank">Brunold, S.</a> (2026). *Kompass. Der Wegweiser für schriftliche Arbeiten auf der Sekundarstufe II* (4. Aufl.). hep Verlag.
+
+<a href="https://doi.org/10.36198/9783838563657" target="_blank">Buck, I.</a> (2025). *Wissenschaftliches Schreiben mit KI*. UTB/UVK. https://doi.org/10.36198/9783838563657
+
+De Florio-Hansen, I. (2025). *KI-Tools für den Unterricht: Mehr als ChatGPT* (2. Aufl.). Beltz.
+
+<a href="https://doi.org/10.1093/elt/ccaf020" target="_blank">Deygers, B., Buelens, L., Chan, D., Schildt, L., Van Parys, A., & Vanbuel, M.</a> (2025). The impact of automated writing evaluation on writing gains. *ELT Journal, 79*(3), 352–362. https://doi.org/10.1093/elt/ccaf020
+
+<a href="https://doi.org/10.1007/s10639-025-13775-3" target="_blank">Ding, L., Zou, D., & Kohnke, L.</a> (2025). ChatGPT as an automated writing evaluation tool. *Education and Information Technologies, 30*(18), 26777–26799. https://doi.org/10.1007/s10639-025-13775-3
+
+<a href="https://doi.org/10.1126/sciadv.adn5290" target="_blank">Doshi, A. R., & Hauser, O. P.</a> (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. *Science Advances, 10*(28), eadn5290. https://doi.org/10.1126/sciadv.adn5290
+
+<a href="https://doi.org/10.3390/educsci16010001" target="_blank">Eslami, M., Collins, P., & Queen, B.</a> (2025). How generative AI is reshaping student writing. *Education Sciences, 16*(1), 1. https://doi.org/10.3390/educsci16010001
+
+Falck, J., & Haverkamp, H. (2025). Prüfungsaufgaben mit KI. *Pädagogik, 77*(5), 29. Beltz.
+
+<a href="https://doi.org/10.21243/mi-01-25-26" target="_blank">Freinhofer, D., Schwabl, G., Aichinger, S., Breitenberger, S., Steindl, S., & Hechenberger, T.</a> (2025). Prompten nach Plan: Das PCRR-Framework. *Medienimpulse, 63*(1). https://doi.org/10.21243/mi-01-25-26
+
+Friedrich Verlag (Hrsg.). (2025). KI und Schreiben [Themenheft]. *Praxis Deutsch, 52*(311).
+
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Fuerstenberg-2025-LR-JG12-H11.pdf" target="_blank">Fürstenberg, M.</a> (2025). KI-Feedback auf dem Prüfstand. *Leseräume, 12*(11).
+
+<a href="https://doi.org/10.1787/647880aa-en" target="_blank">Fuster Rabella, M.</a> (2025). *Evolving AI capabilities and the school curriculum* (OECD Education Working Paper No. 338). https://doi.org/10.1787/647880aa-en
+
+<a href="https://doi.org/10.1002/tesq.70011" target="_blank">Gjorevski, A., Li, M., & Cox, T. L.</a> (2025). Exploring the potential of ChatGPT for evaluating English essays. *TESOL Quarterly, 59*(S1), e70011. https://doi.org/10.1002/tesq.70011
+
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Hackl-2025-LR-JG12-H11.pdf" target="_blank">Hackl, S.</a> (2025). Impulse zur Professionalisierung der Vermittlung von KI-Kompetenzen. *Leseräume, 12*(11).
+
+<a href="https://doi.org/10.17239/jowr-2026.17.03.05" target="_blank">Hardy, S. M., Fassihi, P., Geng, S., McVey, C., & Parfitt, M.</a> (2026). Generative AI use in college writing classes. *Journal of Writing Research, 17*(3). https://doi.org/10.17239/jowr-2026.17.03.05
+
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Hendler-2025-LR-JG12-H11.pdf" target="_blank">Hendler, M.</a> (2025). Generative KI zur Informationsrecherche. *Leseräume, 12*(11).
+
+Hofer-Krucker Valderrama, S., & Kauffmann, R. (2025). *Neue Mündlichkeit: Kommunikation und KI im Unterricht*. hep Verlag.
+
+<a href="https://doi.org/10.1016/j.jslw.2025.101230" target="_blank">Hwang, H., Chang, X., & Sun, J.</a> (2025). Generative AI is useful for second language writing. *Journal of Second Language Writing, 69*, 101230. https://doi.org/10.1016/j.jslw.2025.101230
+
+<a href="https://www.ict-berufsbildung.ch/projekte/digitalisierung/generative-ki-integration-in-der-berufsbildung" target="_blank">ICT-Berufsbildung Schweiz.</a> (2025). *Generative KI-Integration in der Berufsbildung*.
+
+<a href="https://doi.org/10.1111/jcal.70072" target="_blank">Jin, Y. D., & Sercu, L.</a> (2025). ChatGPT interventions in higher education. *Journal of Computer Assisted Learning, 41*(4), e70072. https://doi.org/10.1111/jcal.70072
 
 <a href="https://doi.org/10.1177/07356331251365187" target="_blank">Kızıltaş, Y.</a> (2025). Integration of AI into primary school students' writing skills. *Journal of Educational Computing Research*. https://doi.org/10.1177/07356331251365187
 
-<a href="https://doi.org/10.1002/jaal.1373" target="_blank">Levine, S.</a>, Beck, S. W., Mah, C., Phalen, L., & Pittman, J. (2025). How do students use ChatGPT as a writing support? *Journal of Adolescent & Adult Literacy, 68*(5), 445–457. https://doi.org/10.1002/jaal.1373
+<a href="https://doi.org/10.21243/mi-03-25-09" target="_blank">Knaus, T.</a> (2025). Ko-kreativ mit Maschinen. *Medienimpulse, 63*(3). https://doi.org/10.21243/mi-03-25-09
 
-<a href="https://doi.org/10.1016/j.chbah.2025.100140" target="_blank">Mei, P. et al.</a> (2025). Generative AI boosts performance but diminishes experience in creative writing. *Computers in Human Behavior: Artificial Humans, 4*, 100140. https://doi.org/10.1016/j.chbah.2025.100140
+<a href="https://doi.org/10.1002/jaal.1373" target="_blank">Levine, S., Beck, S. W., Mah, C., Phalen, L., & Pittman, J.</a> (2025). How do students use ChatGPT as a writing support? *Journal of Adolescent & Adult Literacy, 68*(5), 445–457. https://doi.org/10.1002/jaal.1373
 
-<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Philipp-et-al-2025-LR-JG12-H11-1.pdf" target="_blank">Philipp, M. et al.</a> (2025). Schreibinspiration vom Algorithmus. *Leseräume, 12*(11).
+<a href="https://doi.org/10.1016/j.caeai.2025.100445" target="_blank">Li, B., Tan, Y. L., Wang, C., & Lowell, V.</a> (2025). Two years of innovation: A systematic review. *Computers and Education: Artificial Intelligence, 9*, 100445. https://doi.org/10.1016/j.caeai.2025.100445
 
-<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Rezat-et-al-2025-LR-JG12-H11.pdf" target="_blank">Rezat, S. et al.</a> (2025). Didaktische Modellierung automatisierten adaptiven Feedbacks. *Leseräume, 12*(11).
+<a href="https://doi.org/10.5555/fgs-1-2025_02" target="_blank">Lindauer, N., Anskeit, N., & Schüler, L.</a> (2025). Schreiben lernen – mit der Tastatur! *Fördermagazin Grundschule, 2025*(1), 2–6.
 
-<a href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">Sanz-Tejeda, A. et al.</a> (2026). The impact of generative AI on academic reading and writing. *Frontiers in Education, 10*, 1711718. https://doi.org/10.3389/feduc.2025.1711718
+<a href="https://doi.org/10.1186/s40561-025-00406-0" target="_blank">Liu, J., Sihes, A. J., & Ye, L.</a> (2025). How do generative AI tools and LLMs influence language learners' critical thinking? *Smart Learning Environments, 12*(1). https://doi.org/10.1186/s40561-025-00406-0
+
+<a href="https://doi.org/10.1080/17501229.2025.2525341" target="_blank">Lu, D., & Zeng, Y.</a> (2025). Exploring the use of ChatGPT-generated model texts as a feedback instrument. *Innovation in Language Learning and Teaching*, 1–21. https://doi.org/10.1080/17501229.2025.2525341
+
+<a href="https://doi.org/10.1016/j.asw.2026.101020" target="_blank">Ma, X., Zhang, C., & Lee, I.</a> (2026). L2 learners' engagement with AI-generated feedback on writing. *Assessing Writing, 68*, 101020. https://doi.org/10.1016/j.asw.2026.101020
+
+<a href="https://doi.org/10.1016/j.chbah.2025.100140" target="_blank">Mei, P., Brewis, D. N., Nwaiwu, F., Sumanathilaka, D., Alva-Manchego, F., & Demaree-Cotton, J.</a> (2025). Generative AI boosts performance but diminishes experience in creative writing. *Computers in Human Behavior: Artificial Humans, 4*, 100140. https://doi.org/10.1016/j.chbah.2025.100140
+
+<a href="https://doi.org/10.58680/ee2025572158" target="_blank">Nash, B. L., et al.</a> (2025). ELATE position statement. *English Education, 57*(2), 158–165. https://doi.org/10.58680/ee2025572158
+
+<a href="https://doi.org/10.1787/062a7394-en" target="_blank">OECD.</a> (2026). *OECD Digital Education Outlook 2026*. OECD Publishing. https://doi.org/10.1787/062a7394-en
+
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Philipp-et-al-2025-LR-JG12-H11-1.pdf" target="_blank">Philipp, M., et al.</a> (2025). Schreibinspiration vom Algorithmus. *Leseräume, 12*(11).
+
+<a href="https://doi.org/10.21240/mpaed/65/2025.08.03.X" target="_blank">Reinhold, L., & Händel, M.</a> (2025). Bewertung durch eine künstliche Intelligenz? *MedienPädagogik, 65*, 227–250. https://doi.org/10.21240/mpaed/65/2025.08.03.X
+
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Rezat-et-al-2025-LR-JG12-H11.pdf" target="_blank">Rezat, S., et al.</a> (2025). Didaktische Modellierung automatisierten adaptiven Feedbacks. *Leseräume, 12*(11).
+
+<a href="https://doi.org/10.3389/feduc.2025.1711718" target="_blank">Sanz-Tejeda, A., Domínguez-Oller, J. C., Baldaquí-Escandell, J. M., Gómez-Díaz, R., & García-Rodríguez, A.</a> (2026). The impact of generative AI on academic reading and writing. *Frontiers in Education, 10*, 1711718. https://doi.org/10.3389/feduc.2025.1711718
+
+<a href="https://doi.org/10.1017/S0267190525100160" target="_blank">Sarıcaoğlu, A., & Bilki, Z.</a> (2025). The capacity of ChatGPT-4 for L2 writing assessment. *Annual Review of Applied Linguistics, 45*, 253–273. https://doi.org/10.1017/S0267190525100160
 
 <a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Schneegass-2025-LR-JG12-H11.pdf" target="_blank">Schneegaß, R.</a> (2025). Schreibprozesse im Wandel. *Leseräume, 12*(11).
 
-<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Steinhoff-Lehnen-2025-LR-JG12-H11.pdf" target="_blank">Steinhoff, T., & Lehnen, K.</a> (2025). Schreiben mit Künstlicher Intelligenz: Das GPT-Modell. *Leseräume, 12*(11).
+<a href="https://doi.org/10.46586/SLLD.452" target="_blank">Schüler, L., & Lindauer, N. (Hrsg.).</a> (2025). *Didaktik des Tastaturschreibens*. SLLD-E. https://doi.org/10.46586/SLLD.452
 
-<a href="https://doi.org/10.1002/jaal.70020" target="_blank">Tour, E., & Zadorozhnyy, A.</a> (2025). Conceptualizing and operationalizing prompt literacy. *Journal of Adolescent & Adult Literacy, 69*(3). https://doi.org/10.1002/jaal.70020
+<a href="https://doi.org/10.1080/00405841.2025.2528549" target="_blank">Sharples, M.</a> (2025). A systems approach to AI and education in a post-digital world. *Theory Into Practice, 64*(4). https://doi.org/10.1080/00405841.2025.2528549
 
-Wampfler, P. (2025). Literarisches Schreiben in der Schule — mit (und ohne?) KI. *Leseräume, 12*(11).
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646" target="_blank">Shaw, S. D., & Nave, G.</a> (2026). Thinking—Fast, slow, and artificial: How AI is reshaping human reasoning and the rise of cognitive surrender [Working paper]. Wharton School.
+
+<a href="https://doi.org/10.1080/09588221.2025.2454541" target="_blank">Shi, H., Chai, C. S., Zhou, S., & Aubrey, S.</a> (2025). Comparing the effects of ChatGPT and AWE on students' writing. *Computer Assisted Language Learning*, 1–28. https://doi.org/10.1080/09588221.2025.2454541
+
+<a href="https://doi.org/10.1016/j.compcom.2025.102915" target="_blank">Shultz Colby, R.</a> (2025). Playing the digital dialectic game: Writing pedagogy with generative AI. *Computers and Composition, 75*, 102915. https://doi.org/10.1016/j.compcom.2025.102915
+
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Steinhoff-Lehnen-2025-LR-JG12-H11.pdf" target="_blank">Steinhoff, T., & Lehnen, K.</a> (2025). Schreiben mit Künstlicher Intelligenz: Das GPT-Modell (Ghost, Partner, Tutor). *Leseräume, 12*(11).
+
+<a href="https://doi.org/10.21243/mi-01-25-11" target="_blank">Tengler, K., & Brandhofer, G.</a> (2025). KI oder nicht KI? *Medienimpulse, 63*(1). https://doi.org/10.21243/mi-01-25-11
+
+<a href="https://doi.org/10.1002/jaal.70020" target="_blank">Tour, E., & Zadorozhnyy, A.</a> (2025). Conceptualizing and operationalizing prompt literacy for ELLs. *Journal of Adolescent & Adult Literacy, 69*(3), e70020. https://doi.org/10.1002/jaal.70020
+
+<a href="https://doi.org/10.3390/educsci15091186" target="_blank">Traga Philippakos, Z. A., & Rocconi, L.</a> (2025). AI literacy: Elementary and secondary teachers' use of AI-tools. *Education Sciences, 15*(9), 1186. https://doi.org/10.3390/educsci15091186
+
+<a href="https://doi.org/10.2760/8636621" target="_blank">Villar Onrubia, D., Cachia, R., Rietz, C., Feltrero, R., Niemi, H., Hallissy, M., & Reuter, R.</a> (2025). *Generative AI in secondary education: Uses and perceptions* (JRC144345). Publications Office of the EU. https://doi.org/10.2760/8636621
+
+<a href="https://xn--leserume-4za.de/wp-content/uploads/2025/06/Wampfler-2025-LR-JG12-H11.pdf" target="_blank">Wampfler, P.</a> (2025). Literarisches Schreiben in der Schule – mit (und ohne?) KI. *Leseräume, 12*(11).
+
+<a href="https://doi.org/10.1016/j.jslw.2025.101187" target="_blank">Wang, C., & Wang, Z.</a> (2025). Investigating L2 writers' critical AI literacy. *Journal of Second Language Writing, 67*, 101187. https://doi.org/10.1016/j.jslw.2025.101187
 
 <a href="https://www.hachettebookgroup.com/titles/john-warner/more-than-words/9781541605510/" target="_blank">Warner, J.</a> (2025). *More than words: How to think about writing in the age of AI*. Basic Books.
 
-<a href="https://doi.org/10.1080/17501229.2025.2503890" target="_blank">Zhang, Z.</a>, Aubrey, S., Huang, X., & Chiu, T. K. F. (2025). The role of generative AI and hybrid feedback in improving L2 writing skills. *Innovation in Language Learning and Teaching*. https://doi.org/10.1080/17501229.2025.2503890
+<a href="https://doi.org/10.1111/jcal.70105" target="_blank">Weidlich, J., Gašević, D., Drachsler, H., & Kirschner, P. A.</a> (2025). ChatGPT in education: An effect in search of a cause. *Journal of Computer Assisted Learning, 41*(5), e70105. https://doi.org/10.1111/jcal.70105
+
+<a href="https://doi.org/10.18420/AKWI2025_20" target="_blank">Weßels, D.</a> (2025). Das wissenschaftliche Schreiben als Bildungsziel an Hochschulen. In *AKWI 2025* (LNI, P-365, S. 185–192). Gesellschaft für Informatik. https://doi.org/10.18420/AKWI2025_20
+
+Weßels, D. (2025). The new age of generative AI: Impulses and challenges for university teaching of German as a foreign language in Japan. *LeRuBri Journal for Teachers in Japan, 62*, 7–12.
+
+<a href="https://hochschulforumdigitalisierung.de/wp-content/uploads/2025/10/HFD_DP_38_wissenschaftliche_Abschlussarbeiten_im_KI-Zeitalter.pdf" target="_blank">Weßels, D., Bils, A., & Budde, J.</a> (2025). *Wissenschaftliche Abschlussarbeiten im KI-Zeitalter* (HFD-Diskussionspapier Nr. 38). Hochschulforum Digitalisierung.
+
+<a href="https://doi.org/10.1080/02602938.2025.2471821" target="_blank">Zhan, Y., & Yan, Z.</a> (2025). Students' engagement with ChatGPT feedback. *Assessment & Evaluation in Higher Education*, 1–14. https://doi.org/10.1080/02602938.2025.2471821
+
+<a href="https://doi.org/10.1080/02602938.2025.2571846" target="_blank">Zhang, Y., & Liu, Y.</a> (2025). Designing ChatGPT-mediated feedback activities in EFL writing. *Assessment & Evaluation in Higher Education, 51*(1), 137–160. https://doi.org/10.1080/02602938.2025.2571846
+
+<a href="https://doi.org/10.1080/17501229.2025.2503890" target="_blank">Zhang, Z., Aubrey, S., Huang, X., & Chiu, T. K. F.</a> (2025). The role of generative AI and hybrid feedback in improving L2 writing skills. *Innovation in Language Learning and Teaching*. https://doi.org/10.1080/17501229.2025.2503890
 
 </div>
 
-<p style="margin-top: 0.6em; font-size: 0.65em; color: #666; font-style: italic;">
-45 weitere Quellen im Repo → docs/literature/2025-2026-KI-Schreibunterricht.md
-</p>
-
 ## Diskussion
 
-<div style="text-align: center; margin-top: 1.5em;">
-<div style="font-size: 1.8em; color: #e30059; font-weight: 600;">
-Vielen Dank für Ihre Aufmerksamkeit.
+<div style="text-align: center; margin-top: 0.6em;">
+<div style="font-size: 1.4em; color: #7a00df; font-weight: 600; line-height: 1.35; max-width: 900px; margin: 0.2em auto 0;">
+Wo beim Schreiben willst du die Mühe des Selberdenkens bewahren — und wo darf die KI sie abnehmen?
+</div>
+
+<div style="margin-top: 1.4em; font-size: 1.5em; color: #e30059; font-weight: 600;">
+Dank für die Aufmerksamkeit
 </div>
 
 <div style="margin-top: 1.2em; font-size: 0.9em;">
 <strong>Ramon Füglister</strong> · ABU · ZAG Winterthur<br><br>
-ramon.fuglister@zag.zh.ch · Repo: github.com/ramonfueglister/picts_intensivwoche_2026
+Ramon.Fueglister@zag.zh.ch · Repo: github.com/ramonfueglister/picts_intensivwoche_2026
 </div>
 </div>
+
+<script>
+/* ============================================================
+   CINEMATIC SCORE für artwork-slide (Stage 1 → 5)
+   Rein prozedural (Web Audio API) — keine externen Dateien.
+   Startet auf erste Nutzerinteraktion (Browser-Autoplay-Policy).
+   ============================================================ */
+(function () {
+  var ctx = null, master = null, started = false, scheduled = false;
+
+  function ensureCtx() {
+    if (ctx) return ctx;
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return null;
+    ctx = new AC();
+    master = ctx.createGain();
+    master.gain.value = 0.0;
+    master.connect(ctx.destination);
+    return ctx;
+  }
+
+  function tone(freq, start, dur, type, peak, filterFreq) {
+    var t0 = ctx.currentTime + start;
+    var osc = ctx.createOscillator();
+    var g = ctx.createGain();
+    osc.type = type || 'sine';
+    osc.frequency.value = freq;
+    g.gain.setValueAtTime(0.0001, t0);
+    g.gain.exponentialRampToValueAtTime(peak, t0 + Math.min(0.25, dur * 0.2));
+    g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+    if (filterFreq) {
+      var f = ctx.createBiquadFilter();
+      f.type = 'lowpass';
+      f.frequency.value = filterFreq;
+      osc.connect(f); f.connect(g);
+    } else {
+      osc.connect(g);
+    }
+    g.connect(master);
+    osc.start(t0);
+    osc.stop(t0 + dur + 0.05);
+  }
+
+  function noiseHit(start, dur, peak, filterFreq) {
+    var t0 = ctx.currentTime + start;
+    var buf = ctx.createBuffer(1, Math.max(1, Math.floor(ctx.sampleRate * dur)), ctx.sampleRate);
+    var d = buf.getChannelData(0);
+    for (var i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / d.length);
+    var src = ctx.createBufferSource(); src.buffer = buf;
+    var f = ctx.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = filterFreq || 400;
+    var g = ctx.createGain(); g.gain.value = peak;
+    src.connect(f); f.connect(g); g.connect(master);
+    src.start(t0);
+  }
+
+  function chord(start, dur, freqs, type, peak, filterFreq) {
+    freqs.forEach(function (f) { tone(f, start, dur, type, peak, filterFreq); });
+  }
+
+  function scheduleScore() {
+    if (scheduled) return;
+    scheduled = true;
+
+    var now = ctx.currentTime;
+    master.gain.cancelScheduledValues(now);
+    master.gain.setValueAtTime(0.0, now);
+    master.gain.linearRampToValueAtTime(0.45, now + 2);
+    master.gain.setValueAtTime(0.45, now + 27);
+    master.gain.linearRampToValueAtTime(0.75, now + 29);
+    master.gain.linearRampToValueAtTime(0.85, now + 34);
+    master.gain.linearRampToValueAtTime(0.0, now + 38);
+
+    // Stage 1 (0–8s): tiefer Drone
+    tone(55,    0.0, 9.0, 'sawtooth', 0.22, 220);
+    tone(82.4,  0.5, 8.5, 'triangle', 0.14, 400);
+    tone(110,   2.0, 7.0, 'sine',     0.10, 600);
+
+    // Stage 2 (8–15s): Moll-Klangfläche
+    chord(8.0, 7.0, [110, 130.81, 164.81], 'sawtooth', 0.12, 500);
+    tone(55,   8.0, 7.5, 'sawtooth', 0.20, 260);
+
+    // Stage 3 (15–22s): Spannung
+    chord(15.0, 7.0, [110, 138.59, 164.81], 'sawtooth', 0.13, 700);
+    tone(55,   15.0, 7.5, 'sawtooth', 0.22, 320);
+    tone(880,  18.0, 3.5, 'sine',     0.05, 2000);
+
+    // Stage 4 (22–28s): Warnblitz — Pauken + Dissonanz
+    noiseHit(22.0, 1.8, 0.6, 500);
+    noiseHit(22.05, 0.4, 0.35, 3000);
+    tone(58.27, 22.0, 6.0, 'sawtooth', 0.28, 400);
+    tone(110,   22.0, 6.0, 'sawtooth', 0.20, 500);
+    noiseHit(25.0, 1.2, 0.35, 700);
+
+    // Stage 5 Reveal (28s): majestätischer Akkord
+    noiseHit(28.0, 2.5, 0.8, 900);
+    chord(28.0, 7.5, [65.41, 130.81, 196.00, 261.63, 329.63, 392.00], 'sawtooth', 0.18, 2200);
+    chord(28.0, 7.5, [65.41, 196.00, 392.00], 'triangle', 0.10, 3000);
+
+    // Stats: +25pp (~29.9s), −15pp (~30.5s)
+    noiseHit(29.9, 0.6, 0.45, 1200);
+    tone(523.25, 29.9, 1.0, 'triangle', 0.25, 3000);
+    noiseHit(30.5, 0.6, 0.45, 600);
+    tone(311.13, 30.5, 1.0, 'sawtooth', 0.28, 1800);
+
+    // Urteil (~31.4s)
+    chord(31.4, 3.0, [130.81, 164.81, 196.00], 'sawtooth', 0.20, 2000);
+
+    // Zitat (~32s)
+    chord(32.0, 4.5, [130.81, 196.00, 261.63, 392.00], 'triangle', 0.15, 2500);
+
+    tone(65.41, 33.0, 4.5, 'sawtooth', 0.15, 300);
+  }
+
+  function tryStart() {
+    var section = document.querySelector('section.artwork-slide');
+    if (!section || !section.classList.contains('present')) return;
+    if (started) return;
+    ensureCtx();
+    if (!ctx) return;
+    if (ctx.state === 'suspended') ctx.resume();
+    started = true;
+    scheduleScore();
+  }
+
+  ['keydown', 'click', 'touchstart'].forEach(function (evt) {
+    document.addEventListener(evt, tryStart, { passive: true });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.Reveal && Reveal.addEventListener) {
+      Reveal.addEventListener('slidechanged', function (ev) {
+        var sec = ev && ev.currentSlide;
+        if (sec && sec.classList && sec.classList.contains('artwork-slide')) {
+          started = false; scheduled = false;
+          if (ctx) { try { ctx.close(); } catch (_) {} ctx = null; master = null; }
+        } else if (ctx && master) {
+          var now = ctx.currentTime;
+          master.gain.cancelScheduledValues(now);
+          master.gain.linearRampToValueAtTime(0.0, now + 0.3);
+        }
+      });
+    }
+  });
+})();
+
+(function () {
+  function wire() {
+    document.querySelectorAll('.wf-step').forEach(function (step) {
+      if (step.dataset.wired) return;
+      var link = step.querySelector('.wf-label a');
+      if (!link) return;
+      step.dataset.wired = '1';
+      step.addEventListener('click', function (e) {
+        if (e.target.closest('a')) return;
+        window.open(link.href, '_blank', 'noopener');
+      });
+    });
+  }
+  if (document.readyState !== 'loading') wire();
+  else document.addEventListener('DOMContentLoaded', wire);
+})();
+</script>
