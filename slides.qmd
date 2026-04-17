@@ -388,7 +388,7 @@ Die drei Leitfragen vom Anfang — und was ich Ihnen darauf antworten kann.
 <div style="font-weight: 700; color: #e30059; font-size: 1.4em; text-align: right;">1</div>
 <div>
 <div style="font-weight: 600; color: #7a00df;">Welche Forschungsevidenz ist handlungsleitend?</div>
-<div style="margin-top: 0.3em;">KI wirkt bei <strong>didaktischer Einbettung</strong> — aber mit messbarem Preis: "Individuell kreativer, kollektiv einförmiger, kognitiv kapitulierend."</div>
+<div style="margin-top: 0.3em;">KI wirkt bei <strong>didaktischer Einbettung</strong> — aber mit messbarem Preis bei Kreativität, Diversität und kognitiver Eigenleistung.</div>
 </div>
 
 <div style="font-weight: 700; color: #e30059; font-size: 1.4em; text-align: right;">2</div>
