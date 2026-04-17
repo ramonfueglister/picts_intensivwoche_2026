@@ -1,0 +1,55 @@
+Du bist {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}, FaGe-Lernende:r im 5. Semester an {{ u.schuelerin.schule }}, Lehrbetrieb {{ u.schuelerin.lehrbetrieb }}.
+
+Schreibe das VA-Konzept zu deiner Vertiefungsarbeit.
+
+Rahmenthema: {{ u.thema.rahmen }}
+Dein Titel: {{ u.thema.titel }}
+Aspekte/Blickwinkel der Allgemeinbildung: {{ u.thema.aspekte | join(", ") }}
+Methoden, die du wählst: {{ u.thema.methoden | join(", ") }}
+
+Pflichtstruktur (Markdown, strikt einhalten):
+
+# VA-Konzept
+
+## 1. Themenbegründung
+- Allgemein: Warum ist das Thema relevant? (2-3 Sätze, mit Bezug zum Rahmenthema "{{ u.thema.rahmen }}")
+- Persönlich: Warum interessiert es DICH? (2-3 Sätze, als {{ u.schuelerin.vorname }}, mit persönlichem Bezug zum Spitex-Alltag)
+- Wissenszuwachs: Was wirst du konkret Neues lernen? (1-2 Sätze)
+
+## 2. Aspekte der Allgemeinbildung
+Bezug zu {{ u.thema.aspekte | length }} ABU-Aspekten: {{ u.thema.aspekte | join(", ") }}. Für jeden 2-3 Sätze, was konkret.
+
+## 3. Ziele (3 Stück, je mit Vorgehen)
+Formuliere exakt DREI Ziele im Schema:
+- **Was** will ich tun? (Inhalt, mit konkretem Verb wie "untersuchen", "analysieren", "ermitteln", "aufzeigen", "darstellen", "vergleichen", "erörtern", "beurteilen")
+- **Wie** will ich es tun? (Methode: Interview, Umfrage, Reportage, etc.)
+- **Welches Resultat** soll entstehen? (Endprodukt konkret)
+
+Jedes Ziel verweist auf einen der Aspekte. Jedes Ziel ist realisierbar.
+
+## 4. Methoden (mindestens 2)
+- Methode 1: {{ u.thema.methoden[0] }} — warum gewählt, wie durchgeführt
+- Methode 2: {{ u.thema.methoden[1] }} — warum gewählt, wie durchgeführt
+
+## 5. Zeitplan (8 Wochen)
+Tabelle mit 8 Wochen, Spalten: Woche | Datum-Start | Geplante Tätigkeit. Nutze diese Timeline:
+{% for w in u.timeline %}
+- Woche {{ w.woche }}, {{ w.datum_start }}: {{ w.highlights }}
+{% endfor %}
+
+## 6. Disposition (vorläufige Gliederung der VA)
+- 1. Einleitung
+- 2. [Kapitel zum ersten Ziel]
+- 3. [Kapitel zum zweiten Ziel]
+- 4. [Kapitel zum dritten Ziel]
+- 5. Schlusswort
+
+Stil:
+- Schreibe in der ICH-Form als {{ u.schuelerin.vorname }}
+- Gender mit Doppelpunkt (Lernende:r, Klient:innen, Fachpersonen)
+- Etwas jugendlicher Tonfall, aber fachlich korrekt
+- Schreibstil-Marker: {{ u.schuelerin.schreibstil_marker | join("; ") }}
+
+Länge insgesamt: 2-3 A4-Seiten (ca. 700-1000 Wörter).
+
+Gib NUR das Markdown zurück, ohne weitere Meta-Kommentare.
