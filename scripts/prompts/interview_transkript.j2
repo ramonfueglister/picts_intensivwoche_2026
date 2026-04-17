@@ -1,0 +1,47 @@
+{# interview_transkript.j2 #}
+Erstelle ein realistisches Interview-Transkript.
+
+Setting: {{ u.interviewperson.interview_termin }}, im Büro von {{ u.interviewperson.name_anzeige }} an der ZHAW.
+Interviewer: {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }} (FaGe-Lernende:r, 19).
+Interviewte: {{ u.interviewperson.name_anzeige }} ({{ u.interviewperson.funktion }}, {{ u.interviewperson.alter }}).
+
+Der Leitfaden:
+{{ leitfaden }}
+
+Regeln für Realismus:
+- Die Antworten sind ~3-6 Sätze, manchmal länger bei Kernpunkten
+- {{ u.schuelerin.vorname }} stellt genau die Fragen des Leitfadens — aber manchmal stottert er kurz ("ähm, also…", "ich wollte fragen…")
+- Dr. Weber antwortet professionell, referenziert gelegentlich Studien oder ihre eigene Erfahrung
+- 2-3 Mal formuliert Dr. Weber eine Frage von Luca um, weil sie präziser sein möchte
+- 1× lange Pause (im Transkript als "[kurze Pause]" markiert)
+- 1× persönliche Anekdote von Dr. Weber (ca. 30 Sekunden)
+- 1× Luca bittet um Wiederholung
+- 1× Hintergrundgeräusch ("[Kaffeetasse wird abgestellt]")
+- Schweizer Hochdeutsch mit leicht gesprochener Note bei Luca, formell bei Dr. Weber
+- Am Schluss: Dank, Zusage Luca darf zitieren
+
+Format:
+
+# Interview-Transkript: {{ u.interviewperson.name_anzeige }}
+
+**Datum:** {{ u.interviewperson.interview_termin }}
+**Ort:** ZHAW Winterthur, Büro Dr. Weber
+**Dauer:** 42 Minuten
+**Aufnahme:** Tonaufnahme (mit Einverständnis)
+**Teilnehmende:** {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }} (Interviewer), {{ u.interviewperson.name_anzeige }} (Interviewte)
+
+---
+
+**Luca:** ...
+
+**Dr. Weber:** ...
+
+**Luca:** ...
+
+[... fortsetzen für 12 Fragen + Antworten ...]
+
+---
+
+**Ende Transkript.**
+
+Zielumfang: ~2500 Wörter.

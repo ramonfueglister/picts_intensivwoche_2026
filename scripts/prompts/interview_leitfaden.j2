@@ -1,0 +1,31 @@
+{# interview_leitfaden.j2 #}
+Erstelle einen Frageleitfaden für ein Fachinterview.
+
+Kontext:
+- Interviewperson: {{ u.interviewperson.name_anzeige }} ({{ u.interviewperson.funktion }})
+- Thema: {{ u.thema.titel }}
+- Durchführung: {{ u.interviewperson.interview_termin }}, ca. 40 Min
+
+Output (reines Markdown, keine JSON-Fences):
+
+# Frageleitfaden Interview {{ u.interviewperson.name_anzeige }}
+
+## 1. Einstieg
+- Begrüssung, Dank
+- Einverständnis für Tonaufnahme bestätigen
+- Kurze Vorstellung Luca Brunner + VA-Ziel
+
+## 2. Fragen zum Hintergrund der Interviewperson (2 Fragen)
+...
+
+## 3. Fachfragen (6 Fragen, offen formuliert)
+Zu den Aspekten: {{ u.thema.aspekte | join(", ") }}
+...
+
+## 4. Persönliche Einschätzungen (3 Fragen)
+...
+
+## 5. Abschluss (1 Frage)
+- Was geben Sie FaGe-Lernenden mit auf den Weg?
+
+Länge: 12 Fragen total, davon mindestens 8 offene W-Fragen.
