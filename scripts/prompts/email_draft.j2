@@ -1,0 +1,26 @@
+{# email_draft.j2 #}
+Schreibe eine E-Mail (Draft-Status, RFC 5322 konformer Aufbau).
+
+Kontext: {{ kontext }}
+Absender: {{ absender_name }} <{{ absender_email }}>
+Empfänger: {{ empfaenger_name }} <{{ empfaenger_email }}>
+Datum: {{ datum_iso }}  (Format: Tue, 10 Feb 2026 14:23:00 +0100 — baue das selbst)
+Betreff: {{ betreff }}
+
+Gib reinen E-Mail-Text zurück:
+From: ...
+To: ...
+Date: ...
+Subject: ...
+Message-ID: <{{ msgid }}>
+
+[Leerzeile]
+
+[Body: Schweizer Hochdeutsch, freundlich, höflich, ca. 5-10 Sätze. ICH-Form. Doppelpunkt-Gendern wo sinnvoll.]
+
+Unterschrift:
+{{ absender_name }}
+FaGe-Lernende:r 24b
+ZAG Winterthur
+
+Keine Meta-Kommentare. Nur den E-Mail-Inhalt.
