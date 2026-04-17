@@ -67,9 +67,9 @@ format:
 
 <div class="stage stage-5">
 <div class="citation-art">
-<div class="title">Wenn System 3 übernimmt.</div>
-<div class="sub">Shaw &amp; Nave · Wharton · Januar 2026</div>
-<div class="nums">N = 1 372 · 9 593 Trials · +25 / −15 %</div>
+<div class="title">Wenn wir die KI blind übernehmen.</div>
+<div class="sub">Mit korrekter KI: Trefferquote <strong>+25 %-Punkte</strong>.<br>Mit fehlerhafter KI: <strong>−15 %-Punkte</strong>.</div>
+<div class="nums">Shaw &amp; Nave (2026) · Wharton · N = 1 372 Teilnehmende</div>
 </div>
 </div>
 

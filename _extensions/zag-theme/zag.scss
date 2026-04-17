@@ -456,7 +456,8 @@ $code-color: $secondary;
     font-size: 2.2em; font-weight: 700; color: #ededed; letter-spacing: -0.01em;
   }
   .tri-system .citation-art .sub {
-    font-size: 1em; color: #aaaab0; margin-top: 0.6em; letter-spacing: 0.08em;
+    font-size: 1.15em; color: #ededed; margin-top: 1em; line-height: 1.55;
+    strong { color: #ff5994; font-weight: 700; }
   }
   .tri-system .citation-art .nums {
     font-family: "IBM Plex Mono", monospace;
