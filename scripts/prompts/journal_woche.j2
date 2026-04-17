@@ -1,0 +1,33 @@
+{# journal_woche.j2 #}
+Schreibe einen Projektjournal-Eintrag für eine Woche.
+
+Du bist {{ u.schuelerin.vorname }} {{ u.schuelerin.nachname }}, FaGe 24b.
+Thema: {{ u.thema.titel }}
+
+Diese Woche: Woche {{ woche.woche }}, Start {{ woche.datum_start }}
+Highlights: {{ woche.highlights }}
+Journal-Länge: {{ woche.journal_laenge }}
+Schreibstil-Marker: {{ u.schuelerin.schreibstil_marker | join(", ") }}
+
+Format (Markdown, keine H1):
+
+## Woche {{ woche.woche }} · {{ woche.datum_start }}
+
+### Tätigkeiten / Dauer / Vorgehen
+(5-8 Zeilen, ICH-Form, mit Wochentagen wie "Montag", "Mittwoch". Beschreibe konkrete Tätigkeiten. Bei "{{ woche.journal_laenge }}" den Ton anpassen.)
+
+### Zu erledigen bis nächste Woche
+- (3-5 Stichpunkte)
+
+### Arbeiten für den nächsten Unterricht
+(1-2 Zeilen)
+
+{% if woche.woche == 5 %}
+WICHTIG Woche 5: Dr. Meier hat am 14.02.2026 abgesagt (Grund: Zeitmangel). Das muss im Eintrag frustriert erwähnt werden.
+{% endif %}
+{% if woche.woche == 6 %}
+WICHTIG Woche 6: Dr. Andrea Weber hat zugesagt. Erleichterung ausdrücken.
+{% endif %}
+{% if woche.woche == 4 %}
+WICHTIG Woche 4: Weihnachtspause. Wenig tun können. Kurzer Eintrag.
+{% endif %}
