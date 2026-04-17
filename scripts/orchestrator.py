@@ -75,8 +75,13 @@ async def start_orchestrator(topic: str, rahmen: str) -> None:
         # Foto braucht es für Video (Weber-Portrait)
         foto_result, foto_paths = await foto_task
 
-        # Audio blockiert Video (Lip-Sync)
-        audio_result = await audio_task
+        # Audio blockiert Video (Lip-Sync) — graceful degrade wenn ElevenLabs fails
+        try:
+            audio_result = await audio_task
+        except Exception as e:
+            log.warning(f"Audio-Agent failed ({e}), Video-LipSync wird übersprungen")
+            await get_bus().emit(Event(type="error", data={"severity": "warn", "task": "audio", "message": str(e)}))
+            audio_result = None
 
         # Video: braucht Foto + Audio
         video_task = asyncio.create_task(video.run(
