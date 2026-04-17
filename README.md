@@ -21,7 +21,7 @@ Ramon Füglister · ABU · 30 Minuten
 
 ---
 
-## 🏗 Aufbau der Präsentation (13 Slides · 30 Min.)
+## 🏗 Aufbau der Präsentation (14 Slides · 30 Min.)
 
 Dramaturgie: **Problem → Frage → Vier Phasen → Montag → Abschluss**
 
@@ -30,17 +30,18 @@ Dramaturgie: **Problem → Frage → Vier Phasen → Montag → Abschluss**
 | 00:00–00:40 | 1 | Titel (Kognitive Kapitulation?) |
 | 00:40–01:20 | — | Kunstwerk-Animation (Tri-System, 40 s, uncounted) |
 | 01:20–02:50 | 2 | Drei Fragen für die nächsten 25 Minuten (Handzeichen-Erhebung) |
-| 02:50–04:50 | 3 | Vier Phasen, ein Prinzip (Hayes&Flower + Analog-first) |
-| 04:50–08:50 | 4 | Phase 1 Planen (Blume/Mollick/Kentz + Schneegaß + Levine) |
-| 08:50–12:50 | 5 | Phase 2 Strukturieren (UNC/Oxford/iArgue + Philipp) |
-| 12:50–16:50 | 6 | Phase 3 Formulieren (Wampfler/LSE/Roberts + Freinhofer PCRR) |
-| 16:50–20:50 | 7 | Phase 4 Überarbeiten (Haverkamp/Mollick/Kentz + Rezat + Alnemrat) |
-| 20:50–22:50 | 8 | Vor der Umsetzung — Prüfung & Klassenregel |
-| 22:50–25:50 | 9 | Anwendungsphase · Fallarbeit |
-| 25:50–27:50 | 10 | Drei Antworten auf drei Fragen (Rückkehr zu Slide 2) |
-| 27:50–28:50 | 11 | Materialien · Tools · Repo |
-| 28:50–29:50 | 12 | Literatur (Auswahl 2025/26, APA 7) |
-| 29:50–30:00 | 13 | Diskussion |
+| 02:50–04:00 | 3 | Vier Phasen, ein Prinzip (Hayes&Flower + Eigenständige Konzeptarbeit) |
+| 04:00–05:00 | 4 | Warum Analog-first? (Hwang 2025 + Mei 2025) |
+| 05:00–08:50 | 5 | Phase 1 Planen (Blume/Mollick/Kentz + Schneegaß + Levine) |
+| 08:50–12:50 | 6 | Phase 2 Strukturieren (UNC/Oxford/iArgue + Philipp) |
+| 12:50–16:50 | 7 | Phase 3 Formulieren (Wampfler/LSE/Roberts + Freinhofer PCRR) |
+| 16:50–20:50 | 8 | Phase 4 Überarbeiten (Haverkamp/Mollick/Kentz + Rezat + Alnemrat) |
+| 20:50–22:50 | 9 | Vor der Umsetzung — Prüfung & Klassenregel |
+| 22:50–25:50 | 10 | Anwendungsphase · Fallarbeit |
+| 25:50–27:50 | 11 | Drei Antworten auf drei Fragen (Rückkehr zu Slide 2) |
+| 27:50–28:50 | 12 | Materialien · Tools · Repo |
+| 28:50–29:50 | 13 | Literatur (Auswahl 2025/26, APA 7) |
+| 29:50–30:00 | 14 | Diskussion |
 
 ---
 
