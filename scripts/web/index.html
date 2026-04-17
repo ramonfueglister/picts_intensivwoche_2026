@@ -1,3 +1,94 @@
 <!DOCTYPE html>
-<html lang="de"><head><meta charset="utf-8"><title>VA-Agent</title></head>
-<body><h1>VA-Agent läuft</h1><p>Frontend kommt in M17.</p></body></html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VA-Agent · ZAG PICTS Demo</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<main id="app">
+
+<!-- Screen A: Start -->
+<section id="screen-start" class="screen active">
+  <div class="card">
+    <h1>🎓 VA-Agent · ZAG PICTS Demo</h1>
+    <p class="subtitle">Eine komplette Vertiefungsarbeit in 20-25 Minuten.</p>
+
+    <div class="fieldset">
+      <label>Thema</label>
+      <input id="topic" type="text" value="Einsamkeit im Alter — Wie Spitex-Fachleute sie erkennen und ihr begegnen">
+
+      <label>Rahmenthema</label>
+      <input id="rahmen" type="text" value="Gegensätze">
+    </div>
+
+    <div class="status">
+      <div class="status-line">✅ Anthropic Claude Opus/Sonnet 4.6</div>
+      <div class="status-line">✅ ElevenLabs v3 (Voice-Klon aktiv)</div>
+      <div class="status-line">✅ Runway Gen-4 · Hedra Character-2 · FLUX 1.2 Pro</div>
+      <div class="status-line">✅ OpenAlex · Google Books · PubMed · SRF</div>
+    </div>
+
+    <p class="meta">Erwartet: <strong>20-25 Minuten</strong> · <strong>~$40</strong></p>
+
+    <button id="start-btn" class="primary">🚀  VA GENERIEREN</button>
+  </div>
+</section>
+
+<!-- Screen B: Running -->
+<section id="screen-running" class="screen">
+  <div class="card wide">
+    <header class="running-header">
+      <div>
+        <h2>🤖 Agent läuft</h2>
+        <div id="elapsed">00:00</div>
+      </div>
+      <div class="progress-wrap">
+        <div id="progress-bar"></div>
+        <div id="progress-pct">0 %</div>
+      </div>
+    </header>
+
+    <div class="two-cols">
+      <div class="phases">
+        <h3>Phasen</h3>
+        <ol id="phase-list"></ol>
+      </div>
+
+      <div class="live-output">
+        <h3>Live-Output</h3>
+        <pre id="stream"></pre>
+        <h3 style="margin-top: 1em;">Letzte Events</h3>
+        <ul id="events"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Screen C: Done -->
+<section id="screen-done" class="screen">
+  <div class="card wide">
+    <header class="done-header">
+      <h2>✅ VA fertig</h2>
+      <div id="final-summary"></div>
+    </header>
+
+    <h3>Artefakte</h3>
+    <div id="artifact-grid"></div>
+
+    <div class="actions">
+      <a id="zip-btn" class="primary" href="/api/zip" download>⬇  ALLES als ZIP</a>
+    </div>
+
+    <h3>Rubrik-Score · 120-Punkte-Raster nach Wegleitung</h3>
+    <table id="rubric-table"></table>
+  </div>
+</section>
+
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
